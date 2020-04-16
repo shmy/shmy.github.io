@@ -20,21 +20,27 @@
     var CONFIG = {"hostname":"shmy.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="什么是Yarn？ Yarn 是 Facebook, Google, Exponent 和 Tilde 开发的一款新的 JavaScript 包管理工具。就像我们可以从官方文档了解那样，它的目的是解决这些团队使用 npm 面临的少数问题，即：     安装的时候无法保证速度&#x2F;一致性 安全问题，因为 npm 安装时允许运行代码  修改为淘宝镜像获取yarn当前配置源地址12$ yarn config">
+  <meta name="description" content="什么是 Gogs? Gogs 是一款极易搭建的自助 Git 服务。 👂我们平常都是使用 Github, 等免费的托管平台，但是对于某些视源代码如生命的商业公司来说，既不想公开源代码，又舍不得给GitHub交保护费，那就只能自己搭建一台Git服务器作为私有仓库使用。  开发目的 Gogs 的目标是打造一个最简单、最快速和最轻松的方式搭建自助 Git 服务。使用 Go 语言开发使得 Gogs 能够通">
 <meta property="og:type" content="article">
-<meta property="og:title" content="yarn替换仓库源到淘宝镜像">
-<meta property="og:url" content="https://shmy.github.io/2016/12/16/yarn-registry-set-get/index.html">
+<meta property="og:title" content="私有部署git服务之GOGS">
+<meta property="og:url" content="https://shmy.github.io/2020/04/16/self-hosted-git-service-in-gogs/index.html">
 <meta property="og:site_name" content="BLOG ©️ SHMY">
-<meta property="og:description" content="什么是Yarn？ Yarn 是 Facebook, Google, Exponent 和 Tilde 开发的一款新的 JavaScript 包管理工具。就像我们可以从官方文档了解那样，它的目的是解决这些团队使用 npm 面临的少数问题，即：     安装的时候无法保证速度&#x2F;一致性 安全问题，因为 npm 安装时允许运行代码  修改为淘宝镜像获取yarn当前配置源地址12$ yarn config">
+<meta property="og:description" content="什么是 Gogs? Gogs 是一款极易搭建的自助 Git 服务。 👂我们平常都是使用 Github, 等免费的托管平台，但是对于某些视源代码如生命的商业公司来说，既不想公开源代码，又舍不得给GitHub交保护费，那就只能自己搭建一台Git服务器作为私有仓库使用。  开发目的 Gogs 的目标是打造一个最简单、最快速和最轻松的方式搭建自助 Git 服务。使用 Go 语言开发使得 Gogs 能够通">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2016-12-16T04:01:14.000Z">
-<meta property="article:modified_time" content="2020-04-16T06:00:18.061Z">
+<meta property="og:image" content="https://i.loli.net/2020/04/16/ZX4Y6nhr8lfyAuJ.png">
+<meta property="og:image" content="https://i.loli.net/2020/04/16/bX1GyhMAslgpqTu.png">
+<meta property="og:image" content="https://i.loli.net/2020/04/16/TZvN8FlGOX2thMz.png">
+<meta property="og:image" content="https://i.loli.net/2020/04/16/jgW32VNAMdvtX1w.png">
+<meta property="og:image" content="https://i.loli.net/2020/04/16/AM8js2Z7npiQXWx.png">
+<meta property="og:image" content="https://i.loli.net/2020/04/16/IY9AGza5njNK7qe.png">
+<meta property="article:published_time" content="2020-04-16T06:06:22.000Z">
+<meta property="article:modified_time" content="2020-04-16T06:52:30.869Z">
 <meta property="article:author" content="SHMY">
-<meta property="article:tag" content="node">
-<meta property="article:tag" content="yarn">
+<meta property="article:tag" content="git">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2020/04/16/ZX4Y6nhr8lfyAuJ.png">
 
-<link rel="canonical" href="https://shmy.github.io/2016/12/16/yarn-registry-set-get/">
+<link rel="canonical" href="https://shmy.github.io/2020/04/16/self-hosted-git-service-in-gogs/">
 
 
 <script id="page-configurations">
@@ -47,7 +53,7 @@
   };
 </script>
 
-  <title>yarn替换仓库源到淘宝镜像 | BLOG ©️ SHMY</title>
+  <title>私有部署git服务之GOGS | BLOG ©️ SHMY</title>
   
 
 
@@ -190,7 +196,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://shmy.github.io/2016/12/16/yarn-registry-set-get/">
+    <link itemprop="mainEntityOfPage" href="https://shmy.github.io/2020/04/16/self-hosted-git-service-in-gogs/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -203,7 +209,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          yarn替换仓库源到淘宝镜像
+          私有部署git服务之GOGS
         </h1>
 
         <div class="post-meta">
@@ -212,27 +218,21 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2016-12-16 12:01:14" itemprop="dateCreated datePublished" datetime="2016-12-16T12:01:14+08:00">2016-12-16</time>
+              <time title="创建时间：2020-04-16 14:06:22 / 修改时间：14:52:30" itemprop="dateCreated datePublished" datetime="2020-04-16T14:06:22+08:00">2020-04-16</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-04-16 14:00:18" itemprop="dateModified" datetime="2020-04-16T14:00:18+08:00">2020-04-16</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/frontend/" itemprop="url" rel="index"><span itemprop="name">frontend</span></a>
+                  <a href="/categories/devOps/" itemprop="url" rel="index"><span itemprop="name">devOps</span></a>
                 </span>
                   ，
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/frontend/summaries/" itemprop="url" rel="index"><span itemprop="name">summaries</span></a>
+                  <a href="/categories/devOps/summaries/" itemprop="url" rel="index"><span itemprop="name">summaries</span></a>
                 </span>
             </span>
 
@@ -247,15 +247,53 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h3 id="什么是Yarn？"><a href="#什么是Yarn？" class="headerlink" title="什么是Yarn？"></a>什么是Yarn？</h3><blockquote>
-<p>Yarn 是 Facebook, Google, Exponent 和 Tilde 开发的一款新的 JavaScript 包管理工具。就像我们可以从官方文档了解那样，它的目的是解决这些团队使用 npm 面临的少数问题，即：  </p>
+        <h2 id="什么是-Gogs"><a href="#什么是-Gogs" class="headerlink" title="什么是 Gogs?"></a>什么是 Gogs?</h2><blockquote>
+<p>Gogs 是一款极易搭建的自助 Git 服务。</p>
+<p>👂我们平常都是使用 <code>Github</code>, 等免费的托管平台，但是对于某些视源代码如生命的商业公司来说，既不想公开源代码，又舍不得给GitHub交保护费，那就只能自己搭建一台Git服务器作为私有仓库使用。</p>
+</blockquote>
+<h2 id="开发目的"><a href="#开发目的" class="headerlink" title="开发目的"></a>开发目的</h2><blockquote>
+<p>Gogs 的目标是打造一个最简单、最快速和最轻松的方式搭建自助 Git 服务。使用 Go 语言开发使得 Gogs 能够通过独立的二进制分发，并且支持 Go 语言支持的 <strong>所有平台</strong>，包括 Linux、Mac OS X、Windows 以及 ARM 平台。</p>
 </blockquote>
 <ul>
-<li>安装的时候无法保证速度/一致性</li>
-<li>安全问题，因为 npm 安装时允许运行代码</li>
+<li><p>官网：<a href="https://gogs.io" target="_blank" rel="noopener">https://gogs.io</a></p>
+</li>
+<li><p>项目地址：<a href="https://github.com/gogs/gogs" target="_blank" rel="noopener">https://github.com/gogs/gogs</a></p>
+</li>
 </ul>
-<h3 id="修改为淘宝镜像"><a href="#修改为淘宝镜像" class="headerlink" title="修改为淘宝镜像"></a>修改为淘宝镜像</h3><h4 id="获取yarn当前配置源地址"><a href="#获取yarn当前配置源地址" class="headerlink" title="获取yarn当前配置源地址"></a>获取yarn当前配置源地址</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ yarn config get registry</span><br><span class="line"><span class="comment"># -&gt; https://registry.yarnpkg.com</span></span><br></pre></td></tr></table></figure>
-<h3 id="设置为淘宝镜像"><a href="#设置为淘宝镜像" class="headerlink" title="设置为淘宝镜像"></a>设置为淘宝镜像</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ yarn config <span class="built_in">set</span> registry https://registry.npm.taobao.org</span><br><span class="line"><span class="comment"># -&gt; yarn config v0.19.1</span></span><br><span class="line"><span class="comment"># -&gt; success Set "registry" to "https://registry.npm.taobao.org".</span></span><br><span class="line"><span class="comment"># -&gt; Done in 0.08s.</span></span><br></pre></td></tr></table></figure>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><blockquote>
+<p>使用docker 一键安装</p>
+<p>⚠️ 如果使用树莓派等<code>ARM</code>架构的设置，使用 <code>gogs/gogs-rpi</code> 这个镜像</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir gogs</span><br><span class="line">$ <span class="built_in">cd</span> gogs</span><br><span class="line">$ docker run -d --name=gogs -p 10022:22 -p 10080:3000 -v $(<span class="built_in">pwd</span>):/data gogs/gogs</span><br><span class="line">Unable to find image <span class="string">'gogs/gogs:latest'</span> locally</span><br><span class="line">latest: Pulling from gogs/gogs</span><br><span class="line">aad63a933944: Already exists</span><br><span class="line">b0ad6e0fd7a4: Pull complete</span><br><span class="line">33bdfa6ba679: Pull complete</span><br><span class="line">23daa3948d44: Pull complete</span><br><span class="line">7dfae03b6536: Pull complete</span><br><span class="line">54b2aac72740: Pull complete</span><br><span class="line">bca016e1cd26: Pull complete</span><br><span class="line">40aa0bd71838: Pull complete</span><br><span class="line">Digest: sha256:51c6e38c618b991307462348314d5b18baf7c85c946d4be58ddbae86e97d6dc7</span><br><span class="line">Status: Downloaded newer image <span class="keyword">for</span> gogs/gogs:latest</span><br><span class="line">c8aa33cfd796b3f8f856e57444e022ab392fc82c3a4ad895ff6c470474d8c13d</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>接下来浏览器打开 <a href="http://localhost:10080，初次使用会跳转到">http://localhost:10080，初次使用会跳转到</a> <a href="http://localhost:10080/install" target="_blank" rel="noopener">http://localhost:10080/install</a> 页面进行安装设置，Gogs内置许多语言，你可以在页面右下角选择语言：</p>
+</blockquote>
+<p><img src="https://i.loli.net/2020/04/16/ZX4Y6nhr8lfyAuJ.png" alt="ZX4Y6nhr8lfyAuJ"></p>
+<blockquote>
+<p>Dogs 支持<code>PostgreSQL</code>, <code>MySQL</code>,<code>MSSQL</code>和<code>SQLite3</code>作为存储引擎</p>
+</blockquote>
+<p><img src="https://i.loli.net/2020/04/16/bX1GyhMAslgpqTu.png" alt="bX1GyhMAslgpqTu"></p>
+<blockquote>
+<p>选择适合你的存储方案，设置即可。</p>
+</blockquote>
+<blockquote>
+<p>如果没有在刚刚安装时设置管理员信息，那么在注册第一个用户时，会被添加为管理员。</p>
+</blockquote>
+<p><img src="https://i.loli.net/2020/04/16/TZvN8FlGOX2thMz.png" alt="TZvN8FlGOX2thMz"></p>
+<blockquote>
+<p>以下是安装完毕后的主页。由于我这里docker端口做了映射，所以要重置一下 应用URL到 <a href="http://localhost:10080/" target="_blank" rel="noopener">http://localhost:10080/</a></p>
+<p>如果已经绑定了域名，配置<code>SSH</code>端口之类的，参考官网的配置方法：<a href="https://gogs.io/docs/installation/configuration_and_run" target="_blank" rel="noopener">https://gogs.io/docs/installation/configuration_and_run</a></p>
+</blockquote>
+<p><img src="https://i.loli.net/2020/04/16/jgW32VNAMdvtX1w.png" alt="jgW32VNAMdvtX1w"></p>
+<blockquote>
+<p>登录后</p>
+</blockquote>
+<p><img src="https://i.loli.net/2020/04/16/AM8js2Z7npiQXWx.png" alt="AM8js2Z7npiQXWx"></p>
+<blockquote>
+<p>创建仓库</p>
+</blockquote>
+<p><img src="https://i.loli.net/2020/04/16/IY9AGza5njNK7qe.png" alt="IY9AGza5njNK7qe"></p>
 
     </div>
 
@@ -265,8 +303,7 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/node/" rel="tag"># node</a>
-              <a href="/tags/yarn/" rel="tag"># yarn</a>
+              <a href="/tags/git/" rel="tag"># git</a>
           </div>
 
         
@@ -275,13 +312,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2016/10/16/electron-use-flash-extension/" rel="prev" title="electron使用flash插件">
-      <i class="fa fa-chevron-left"></i> electron使用flash插件
+    <a href="/2020/04/16/nginx-proxy-syntax/" rel="prev" title="nginx proxy 地址的问题">
+      <i class="fa fa-chevron-left"></i> nginx proxy 地址的问题
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2020/04/16/nginx-proxy-syntax/" rel="next" title="nginx proxy 地址的问题">
-      nginx proxy 地址的问题 <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -340,7 +374,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#什么是Yarn？"><span class="nav-number">1.</span> <span class="nav-text">什么是Yarn？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#修改为淘宝镜像"><span class="nav-number">2.</span> <span class="nav-text">修改为淘宝镜像</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#获取yarn当前配置源地址"><span class="nav-number">2.1.</span> <span class="nav-text">获取yarn当前配置源地址</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#设置为淘宝镜像"><span class="nav-number">3.</span> <span class="nav-text">设置为淘宝镜像</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#什么是-Gogs"><span class="nav-number">1.</span> <span class="nav-text">什么是 Gogs?</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#开发目的"><span class="nav-number">2.</span> <span class="nav-text">开发目的</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装"><span class="nav-number">3.</span> <span class="nav-text">安装</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
