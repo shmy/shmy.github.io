@@ -1,39 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>nginx proxy 地址的问题</title>
-    <url>/2020/04/16/nginx-proxy-syntax/</url>
-    <content><![CDATA[<h3 id="第一种："><a href="#第一种：" class="headerlink" title="第一种："></a>第一种：</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F;proxy&#x2F; &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;127.0.0.1&#x2F;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>代理到URL：<a href="http://127.0.0.1/test.html" target="_blank" rel="noopener">http://127.0.0.1/test.html</a></p>
-</blockquote>
-<h3 id="第二种："><a href="#第二种：" class="headerlink" title="第二种："></a>第二种：</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F;proxy&#x2F; &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;127.0.0.1;  #少&#x2F;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>代理到URL：<a href="http://127.0.0.1/proxy/test.html" target="_blank" rel="noopener">http://127.0.0.1/proxy/test.html</a></p>
-</blockquote>
-<h3 id="第三种："><a href="#第三种：" class="headerlink" title="第三种："></a>第三种：</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F;proxy&#x2F; &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;127.0.0.1&#x2F;aaa&#x2F;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>代理到URL：<a href="http://127.0.0.1/aaa/test.html" target="_blank" rel="noopener">http://127.0.0.1/aaa/test.html</a></p>
-</blockquote>
-<h3 id="第四种（相对于第三种，最后少一个-）"><a href="#第四种（相对于第三种，最后少一个-）" class="headerlink" title="第四种（相对于第三种，最后少一个 / ）"></a>第四种（相对于第三种，最后少一个 / ）</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F;proxy&#x2F; &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;127.0.0.1&#x2F;aaa;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>代理到URL：<a href="http://127.0.0.1/aaatest.html" target="_blank" rel="noopener">http://127.0.0.1/aaatest.html</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>backend</category>
-        <category>summaries</category>
-      </categories>
-      <tags>
-        <tag>nginx</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>electron使用flash插件</title>
     <url>/2016/10/16/electron-use-flash-extension/</url>
     <content><![CDATA[<h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><blockquote>
 <p>最近有个需求是使用Electron开发一个Windows直播的客户端，使用Flash进行播放相关功能，但是Electron的Flash功能需要插件支持，折腾好久才搞定，做个记录。  </p>
 </blockquote>
+<a id="more"></a>
+
 <h3 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h3><h4 id="安装electron"><a href="#安装electron" class="headerlink" title="安装electron"></a>安装electron</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install electron -g</span><br></pre></td></tr></table></figure>
 <h4 id="创建项目-1"><a href="#创建项目-1" class="headerlink" title="创建项目"></a>创建项目</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ mkdir <span class="built_in">test</span></span><br><span class="line">$ <span class="built_in">cd</span> <span class="built_in">test</span>/</span><br><span class="line">$ touch package.json</span><br><span class="line">$ touch main.js</span><br></pre></td></tr></table></figure>
 <blockquote>
@@ -67,12 +41,69 @@
       </tags>
   </entry>
   <entry>
+    <title>nginx proxy 地址的问题</title>
+    <url>/2020/04/16/nginx-proxy-syntax/</url>
+    <content><![CDATA[<h3 id="第一种："><a href="#第一种：" class="headerlink" title="第一种："></a>第一种：</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F;proxy&#x2F; &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;127.0.0.1&#x2F;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>代理到URL：<a href="http://127.0.0.1/test.html" target="_blank" rel="noopener">http://127.0.0.1/test.html</a></p>
+</blockquote>
+<a id="more"></a>
+
+
+<h3 id="第二种："><a href="#第二种：" class="headerlink" title="第二种："></a>第二种：</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F;proxy&#x2F; &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;127.0.0.1;  #少&#x2F;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>代理到URL：<a href="http://127.0.0.1/proxy/test.html" target="_blank" rel="noopener">http://127.0.0.1/proxy/test.html</a></p>
+</blockquote>
+<h3 id="第三种："><a href="#第三种：" class="headerlink" title="第三种："></a>第三种：</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F;proxy&#x2F; &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;127.0.0.1&#x2F;aaa&#x2F;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>代理到URL：<a href="http://127.0.0.1/aaa/test.html" target="_blank" rel="noopener">http://127.0.0.1/aaa/test.html</a></p>
+</blockquote>
+<h3 id="第四种（相对于第三种，最后少一个-）"><a href="#第四种（相对于第三种，最后少一个-）" class="headerlink" title="第四种（相对于第三种，最后少一个 / ）"></a>第四种（相对于第三种，最后少一个 / ）</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F;proxy&#x2F; &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;127.0.0.1&#x2F;aaa;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>代理到URL：<a href="http://127.0.0.1/aaatest.html" target="_blank" rel="noopener">http://127.0.0.1/aaatest.html</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>backend</category>
+        <category>summaries</category>
+      </categories>
+      <tags>
+        <tag>nginx</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>yarn替换仓库源到淘宝镜像</title>
+    <url>/2016/12/16/yarn-registry-set-get/</url>
+    <content><![CDATA[<h3 id="什么是Yarn？"><a href="#什么是Yarn？" class="headerlink" title="什么是Yarn？"></a>什么是Yarn？</h3><blockquote>
+<p>Yarn 是 Facebook, Google, Exponent 和 Tilde 开发的一款新的 JavaScript 包管理工具。就像我们可以从官方文档了解那样，它的目的是解决这些团队使用 npm 面临的少数问题，即：  </p>
+</blockquote>
+<ul>
+<li>安装的时候无法保证速度/一致性</li>
+<li>安全问题，因为 npm 安装时允许运行代码</li>
+</ul>
+<a id="more"></a>
+
+<h3 id="修改为淘宝镜像"><a href="#修改为淘宝镜像" class="headerlink" title="修改为淘宝镜像"></a>修改为淘宝镜像</h3><h4 id="获取yarn当前配置源地址"><a href="#获取yarn当前配置源地址" class="headerlink" title="获取yarn当前配置源地址"></a>获取yarn当前配置源地址</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ yarn config get registry</span><br><span class="line"><span class="comment"># -&gt; https://registry.yarnpkg.com</span></span><br></pre></td></tr></table></figure>
+<h3 id="设置为淘宝镜像"><a href="#设置为淘宝镜像" class="headerlink" title="设置为淘宝镜像"></a>设置为淘宝镜像</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ yarn config <span class="built_in">set</span> registry https://registry.npm.taobao.org</span><br><span class="line"><span class="comment"># -&gt; yarn config v0.19.1</span></span><br><span class="line"><span class="comment"># -&gt; success Set "registry" to "https://registry.npm.taobao.org".</span></span><br><span class="line"><span class="comment"># -&gt; Done in 0.08s.</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>frontend</category>
+        <category>summaries</category>
+      </categories>
+      <tags>
+        <tag>node</tag>
+        <tag>yarn</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>私有部署git服务之GOGS</title>
     <url>/2020/04/16/self-hosted-git-service-in-gogs/</url>
     <content><![CDATA[<h2 id="什么是-Gogs"><a href="#什么是-Gogs" class="headerlink" title="什么是 Gogs?"></a>什么是 Gogs?</h2><blockquote>
 <p>Gogs 是一款极易搭建的自助 Git 服务。</p>
 <p>👂我们平常都是使用 <code>Github</code>, 等免费的托管平台，但是对于某些视源代码如生命的商业公司来说，既不想公开源代码，又舍不得给GitHub交保护费，那就只能自己搭建一台Git服务器作为私有仓库使用。</p>
 </blockquote>
+<a id="more"></a>
+
 <h2 id="开发目的"><a href="#开发目的" class="headerlink" title="开发目的"></a>开发目的</h2><blockquote>
 <p>Gogs 的目标是打造一个最简单、最快速和最轻松的方式搭建自助 Git 服务。使用 Go 语言开发使得 Gogs 能够通过独立的二进制分发，并且支持 Go 语言支持的 <strong>所有平台</strong>，包括 Linux、Mac OS X、Windows 以及 ARM 平台。</p>
 </blockquote>
@@ -91,31 +122,31 @@
 <blockquote>
 <p>接下来浏览器打开 <a href="http://localhost:10080，初次使用会跳转到">http://localhost:10080，初次使用会跳转到</a> <a href="http://localhost:10080/install" target="_blank" rel="noopener">http://localhost:10080/install</a> 页面进行安装设置，Gogs内置许多语言，你可以在页面右下角选择语言：</p>
 </blockquote>
-<p><img src="https://i.loli.net/2020/04/16/ZX4Y6nhr8lfyAuJ.png" alt="ZX4Y6nhr8lfyAuJ"></p>
+<p><img data-src="https://i.loli.net/2020/04/16/ZX4Y6nhr8lfyAuJ.png" alt="ZX4Y6nhr8lfyAuJ"></p>
 <blockquote>
 <p>Dogs 支持<code>PostgreSQL</code>, <code>MySQL</code>,<code>MSSQL</code>和<code>SQLite3</code>作为存储引擎</p>
 </blockquote>
-<p><img src="https://i.loli.net/2020/04/16/bX1GyhMAslgpqTu.png" alt="bX1GyhMAslgpqTu"></p>
+<p><img data-src="https://i.loli.net/2020/04/16/bX1GyhMAslgpqTu.png" alt="bX1GyhMAslgpqTu"></p>
 <blockquote>
 <p>选择适合你的存储方案，设置即可。</p>
 </blockquote>
 <blockquote>
 <p>如果没有在刚刚安装时设置管理员信息，那么在注册第一个用户时，会被添加为管理员。</p>
 </blockquote>
-<p><img src="https://i.loli.net/2020/04/16/TZvN8FlGOX2thMz.png" alt="TZvN8FlGOX2thMz"></p>
+<p><img data-src="https://i.loli.net/2020/04/16/TZvN8FlGOX2thMz.png" alt="TZvN8FlGOX2thMz"></p>
 <blockquote>
 <p>以下是安装完毕后的主页。由于我这里docker端口做了映射，所以要重置一下 应用URL到 <a href="http://localhost:10080/" target="_blank" rel="noopener">http://localhost:10080/</a></p>
 <p>如果已经绑定了域名，配置<code>SSH</code>端口之类的，参考官网的配置方法：<a href="https://gogs.io/docs/installation/configuration_and_run" target="_blank" rel="noopener">https://gogs.io/docs/installation/configuration_and_run</a></p>
 </blockquote>
-<p><img src="https://i.loli.net/2020/04/16/jgW32VNAMdvtX1w.png" alt="jgW32VNAMdvtX1w"></p>
+<p><img data-src="https://i.loli.net/2020/04/16/jgW32VNAMdvtX1w.png" alt="jgW32VNAMdvtX1w"></p>
 <blockquote>
 <p>登录后</p>
 </blockquote>
-<p><img src="https://i.loli.net/2020/04/16/AM8js2Z7npiQXWx.png" alt="AM8js2Z7npiQXWx"></p>
+<p><img data-src="https://i.loli.net/2020/04/16/AM8js2Z7npiQXWx.png" alt="AM8js2Z7npiQXWx"></p>
 <blockquote>
 <p>创建仓库</p>
 </blockquote>
-<p><img src="https://i.loli.net/2020/04/16/IY9AGza5njNK7qe.png" alt="IY9AGza5njNK7qe"></p>
+<p><img data-src="https://i.loli.net/2020/04/16/IY9AGza5njNK7qe.png" alt="IY9AGza5njNK7qe"></p>
 ]]></content>
       <categories>
         <category>devOps</category>
@@ -126,28 +157,6 @@
       </tags>
   </entry>
   <entry>
-    <title>yarn替换仓库源到淘宝镜像</title>
-    <url>/2016/12/16/yarn-registry-set-get/</url>
-    <content><![CDATA[<h3 id="什么是Yarn？"><a href="#什么是Yarn？" class="headerlink" title="什么是Yarn？"></a>什么是Yarn？</h3><blockquote>
-<p>Yarn 是 Facebook, Google, Exponent 和 Tilde 开发的一款新的 JavaScript 包管理工具。就像我们可以从官方文档了解那样，它的目的是解决这些团队使用 npm 面临的少数问题，即：  </p>
-</blockquote>
-<ul>
-<li>安装的时候无法保证速度/一致性</li>
-<li>安全问题，因为 npm 安装时允许运行代码</li>
-</ul>
-<h3 id="修改为淘宝镜像"><a href="#修改为淘宝镜像" class="headerlink" title="修改为淘宝镜像"></a>修改为淘宝镜像</h3><h4 id="获取yarn当前配置源地址"><a href="#获取yarn当前配置源地址" class="headerlink" title="获取yarn当前配置源地址"></a>获取yarn当前配置源地址</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ yarn config get registry</span><br><span class="line"><span class="comment"># -&gt; https://registry.yarnpkg.com</span></span><br></pre></td></tr></table></figure>
-<h3 id="设置为淘宝镜像"><a href="#设置为淘宝镜像" class="headerlink" title="设置为淘宝镜像"></a>设置为淘宝镜像</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ yarn config <span class="built_in">set</span> registry https://registry.npm.taobao.org</span><br><span class="line"><span class="comment"># -&gt; yarn config v0.19.1</span></span><br><span class="line"><span class="comment"># -&gt; success Set "registry" to "https://registry.npm.taobao.org".</span></span><br><span class="line"><span class="comment"># -&gt; Done in 0.08s.</span></span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>frontend</category>
-        <category>summaries</category>
-      </categories>
-      <tags>
-        <tag>node</tag>
-        <tag>yarn</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>分享几个电影采集网站的接口和使用方式</title>
     <url>/2020/04/16/movie-collect-site/</url>
     <content><![CDATA[<h2 id="注解"><a href="#注解" class="headerlink" title="注解"></a>注解</h2><ul>
@@ -155,6 +164,8 @@
 <li>M3U8 （返回的视频格式为M3U8）</li>
 <li>XML（接口通讯格式为XML）</li>
 </ul>
+<a id="more"></a>
+
 <h2 id="最大资源网"><a href="#最大资源网" class="headerlink" title="最大资源网"></a>最大资源网</h2><blockquote>
 <p>接口地址：<a href="http://www.zdziyuan.com/inc/s_api_m3u8.php" target="_blank" rel="noopener">http://www.zdziyuan.com/inc/s_api_m3u8.php</a></p>
 </blockquote>
@@ -233,7 +244,7 @@
 <ol>
 <li>我们可以在浏览器的network里直接获取<code>response</code></li>
 </ol>
-<p><img src="https://i.loli.net/2020/04/16/XM7BCde91vUasrW.png" alt="XM7BCde91vUasrW"></p>
+<p><img data-src="https://i.loli.net/2020/04/16/XM7BCde91vUasrW.png" alt="XM7BCde91vUasrW"></p>
 <ol start="2">
 <li>我们打开终端</li>
 </ol>
