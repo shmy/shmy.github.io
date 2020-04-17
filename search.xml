@@ -1,97 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>推荐一些好用的CSS工具网站</title>
-    <url>/2020/04/17/css-util-resources/</url>
-    <content><![CDATA[<h2 id="免费版权图片-视频"><a href="#免费版权图片-视频" class="headerlink" title="免费版权图片/视频"></a>免费版权图片/视频</h2><h3 id="Logosc"><a href="#Logosc" class="headerlink" title="Logosc"></a>Logosc</h3><blockquote>
-<p>提供很多免费免版权的图片搜索和使用。</p>
-</blockquote>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JZk5qJ.png" alt="JZk5qJ.png"></p>
-<p><a href="https://www.logosc.cn/so/" target="_blank" rel="noopener">https://www.logosc.cn/so/</a></p>
+    <title>个人收藏的MacOS好用的软件</title>
+    <url>/2020/04/16/collection-of-mac-apps/</url>
+    <content><![CDATA[<ol>
+<li><p><a href="https://www.microsoft.com/zh-cn/edge" target="_blank" rel="noopener">Microsoft Edge</a>:  重构后的<code>Microsoft Edge</code> 浏览器带来了出色的兼容性及性能，尤其是其云账户同步功能，速度非常快（我已经抛弃<code>chrome</code>了…）。</p>
+</li>
+<li><p><a href="https://www.alfredapp.com/" target="_blank" rel="noopener">Alfred</a>: 效率神器，不解释。</p>
+</li>
+<li><p><a href="https://www.keka.io/" target="_blank" rel="noopener">Keka</a>: 免费强大的压缩/解压缩软件，支持多种格式如<code>zip</code>,<code>rar</code>,<code>7z</code>等。</p>
+</li>
+<li><p><a href="https://github.com/Mortennn/Dozer" target="_blank" rel="noopener">Dozer</a>: 帮助我们隐藏<em>macOS</em> 菜单栏的图标, 免费开源。</p>
+</li>
+</ol>
 <a id="more"></a>
 
-<h3 id="Coverr"><a href="#Coverr" class="headerlink" title="Coverr"></a>Coverr</h3><blockquote>
-<p> 提供漂亮的的网页背景/封面/banner视频素材</p>
-</blockquote>
-<p><a href="https://coverr.co/" target="_blank" rel="noopener">https://coverr.co/</a></p>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JZAQJ0.png" alt="JZAQJ0.png"></p>
-<h2 id="动画"><a href="#动画" class="headerlink" title="动画"></a>动画</h2><h3 id="Animista"><a href="#Animista" class="headerlink" title="Animista"></a>Animista</h3><blockquote>
-<p>Animista集合了很多种CSS动画，可以免费对其调整，预览和下载。</p>
-</blockquote>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JZAUoR.png" alt="JZAUoR.png"></p>
-<p><a href="https://animista.net/" target="_blank" rel="noopener">https://animista.net/</a></p>
-<h3 id="JetBrains-Animation-Generator"><a href="#JetBrains-Animation-Generator" class="headerlink" title="JetBrains Animation Generator"></a>JetBrains Animation Generator</h3><blockquote>
-<p>一个在线生成JetBrains 系统动态背景的网站，支持多种IDE风格，可以免费下载html5代码或者png图片。</p>
-</blockquote>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JZADSK.png" alt="JZADSK.png"></p>
-<p><a href="https://code2art.jetbrains.com/" target="_blank" rel="noopener">https://code2art.jetbrains.com/</a></p>
-<h2 id="图标"><a href="#图标" class="headerlink" title="图标"></a>图标</h2><h3 id="Iconfont"><a href="#Iconfont" class="headerlink" title="Iconfont"></a>Iconfont</h3><blockquote>
-<p>阿里巴巴旗下，国内功能很强大且图标内容很丰富的矢量图标库，提供矢量图标下载、在线存储、格式转换等功能。阿里巴巴体验团队倾力打造，设计和前端开发的便捷工具。</p>
-</blockquote>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JZEpXF.png" alt="JZEpXF.png"></p>
-<p><a href="https://www.iconfont.cn/" target="_blank" rel="noopener">https://www.iconfont.cn/</a></p>
-<h3 id="IKonate"><a href="#IKonate" class="headerlink" title="IKonate"></a>IKonate</h3><blockquote>
-<p>提供一组完全可定制和可访问的矢量图标。</p>
-</blockquote>
-<p><a href="https://imgchr.com/i/JZEnXD" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/04/17/JZEnXD.png" alt="JZEnXD.png"></a></p>
-<p><a href="https://ikonate.com/" target="_blank" rel="noopener">https://ikonate.com/</a></p>
-<h3 id="PathLove"><a href="#PathLove" class="headerlink" title="PathLove"></a>PathLove</h3><blockquote>
-<p>Pathlove是一个小型个人项目，我们主要免费设计和共享图标，插图和壁纸。<br>我们也写，我们的主要工具是Affinity Designer！</p>
-</blockquote>
-<p><a href="https://imgchr.com/i/JZE63V" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/04/17/JZE63V.png" alt="JZE63V.png"></a></p>
-<p><a href="https://pathlove.com/" target="_blank" rel="noopener">https://pathlove.com/</a></p>
-<h3 id="RemixIcon"><a href="#RemixIcon" class="headerlink" title="RemixIcon"></a>RemixIcon</h3><blockquote>
-<p>简直令人愉快的图标系统</p>
-<p>Remix Icon是为设计师和开发人员精心制作的一组开源中性风格系统符号。</p>
-<p>所有图标都是免费的，可用于个人和商业用途。</p>
-</blockquote>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JZET9x.png" alt="JZET9x.png"></p>
-<p><a href="https://remixicon.com/" target="_blank" rel="noopener">https://remixicon.com/</a></p>
-<h2 id="颜色"><a href="#颜色" class="headerlink" title="颜色"></a>颜色</h2><h3 id="Colorsupplyyy"><a href="#Colorsupplyyy" class="headerlink" title="Colorsupplyyy"></a>Colorsupplyyy</h3><blockquote>
-<p>通过选择颜色，给出合适亮眼的搭配。</p>
-</blockquote>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JZEXHH.png" alt="JZEXHH.png"></p>
-<p><a href="https://colorsupplyyy.com/app" target="_blank" rel="noopener">https://colorsupplyyy.com/app</a></p>
-<h3 id="FlatUIColors"><a href="#FlatUIColors" class="headerlink" title="FlatUIColors"></a>FlatUIColors</h3><blockquote>
-<p>提供针对国家/地区适合的配色；</p>
-<p>目前有13个国家/地区，13位设计师，13个调色板。</p>
-</blockquote>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JZVnCq.png" alt="JZVnCq.png"></p>
-<p><a href="https://flatuicolors.com/" target="_blank" rel="noopener">https://flatuicolors.com/</a></p>
-<h2 id="渐变"><a href="#渐变" class="headerlink" title="渐变"></a>渐变</h2><h3 id="Coolhue"><a href="#Coolhue" class="headerlink" title="Coolhue"></a>Coolhue</h3><blockquote>
-<p>CoolHue 首页大概有 60 种渐变色背景，当然，这个数目会持续增加。选择你中意的配色方案，点击下载即可获得一张适当分辨率的方形 PNG 图片。点击代码图标，可以复制该渐变色的 CSS3 语法。在一些网页设计中，直接应用，相比上传渐变色图片，更省流量。下方可以直接复制 16 进制代码，用于 PPT 或者 PS ，甚至电脑画图程序当中。</p>
-</blockquote>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JZVsVH.png" alt="JZVsVH.png"></p>
-<p><a href="https://webkul.github.io/coolhue/" target="_blank" rel="noopener">https://webkul.github.io/coolhue/</a></p>
-<h3 id="Uigradients"><a href="#Uigradients" class="headerlink" title="Uigradients"></a>Uigradients</h3><blockquote>
-<p>Uigradients 也是一款简单的配色网站。点击左上角的菜单，即可显示所有内容。通过不同颜色选择不同配色。点击右上角的方向箭头，可以旋转配色角度；点击代码按钮，可以复制它的 Css 代码，用于其他设计。点击下载按钮，即可获得一张足够分辨率的 JPG 图片。当然，你还可以直接点击顶部的色值，复制 16 进制色值。</p>
-</blockquote>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JZZSZ4.png" alt="JZZSZ4.png"></p>
-<p><a href="https://uigradients.com/" target="_blank" rel="noopener">https://uigradients.com/</a></p>
-<h3 id="WebGradients"><a href="#WebGradients" class="headerlink" title="WebGradients"></a>WebGradients</h3><blockquote>
-<p>Webgradients 大概拥有 180 种渐变配色，在首页点击色块即可全屏显示当前配色方案；同样，在底部可以复制 16 进制色值以及 CSS 代码，点击色块右上角，即可下载 PNG 格式图片。</p>
-</blockquote>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JZZWk9.png" alt="JZZWk9.png"></p>
-<p><a href="https://webgradients.com/" target="_blank" rel="noopener">https://webgradients.com/</a></p>
-<h3 id="Gradients-of-Shapefactory"><a href="#Gradients-of-Shapefactory" class="headerlink" title="Gradients of Shapefactory"></a>Gradients of Shapefactory</h3><blockquote>
-<p>Gradients of Shapefactory 其实是整个网站的功能之一，其他功能你可以自行去发掘。整个界面显示当前色系的不同渐变颜色；点击色盘，更改色系。拖动左边的球形按钮，可以改变色度和亮度；鼠标放在某一色块上，点击圆圈并旋转拖动可以改变渐变色的角度。同样可以复制 16 进制色值，以及 CSS 代码；点击图片，可以看到全局。</p>
-</blockquote>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JZZXtA.png" alt="JZZXtA.png"></p>
-<p><a href="https://gradient.shapefactory.co/" target="_blank" rel="noopener">https://gradient.shapefactory.co/</a></p>
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="CSS-clip-path-maker"><a href="#CSS-clip-path-maker" class="headerlink" title="CSS clip-path maker"></a>CSS clip-path maker</h3><blockquote>
-<p>在线调试 <code>clip-path</code>    属性，预置了多种图形。</p>
-</blockquote>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JZkAb9.png" alt="JZkAb9.png"></p>
-<p><a href="https://bennettfeely.com/clippy/" target="_blank" rel="noopener">https://bennettfeely.com/clippy/</a></p>
-<h3 id="CSS-灵感"><a href="#CSS-灵感" class="headerlink" title="CSS 灵感"></a>CSS 灵感</h3><blockquote>
-<p>这里可以让你寻找到使用或者是学习 CSS 的灵感，以分类的形式，展示不同 CSS 属性或者不同的课题使用 CSS 来解决的各种方法。</p>
-</blockquote>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JZkY5t.png" alt="JZkY5t.png"></p>
-<p><a href="https://chokcoco.github.io/CSS-Inspiration/" target="_blank" rel="noopener">https://chokcoco.github.io/CSS-Inspiration/</a></p>
+<ol start="2">
+<li><a href="https://sipapp.io/" target="_blank" rel="noopener">Sip</a>: 提取颜色，管理颜色的最佳工具，支持保存各种语言的颜色代码。</li>
+<li><a href="https://pasteapp.io/" target="_blank" rel="noopener">Paste</a>: 剪切板管理，主要是可以保存各种类型的剪贴记录，支持搜索。</li>
+<li><a href="https://zh.snipaste.com/" target="_blank" rel="noopener">Snipaste</a>: Snipaste 是一个简单但强大的截图工具，也可以让你将截图贴回到屏幕上！(支持贴图功能)。</li>
+<li><a href="https://github.com/ripperhe/Bob" target="_blank" rel="noopener">Bob</a>: Bob 是一款 Mac 端翻译软件，翻译方式支持划词翻译和截图翻译，翻译引擎支持有道翻译、百度翻译和谷歌翻译。</li>
+<li><a href="https://github.com/gee1k/uPic" target="_blank" rel="noopener">uPic</a>: 可将图片、各种文件上传到配置好的指定提供商的对象存储中，然后快速获取可供互联网访问的文件 URL。</li>
+<li><a href="https://github.com/yanue/V2rayU" target="_blank" rel="noopener">v2rayU</a>: V2rayU,基于v2ray核心的mac版客户端,用于科学上网,使用<code>swift</code>编写,支持<code>vmess,shadowsocks,socks5</code>等服务协议,支持订阅, 支持二维码,剪贴板导入,手动配置,二维码分享等。</li>
+<li><a href="https://www.iterm2.com/" target="_blank" rel="noopener">iTerm</a>: iTerm2是一款完全免费的，专为 Mac OS 用户打造的命令行应用，当然，也是程序员们的最爱。iTerm2本身支持很多自定义化的设置，比如自定义配色，自定义快捷键，方便的水平和垂直分屏功能，等等…… 毫不避讳的讲，说它是如今Mac下最好的终端工具也不为过。当然，日常工作与开发中，用它替代Mac自带的Terminal也是不二的选择。</li>
+<li><a href="https://codinn.com/" target="_blank" rel="noopener">SSH Copy</a>: SSH Copy for Mac是一个直观的SFTP（安全文件传输协议）客户端，允许您像Finder一样管理远程文件。</li>
+<li><a href="https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466?mt=12" target="_blank" rel="noopener">Microsoft Remote Desktop</a>: 支持远程访问Windows桌面</li>
+<li><a href="https://github.com/NaoTu/DesktopNaotu" target="_blank" rel="noopener">Desktop Naotu</a>: 桌面版脑图 (百度脑图离线版，思维导图) 跨平台支持 Windows/Linux/Mac OS. (A cross-platform multilingual Mind Map Tool)</li>
+<li><a href="https://typora.io/" target="_blank" rel="noopener">Typoa</a>: Typora 是一款<strong>支持实时预览的 Markdown 文本编辑器</strong>。它有 OS X、Windows、Linux 三个平台的版本，并且由于仍在测试中，是<strong>完全免费</strong>的。</li>
+<li><a href="https://www.postman.com/" target="_blank" rel="noopener">Postman</a>: Api 测试 GUI工具。</li>
+<li><a href="https://www.teamviewer.cn/" target="_blank" rel="noopener">TeamViewer</a>: 远程控制工具。</li>
+<li><a href="https://www.docker.com/products/docker-desktop" target="_blank" rel="noopener">Docker Desktop</a>: Docker Desktop For Mac。</li>
+<li><a href="https://listen1.github.io/listen1/" target="_blank" rel="noopener">Listen1</a>: Listen 1可以搜索和播放来自网易云音乐，虾米，QQ音乐，酷狗音乐，酷我音乐网站的歌曲，让你的曲库更全面。</li>
+<li><a href="https://1password.com/zh-cn/" target="_blank" rel="noopener">1Password</a>: 1Password 为你记住一切。保存您的密码并可一键登录网站。就是这么简单。</li>
+</ol>
 ]]></content>
+      <categories>
+        <category>MacOS</category>
+      </categories>
       <tags>
-        <tag>css</tag>
-        <tag>frontend</tag>
+        <tag>software</tag>
+        <tag>app</tag>
       </tags>
   </entry>
   <entry>
@@ -135,48 +83,6 @@
       </tags>
   </entry>
   <entry>
-    <title>个人收藏的MacOS好用的软件</title>
-    <url>/2020/04/16/collection-of-mac-apps/</url>
-    <content><![CDATA[<ol>
-<li><p><a href="https://www.microsoft.com/zh-cn/edge" target="_blank" rel="noopener">Microsoft Edge</a>:  重构后的<code>Microsoft Edge</code> 浏览器带来了出色的兼容性及性能，尤其是其云账户同步功能，速度非常快（我已经抛弃<code>chrome</code>了…）。</p>
-</li>
-<li><p><a href="https://www.alfredapp.com/" target="_blank" rel="noopener">Alfred</a>: 效率神器，不解释。</p>
-</li>
-<li><p><a href="https://www.keka.io/" target="_blank" rel="noopener">Keka</a>: 免费强大的压缩/解压缩软件，支持多种格式如<code>zip</code>,<code>rar</code>,<code>7z</code>等。</p>
-</li>
-<li><p><a href="https://github.com/Mortennn/Dozer" target="_blank" rel="noopener">Dozer</a>: 帮助我们隐藏<em>macOS</em> 菜单栏的图标, 免费开源。</p>
-</li>
-</ol>
-<a id="more"></a>
-
-<ol start="2">
-<li><a href="https://sipapp.io/" target="_blank" rel="noopener">Sip</a>: 提取颜色，管理颜色的最佳工具，支持保存各种语言的颜色代码。</li>
-<li><a href="https://pasteapp.io/" target="_blank" rel="noopener">Paste</a>: 剪切板管理，主要是可以保存各种类型的剪贴记录，支持搜索。</li>
-<li><a href="https://zh.snipaste.com/" target="_blank" rel="noopener">Snipaste</a>: Snipaste 是一个简单但强大的截图工具，也可以让你将截图贴回到屏幕上！(支持贴图功能)。</li>
-<li><a href="https://github.com/ripperhe/Bob" target="_blank" rel="noopener">Bob</a>: Bob 是一款 Mac 端翻译软件，翻译方式支持划词翻译和截图翻译，翻译引擎支持有道翻译、百度翻译和谷歌翻译。</li>
-<li><a href="https://github.com/gee1k/uPic" target="_blank" rel="noopener">uPic</a>: 可将图片、各种文件上传到配置好的指定提供商的对象存储中，然后快速获取可供互联网访问的文件 URL。</li>
-<li><a href="https://github.com/yanue/V2rayU" target="_blank" rel="noopener">v2rayU</a>: V2rayU,基于v2ray核心的mac版客户端,用于科学上网,使用<code>swift</code>编写,支持<code>vmess,shadowsocks,socks5</code>等服务协议,支持订阅, 支持二维码,剪贴板导入,手动配置,二维码分享等。</li>
-<li><a href="https://www.iterm2.com/" target="_blank" rel="noopener">iTerm</a>: iTerm2是一款完全免费的，专为 Mac OS 用户打造的命令行应用，当然，也是程序员们的最爱。iTerm2本身支持很多自定义化的设置，比如自定义配色，自定义快捷键，方便的水平和垂直分屏功能，等等…… 毫不避讳的讲，说它是如今Mac下最好的终端工具也不为过。当然，日常工作与开发中，用它替代Mac自带的Terminal也是不二的选择。</li>
-<li><a href="https://codinn.com/" target="_blank" rel="noopener">SSH Copy</a>: SSH Copy for Mac是一个直观的SFTP（安全文件传输协议）客户端，允许您像Finder一样管理远程文件。</li>
-<li><a href="https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466?mt=12" target="_blank" rel="noopener">Microsoft Remote Desktop</a>: 支持远程访问Windows桌面</li>
-<li><a href="https://github.com/NaoTu/DesktopNaotu" target="_blank" rel="noopener">Desktop Naotu</a>: 桌面版脑图 (百度脑图离线版，思维导图) 跨平台支持 Windows/Linux/Mac OS. (A cross-platform multilingual Mind Map Tool)</li>
-<li><a href="https://typora.io/" target="_blank" rel="noopener">Typoa</a>: Typora 是一款<strong>支持实时预览的 Markdown 文本编辑器</strong>。它有 OS X、Windows、Linux 三个平台的版本，并且由于仍在测试中，是<strong>完全免费</strong>的。</li>
-<li><a href="https://www.postman.com/" target="_blank" rel="noopener">Postman</a>: Api 测试 GUI工具。</li>
-<li><a href="https://www.teamviewer.cn/" target="_blank" rel="noopener">TeamViewer</a>: 远程控制工具。</li>
-<li><a href="https://www.docker.com/products/docker-desktop" target="_blank" rel="noopener">Docker Desktop</a>: Docker Desktop For Mac。</li>
-<li><a href="https://listen1.github.io/listen1/" target="_blank" rel="noopener">Listen1</a>: Listen 1可以搜索和播放来自网易云音乐，虾米，QQ音乐，酷狗音乐，酷我音乐网站的歌曲，让你的曲库更全面。</li>
-<li><a href="https://1password.com/zh-cn/" target="_blank" rel="noopener">1Password</a>: 1Password 为你记住一切。保存您的密码并可一键登录网站。就是这么简单。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>MacOS</category>
-      </categories>
-      <tags>
-        <tag>software</tag>
-        <tag>app</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>纯CSS实现六边形布局和排列</title>
     <url>/2020/04/17/css-hexagon-layout-item/</url>
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote>
@@ -190,7 +96,7 @@
 </blockquote>
 <h2 id="先画一个六边形"><a href="#先画一个六边形" class="headerlink" title="先画一个六边形"></a>先画一个六边形</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"container"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
-<figure class="highlight scss"><table><tr><td class="code"><pre><span class="line"><span class="variable">$hexWidth</span>: <span class="number">120px</span>;</span><br><span class="line"><span class="variable">$hexHeight</span>: <span class="number">130px</span>;</span><br><span class="line"><span class="selector-class">.container</span>&#123;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">768px</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.hex</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: inline-block;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">width</span>: <span class="variable">$hexWidth</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="variable">$hexHeight</span>;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#64c7cc</span>;</span><br><span class="line">  <span class="attribute">margin-left</span>: <span class="variable">$gapWidth</span>;</span><br><span class="line">  -webkit-<span class="attribute">clip-path</span>: polygon(<span class="number">0</span> <span class="number">25%</span>,<span class="number">50%</span> <span class="number">0</span>,<span class="number">100%</span> <span class="number">25%</span>,<span class="number">100%</span> <span class="number">75%</span>,<span class="number">50%</span> <span class="number">100%</span>,<span class="number">0</span> <span class="number">75%</span>);</span><br><span class="line">  <span class="attribute">clip-path</span>: polygon(<span class="number">0</span> <span class="number">25%</span>,<span class="number">50%</span> <span class="number">0</span>,<span class="number">100%</span> <span class="number">25%</span>,<span class="number">100%</span> <span class="number">75%</span>,<span class="number">50%</span> <span class="number">100%</span>,<span class="number">0</span> <span class="number">75%</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight scss"><table><tr><td class="code"><pre><span class="line"><span class="variable">$hexWidth</span>: <span class="number">120px</span>;</span><br><span class="line"><span class="variable">$hexHeight</span>: <span class="number">130px</span>;</span><br><span class="line"><span class="selector-class">.container</span>&#123;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">768px</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.hex</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: inline-block;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">width</span>: <span class="variable">$hexWidth</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="variable">$hexHeight</span>;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#64c7cc</span>;</span><br><span class="line">  -webkit-<span class="attribute">clip-path</span>: polygon(<span class="number">0</span> <span class="number">25%</span>,<span class="number">50%</span> <span class="number">0</span>,<span class="number">100%</span> <span class="number">25%</span>,<span class="number">100%</span> <span class="number">75%</span>,<span class="number">50%</span> <span class="number">100%</span>,<span class="number">0</span> <span class="number">75%</span>);</span><br><span class="line">  <span class="attribute">clip-path</span>: polygon(<span class="number">0</span> <span class="number">25%</span>,<span class="number">50%</span> <span class="number">0</span>,<span class="number">100%</span> <span class="number">25%</span>,<span class="number">100%</span> <span class="number">75%</span>,<span class="number">50%</span> <span class="number">100%</span>,<span class="number">0</span> <span class="number">75%</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 
 
@@ -296,6 +202,100 @@
       </categories>
       <tags>
         <tag>nginx</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>推荐一些好用的CSS工具网站</title>
+    <url>/2020/04/17/css-util-resources/</url>
+    <content><![CDATA[<h2 id="免费版权图片-视频"><a href="#免费版权图片-视频" class="headerlink" title="免费版权图片/视频"></a>免费版权图片/视频</h2><h3 id="Logosc"><a href="#Logosc" class="headerlink" title="Logosc"></a>Logosc</h3><blockquote>
+<p>提供很多免费免版权的图片搜索和使用。</p>
+</blockquote>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JZk5qJ.png" alt="JZk5qJ.png"></p>
+<p><a href="https://www.logosc.cn/so/" target="_blank" rel="noopener">https://www.logosc.cn/so/</a></p>
+<a id="more"></a>
+
+<h3 id="Coverr"><a href="#Coverr" class="headerlink" title="Coverr"></a>Coverr</h3><blockquote>
+<p> 提供漂亮的的网页背景/封面/banner视频素材</p>
+</blockquote>
+<p><a href="https://coverr.co/" target="_blank" rel="noopener">https://coverr.co/</a></p>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JZAQJ0.png" alt="JZAQJ0.png"></p>
+<h2 id="动画"><a href="#动画" class="headerlink" title="动画"></a>动画</h2><h3 id="Animista"><a href="#Animista" class="headerlink" title="Animista"></a>Animista</h3><blockquote>
+<p>Animista集合了很多种CSS动画，可以免费对其调整，预览和下载。</p>
+</blockquote>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JZAUoR.png" alt="JZAUoR.png"></p>
+<p><a href="https://animista.net/" target="_blank" rel="noopener">https://animista.net/</a></p>
+<h3 id="JetBrains-Animation-Generator"><a href="#JetBrains-Animation-Generator" class="headerlink" title="JetBrains Animation Generator"></a>JetBrains Animation Generator</h3><blockquote>
+<p>一个在线生成JetBrains 系统动态背景的网站，支持多种IDE风格，可以免费下载html5代码或者png图片。</p>
+</blockquote>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JZADSK.png" alt="JZADSK.png"></p>
+<p><a href="https://code2art.jetbrains.com/" target="_blank" rel="noopener">https://code2art.jetbrains.com/</a></p>
+<h2 id="图标"><a href="#图标" class="headerlink" title="图标"></a>图标</h2><h3 id="Iconfont"><a href="#Iconfont" class="headerlink" title="Iconfont"></a>Iconfont</h3><blockquote>
+<p>阿里巴巴旗下，国内功能很强大且图标内容很丰富的矢量图标库，提供矢量图标下载、在线存储、格式转换等功能。阿里巴巴体验团队倾力打造，设计和前端开发的便捷工具。</p>
+</blockquote>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JZEpXF.png" alt="JZEpXF.png"></p>
+<p><a href="https://www.iconfont.cn/" target="_blank" rel="noopener">https://www.iconfont.cn/</a></p>
+<h3 id="IKonate"><a href="#IKonate" class="headerlink" title="IKonate"></a>IKonate</h3><blockquote>
+<p>提供一组完全可定制和可访问的矢量图标。</p>
+</blockquote>
+<p><a href="https://imgchr.com/i/JZEnXD" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/04/17/JZEnXD.png" alt="JZEnXD.png"></a></p>
+<p><a href="https://ikonate.com/" target="_blank" rel="noopener">https://ikonate.com/</a></p>
+<h3 id="PathLove"><a href="#PathLove" class="headerlink" title="PathLove"></a>PathLove</h3><blockquote>
+<p>Pathlove是一个小型个人项目，我们主要免费设计和共享图标，插图和壁纸。<br>我们也写，我们的主要工具是Affinity Designer！</p>
+</blockquote>
+<p><a href="https://imgchr.com/i/JZE63V" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/04/17/JZE63V.png" alt="JZE63V.png"></a></p>
+<p><a href="https://pathlove.com/" target="_blank" rel="noopener">https://pathlove.com/</a></p>
+<h3 id="RemixIcon"><a href="#RemixIcon" class="headerlink" title="RemixIcon"></a>RemixIcon</h3><blockquote>
+<p>简直令人愉快的图标系统</p>
+<p>Remix Icon是为设计师和开发人员精心制作的一组开源中性风格系统符号。</p>
+<p>所有图标都是免费的，可用于个人和商业用途。</p>
+</blockquote>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JZET9x.png" alt="JZET9x.png"></p>
+<p><a href="https://remixicon.com/" target="_blank" rel="noopener">https://remixicon.com/</a></p>
+<h2 id="颜色"><a href="#颜色" class="headerlink" title="颜色"></a>颜色</h2><h3 id="Colorsupplyyy"><a href="#Colorsupplyyy" class="headerlink" title="Colorsupplyyy"></a>Colorsupplyyy</h3><blockquote>
+<p>通过选择颜色，给出合适亮眼的搭配。</p>
+</blockquote>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JZEXHH.png" alt="JZEXHH.png"></p>
+<p><a href="https://colorsupplyyy.com/app" target="_blank" rel="noopener">https://colorsupplyyy.com/app</a></p>
+<h3 id="FlatUIColors"><a href="#FlatUIColors" class="headerlink" title="FlatUIColors"></a>FlatUIColors</h3><blockquote>
+<p>提供针对国家/地区适合的配色；</p>
+<p>目前有13个国家/地区，13位设计师，13个调色板。</p>
+</blockquote>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JZVnCq.png" alt="JZVnCq.png"></p>
+<p><a href="https://flatuicolors.com/" target="_blank" rel="noopener">https://flatuicolors.com/</a></p>
+<h2 id="渐变"><a href="#渐变" class="headerlink" title="渐变"></a>渐变</h2><h3 id="Coolhue"><a href="#Coolhue" class="headerlink" title="Coolhue"></a>Coolhue</h3><blockquote>
+<p>CoolHue 首页大概有 60 种渐变色背景，当然，这个数目会持续增加。选择你中意的配色方案，点击下载即可获得一张适当分辨率的方形 PNG 图片。点击代码图标，可以复制该渐变色的 CSS3 语法。在一些网页设计中，直接应用，相比上传渐变色图片，更省流量。下方可以直接复制 16 进制代码，用于 PPT 或者 PS ，甚至电脑画图程序当中。</p>
+</blockquote>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JZVsVH.png" alt="JZVsVH.png"></p>
+<p><a href="https://webkul.github.io/coolhue/" target="_blank" rel="noopener">https://webkul.github.io/coolhue/</a></p>
+<h3 id="Uigradients"><a href="#Uigradients" class="headerlink" title="Uigradients"></a>Uigradients</h3><blockquote>
+<p>Uigradients 也是一款简单的配色网站。点击左上角的菜单，即可显示所有内容。通过不同颜色选择不同配色。点击右上角的方向箭头，可以旋转配色角度；点击代码按钮，可以复制它的 Css 代码，用于其他设计。点击下载按钮，即可获得一张足够分辨率的 JPG 图片。当然，你还可以直接点击顶部的色值，复制 16 进制色值。</p>
+</blockquote>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JZZSZ4.png" alt="JZZSZ4.png"></p>
+<p><a href="https://uigradients.com/" target="_blank" rel="noopener">https://uigradients.com/</a></p>
+<h3 id="WebGradients"><a href="#WebGradients" class="headerlink" title="WebGradients"></a>WebGradients</h3><blockquote>
+<p>Webgradients 大概拥有 180 种渐变配色，在首页点击色块即可全屏显示当前配色方案；同样，在底部可以复制 16 进制色值以及 CSS 代码，点击色块右上角，即可下载 PNG 格式图片。</p>
+</blockquote>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JZZWk9.png" alt="JZZWk9.png"></p>
+<p><a href="https://webgradients.com/" target="_blank" rel="noopener">https://webgradients.com/</a></p>
+<h3 id="Gradients-of-Shapefactory"><a href="#Gradients-of-Shapefactory" class="headerlink" title="Gradients of Shapefactory"></a>Gradients of Shapefactory</h3><blockquote>
+<p>Gradients of Shapefactory 其实是整个网站的功能之一，其他功能你可以自行去发掘。整个界面显示当前色系的不同渐变颜色；点击色盘，更改色系。拖动左边的球形按钮，可以改变色度和亮度；鼠标放在某一色块上，点击圆圈并旋转拖动可以改变渐变色的角度。同样可以复制 16 进制色值，以及 CSS 代码；点击图片，可以看到全局。</p>
+</blockquote>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JZZXtA.png" alt="JZZXtA.png"></p>
+<p><a href="https://gradient.shapefactory.co/" target="_blank" rel="noopener">https://gradient.shapefactory.co/</a></p>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="CSS-clip-path-maker"><a href="#CSS-clip-path-maker" class="headerlink" title="CSS clip-path maker"></a>CSS clip-path maker</h3><blockquote>
+<p>在线调试 <code>clip-path</code>    属性，预置了多种图形。</p>
+</blockquote>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JZkAb9.png" alt="JZkAb9.png"></p>
+<p><a href="https://bennettfeely.com/clippy/" target="_blank" rel="noopener">https://bennettfeely.com/clippy/</a></p>
+<h3 id="CSS-灵感"><a href="#CSS-灵感" class="headerlink" title="CSS 灵感"></a>CSS 灵感</h3><blockquote>
+<p>这里可以让你寻找到使用或者是学习 CSS 的灵感，以分类的形式，展示不同 CSS 属性或者不同的课题使用 CSS 来解决的各种方法。</p>
+</blockquote>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JZkY5t.png" alt="JZkY5t.png"></p>
+<p><a href="https://chokcoco.github.io/CSS-Inspiration/" target="_blank" rel="noopener">https://chokcoco.github.io/CSS-Inspiration/</a></p>
+]]></content>
+      <tags>
+        <tag>css</tag>
+        <tag>frontend</tag>
       </tags>
   </entry>
   <entry>
