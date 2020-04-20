@@ -1,88 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>个人收藏的MacOS好用的软件</title>
-    <url>/2020/04/16/collection-of-mac-apps/</url>
-    <content><![CDATA[<ol>
-<li><p><a href="https://www.microsoft.com/zh-cn/edge" target="_blank" rel="noopener">Microsoft Edge</a>:  重构后的<code>Microsoft Edge</code> 浏览器带来了出色的兼容性及性能，尤其是其云账户同步功能，速度非常快（我已经抛弃<code>chrome</code>了…）。</p>
-</li>
-<li><p><a href="https://www.alfredapp.com/" target="_blank" rel="noopener">Alfred</a>: 效率神器，不解释。</p>
-</li>
-<li><p><a href="https://www.keka.io/" target="_blank" rel="noopener">Keka</a>: 免费强大的压缩/解压缩软件，支持多种格式如<code>zip</code>,<code>rar</code>,<code>7z</code>等。</p>
-</li>
-<li><p><a href="https://github.com/Mortennn/Dozer" target="_blank" rel="noopener">Dozer</a>: 帮助我们隐藏<em>macOS</em> 菜单栏的图标, 免费开源。</p>
-</li>
-</ol>
-<a id="more"></a>
-
-<ol start="2">
-<li><a href="https://sipapp.io/" target="_blank" rel="noopener">Sip</a>: 提取颜色，管理颜色的最佳工具，支持保存各种语言的颜色代码。</li>
-<li><a href="https://pasteapp.io/" target="_blank" rel="noopener">Paste</a>: 剪切板管理，主要是可以保存各种类型的剪贴记录，支持搜索。</li>
-<li><a href="https://zh.snipaste.com/" target="_blank" rel="noopener">Snipaste</a>: Snipaste 是一个简单但强大的截图工具，也可以让你将截图贴回到屏幕上！(支持贴图功能)。</li>
-<li><a href="https://github.com/ripperhe/Bob" target="_blank" rel="noopener">Bob</a>: Bob 是一款 Mac 端翻译软件，翻译方式支持划词翻译和截图翻译，翻译引擎支持有道翻译、百度翻译和谷歌翻译。</li>
-<li><a href="https://github.com/gee1k/uPic" target="_blank" rel="noopener">uPic</a>: 可将图片、各种文件上传到配置好的指定提供商的对象存储中，然后快速获取可供互联网访问的文件 URL。</li>
-<li><a href="https://github.com/yanue/V2rayU" target="_blank" rel="noopener">v2rayU</a>: V2rayU,基于v2ray核心的mac版客户端,用于科学上网,使用<code>swift</code>编写,支持<code>vmess,shadowsocks,socks5</code>等服务协议,支持订阅, 支持二维码,剪贴板导入,手动配置,二维码分享等。</li>
-<li><a href="https://www.iterm2.com/" target="_blank" rel="noopener">iTerm</a>: iTerm2是一款完全免费的，专为 Mac OS 用户打造的命令行应用，当然，也是程序员们的最爱。iTerm2本身支持很多自定义化的设置，比如自定义配色，自定义快捷键，方便的水平和垂直分屏功能，等等…… 毫不避讳的讲，说它是如今Mac下最好的终端工具也不为过。当然，日常工作与开发中，用它替代Mac自带的Terminal也是不二的选择。</li>
-<li><a href="https://codinn.com/" target="_blank" rel="noopener">SSH Copy</a>: SSH Copy for Mac是一个直观的SFTP（安全文件传输协议）客户端，允许您像Finder一样管理远程文件。</li>
-<li><a href="https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466?mt=12" target="_blank" rel="noopener">Microsoft Remote Desktop</a>: 支持远程访问Windows桌面</li>
-<li><a href="https://github.com/NaoTu/DesktopNaotu" target="_blank" rel="noopener">Desktop Naotu</a>: 桌面版脑图 (百度脑图离线版，思维导图) 跨平台支持 Windows/Linux/Mac OS. (A cross-platform multilingual Mind Map Tool)</li>
-<li><a href="https://typora.io/" target="_blank" rel="noopener">Typoa</a>: Typora 是一款<strong>支持实时预览的 Markdown 文本编辑器</strong>。它有 OS X、Windows、Linux 三个平台的版本，并且由于仍在测试中，是<strong>完全免费</strong>的。</li>
-<li><a href="https://www.postman.com/" target="_blank" rel="noopener">Postman</a>: Api 测试 GUI工具。</li>
-<li><a href="https://www.teamviewer.cn/" target="_blank" rel="noopener">TeamViewer</a>: 远程控制工具。</li>
-<li><a href="https://www.docker.com/products/docker-desktop" target="_blank" rel="noopener">Docker Desktop</a>: Docker Desktop For Mac。</li>
-<li><a href="https://listen1.github.io/listen1/" target="_blank" rel="noopener">Listen1</a>: Listen 1可以搜索和播放来自网易云音乐，虾米，QQ音乐，酷狗音乐，酷我音乐网站的歌曲，让你的曲库更全面。</li>
-<li><a href="https://1password.com/zh-cn/" target="_blank" rel="noopener">1Password</a>: 1Password 为你记住一切。保存您的密码并可一键登录网站。就是这么简单。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>MacOS</category>
-      </categories>
-      <tags>
-        <tag>software</tag>
-        <tag>app</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>electron使用flash插件</title>
-    <url>/2016/10/16/electron-use-flash-extension/</url>
-    <content><![CDATA[<h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><blockquote>
-<p>最近有个需求是使用Electron开发一个Windows直播的客户端，使用Flash进行播放相关功能，但是Electron的Flash功能需要插件支持，折腾好久才搞定，做个记录。  </p>
-</blockquote>
-<a id="more"></a>
-
-<h3 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h3><h4 id="安装electron"><a href="#安装electron" class="headerlink" title="安装electron"></a>安装electron</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install electron -g</span><br></pre></td></tr></table></figure>
-<h4 id="创建项目-1"><a href="#创建项目-1" class="headerlink" title="创建项目"></a>创建项目</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ mkdir <span class="built_in">test</span></span><br><span class="line">$ <span class="built_in">cd</span> <span class="built_in">test</span>/</span><br><span class="line">$ touch package.json</span><br><span class="line">$ touch main.js</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>package.json  </p>
-</blockquote>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"name"</span>: <span class="string">"test"</span>,</span><br><span class="line">  <span class="attr">"version"</span>: <span class="string">"1.0.0"</span>,</span><br><span class="line">  <span class="attr">"main"</span>: <span class="string">"main.js"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>main.js  </p>
-</blockquote>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> &#123;app, BrowserWindow&#125; = <span class="built_in">require</span>(<span class="string">'electron'</span>)</span><br><span class="line"><span class="keyword">const</span> &#123;resolve&#125; = <span class="built_in">require</span>(<span class="string">'path'</span>)</span><br><span class="line"><span class="keyword">const</span> url = <span class="built_in">require</span>(<span class="string">'url'</span>)</span><br><span class="line"><span class="comment">// 注册Flash插件</span></span><br><span class="line"><span class="keyword">const</span> flashplayer = resolve(__dirname, <span class="string">'pepflashplayer.dll'</span>)</span><br><span class="line">app.commandLine.appendSwitch(<span class="string">'ppapi-flash-path'</span>, flashplayer);</span><br><span class="line">app.commandLine.appendSwitch(<span class="string">'ppapi-flash-version'</span>, <span class="string">'23.0.0.194'</span>);</span><br><span class="line"><span class="comment">// 保持一个对于 window 对象的全局引用，如果你不这样做，</span></span><br><span class="line"><span class="comment">// 当 JavaScript 对象被垃圾回收， window 会被自动地关闭</span></span><br><span class="line"><span class="keyword">let</span> win</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">createWindow</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="comment">// 创建浏览器窗口。</span></span><br><span class="line">  win = <span class="keyword">new</span> BrowserWindow(&#123;</span><br><span class="line">    width: <span class="number">800</span>,</span><br><span class="line">    height: <span class="number">600</span>,</span><br><span class="line">    webPreferences: &#123; <span class="comment">// 注意一定要 添加这个 不然flash插件不会生效</span></span><br><span class="line">      plugins: <span class="literal">true</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;)</span><br><span class="line">  <span class="comment">// 随便加载一个flash视频页面</span></span><br><span class="line">  win.loadURL(<span class="string">'http://www.iqiyi.com/v_19rrarwio8.html?list=19rrkp73da'</span>)</span><br><span class="line">  <span class="comment">// 打开开发者工具。</span></span><br><span class="line">  win.webContents.openDevTools()</span><br><span class="line">  <span class="comment">// 当 window 被关闭，这个事件会被触发。</span></span><br><span class="line">  win.on(<span class="string">'closed'</span>, () =&gt; &#123;</span><br><span class="line">    <span class="comment">// 取消引用 window 对象，如果你的应用支持多窗口的话，</span></span><br><span class="line">    <span class="comment">// 通常会把多个 window 对象存放在一个数组里面，</span></span><br><span class="line">    <span class="comment">// 与此同时，你应该删除相应的元素。</span></span><br><span class="line">    win = <span class="literal">null</span></span><br><span class="line">  &#125;)</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// Electron 会在初始化后并准备</span></span><br><span class="line"><span class="comment">// 创建浏览器窗口时，调用这个函数。</span></span><br><span class="line"><span class="comment">// 部分 API 在 ready 事件触发后才能使用。</span></span><br><span class="line">app.on(<span class="string">'ready'</span>, createWindow)</span><br><span class="line"><span class="comment">// 当全部窗口关闭时退出。</span></span><br><span class="line">app.on(<span class="string">'window-all-closed'</span>, () =&gt; &#123;</span><br><span class="line">  <span class="comment">// 在 macOS 上，除非用户用 Cmd + Q 确定地退出，</span></span><br><span class="line">  <span class="comment">// 否则绝大部分应用及其菜单栏会保持激活。</span></span><br><span class="line">  <span class="keyword">if</span> (process.platform !== <span class="string">'darwin'</span>) &#123;</span><br><span class="line">    app.quit()</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br><span class="line">app.on(<span class="string">'activate'</span>, () =&gt; &#123;</span><br><span class="line">  <span class="comment">// 在这文件，你可以续写应用剩下主进程代码。</span></span><br><span class="line">  <span class="comment">// 也可以拆分成几个文件，然后用 require 导入。</span></span><br><span class="line">  <span class="keyword">if</span> (win === <span class="literal">null</span>) &#123;</span><br><span class="line">    createWindow()</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
-<h4 id="放置dll文件"><a href="#放置dll文件" class="headerlink" title="放置dll文件"></a>放置dll文件</h4><ul>
-<li>如果你有安装Chrome浏览器，可以在地址栏输入<code>chrome://plugins/</code>，点击右侧的详细信息，找到<code>Adobe Flash Player</code>条目，在位置项复制<code>pepflashplayer.dll</code> (<strong>Windows</strong>)文件到项目目录。</li>
-<li>单独安装请打开官方下载页面 <code>http://get2.adobe.com/cn/flashplayer/otherversions/</code>，选择你的操作系统，版本选择<code>for Opera and Chromium-PPAPI</code>结尾的版本。安装完毕后:<ul>
-<li>在<code>C:\Windows\SysWOW64\Macromed\Flash</code>下找到32位版本如：<code>pepflashplayer32_24_0_0_194.dll</code>(名称和版本号可能有出入)。 </li>
-<li><code>在C:\Windows\System32\Macromed\Flash</code>下找到64位版本，如：<code>pepflashplayer64_24_0_0_194.dll</code>(名称和版本号可能有出入)。</li>
-<li>然后复制到项目目录，重命名为<code>pepflashplayer.dll</code>即可。</li>
-</ul>
-</li>
-</ul>
-<h4 id="启动测试"><a href="#启动测试" class="headerlink" title="启动测试"></a>启动测试</h4><blockquote>
-<p>接着运行 <code>$ electron .</code> 打开一个爱奇艺视频链接，发现可以加载咯。</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>frontend</category>
-        <category>summaries</category>
-      </categories>
-      <tags>
-        <tag>electron</tag>
-        <tag>node</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>纯CSS实现六边形布局和排列</title>
     <url>/2020/04/17/css-hexagon-layout-item/</url>
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote>
@@ -174,34 +92,45 @@
       </tags>
   </entry>
   <entry>
-    <title>nginx proxy 地址的问题</title>
-    <url>/2020/04/16/nginx-proxy-syntax/</url>
-    <content><![CDATA[<h3 id="第一种："><a href="#第一种：" class="headerlink" title="第一种："></a>第一种：</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F;proxy&#x2F; &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;127.0.0.1&#x2F;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>代理到URL：<a href="http://127.0.0.1/test.html" target="_blank" rel="noopener">http://127.0.0.1/test.html</a></p>
-</blockquote>
+    <title>个人收藏的MacOS好用的软件</title>
+    <url>/2020/04/16/collection-of-mac-apps/</url>
+    <content><![CDATA[<ol>
+<li><p><a href="https://www.microsoft.com/zh-cn/edge" target="_blank" rel="noopener">Microsoft Edge</a>:  重构后的<code>Microsoft Edge</code> 浏览器带来了出色的兼容性及性能，尤其是其云账户同步功能，速度非常快（我已经抛弃<code>chrome</code>了…）。</p>
+</li>
+<li><p><a href="https://www.alfredapp.com/" target="_blank" rel="noopener">Alfred</a>: 效率神器，不解释。</p>
+</li>
+<li><p><a href="https://www.keka.io/" target="_blank" rel="noopener">Keka</a>: 免费强大的压缩/解压缩软件，支持多种格式如<code>zip</code>,<code>rar</code>,<code>7z</code>等。</p>
+</li>
+<li><p><a href="https://github.com/Mortennn/Dozer" target="_blank" rel="noopener">Dozer</a>: 帮助我们隐藏<em>macOS</em> 菜单栏的图标, 免费开源。</p>
+</li>
+</ol>
 <a id="more"></a>
 
-
-<h3 id="第二种："><a href="#第二种：" class="headerlink" title="第二种："></a>第二种：</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F;proxy&#x2F; &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;127.0.0.1;  #少&#x2F;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>代理到URL：<a href="http://127.0.0.1/proxy/test.html" target="_blank" rel="noopener">http://127.0.0.1/proxy/test.html</a></p>
-</blockquote>
-<h3 id="第三种："><a href="#第三种：" class="headerlink" title="第三种："></a>第三种：</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F;proxy&#x2F; &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;127.0.0.1&#x2F;aaa&#x2F;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>代理到URL：<a href="http://127.0.0.1/aaa/test.html" target="_blank" rel="noopener">http://127.0.0.1/aaa/test.html</a></p>
-</blockquote>
-<h3 id="第四种（相对于第三种，最后少一个-）"><a href="#第四种（相对于第三种，最后少一个-）" class="headerlink" title="第四种（相对于第三种，最后少一个 / ）"></a>第四种（相对于第三种，最后少一个 / ）</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F;proxy&#x2F; &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;127.0.0.1&#x2F;aaa;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>代理到URL：<a href="http://127.0.0.1/aaatest.html" target="_blank" rel="noopener">http://127.0.0.1/aaatest.html</a></p>
-</blockquote>
+<ol start="2">
+<li><a href="https://sipapp.io/" target="_blank" rel="noopener">Sip</a>: 提取颜色，管理颜色的最佳工具，支持保存各种语言的颜色代码。</li>
+<li><a href="https://pasteapp.io/" target="_blank" rel="noopener">Paste</a>: 剪切板管理，主要是可以保存各种类型的剪贴记录，支持搜索。</li>
+<li><a href="https://zh.snipaste.com/" target="_blank" rel="noopener">Snipaste</a>: Snipaste 是一个简单但强大的截图工具，也可以让你将截图贴回到屏幕上！(支持贴图功能)。</li>
+<li><a href="https://github.com/ripperhe/Bob" target="_blank" rel="noopener">Bob</a>: Bob 是一款 Mac 端翻译软件，翻译方式支持划词翻译和截图翻译，翻译引擎支持有道翻译、百度翻译和谷歌翻译。</li>
+<li><a href="https://github.com/gee1k/uPic" target="_blank" rel="noopener">uPic</a>: 可将图片、各种文件上传到配置好的指定提供商的对象存储中，然后快速获取可供互联网访问的文件 URL。</li>
+<li><a href="https://github.com/yanue/V2rayU" target="_blank" rel="noopener">v2rayU</a>: V2rayU,基于v2ray核心的mac版客户端,用于科学上网,使用<code>swift</code>编写,支持<code>vmess,shadowsocks,socks5</code>等服务协议,支持订阅, 支持二维码,剪贴板导入,手动配置,二维码分享等。</li>
+<li><a href="https://www.iterm2.com/" target="_blank" rel="noopener">iTerm</a>: iTerm2是一款完全免费的，专为 Mac OS 用户打造的命令行应用，当然，也是程序员们的最爱。iTerm2本身支持很多自定义化的设置，比如自定义配色，自定义快捷键，方便的水平和垂直分屏功能，等等…… 毫不避讳的讲，说它是如今Mac下最好的终端工具也不为过。当然，日常工作与开发中，用它替代Mac自带的Terminal也是不二的选择。</li>
+<li><a href="https://codinn.com/" target="_blank" rel="noopener">SSH Copy</a>: SSH Copy for Mac是一个直观的SFTP（安全文件传输协议）客户端，允许您像Finder一样管理远程文件。</li>
+<li><a href="https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466?mt=12" target="_blank" rel="noopener">Microsoft Remote Desktop</a>: 支持远程访问Windows桌面</li>
+<li><a href="https://github.com/NaoTu/DesktopNaotu" target="_blank" rel="noopener">Desktop Naotu</a>: 桌面版脑图 (百度脑图离线版，思维导图) 跨平台支持 Windows/Linux/Mac OS. (A cross-platform multilingual Mind Map Tool)</li>
+<li><a href="https://typora.io/" target="_blank" rel="noopener">Typoa</a>: Typora 是一款<strong>支持实时预览的 Markdown 文本编辑器</strong>。它有 OS X、Windows、Linux 三个平台的版本，并且由于仍在测试中，是<strong>完全免费</strong>的。</li>
+<li><a href="https://www.postman.com/" target="_blank" rel="noopener">Postman</a>: Api 测试 GUI工具。</li>
+<li><a href="https://www.teamviewer.cn/" target="_blank" rel="noopener">TeamViewer</a>: 远程控制工具。</li>
+<li><a href="https://www.docker.com/products/docker-desktop" target="_blank" rel="noopener">Docker Desktop</a>: Docker Desktop For Mac。</li>
+<li><a href="https://listen1.github.io/listen1/" target="_blank" rel="noopener">Listen1</a>: Listen 1可以搜索和播放来自网易云音乐，虾米，QQ音乐，酷狗音乐，酷我音乐网站的歌曲，让你的曲库更全面。</li>
+<li><a href="https://1password.com/zh-cn/" target="_blank" rel="noopener">1Password</a>: 1Password 为你记住一切。保存您的密码并可一键登录网站。就是这么简单。</li>
+</ol>
 ]]></content>
       <categories>
-        <category>backend</category>
-        <category>summaries</category>
+        <category>MacOS</category>
       </categories>
       <tags>
-        <tag>nginx</tag>
+        <tag>software</tag>
+        <tag>app</tag>
       </tags>
   </entry>
   <entry>
@@ -262,6 +191,11 @@
 </blockquote>
 <p><img data-src="https://s1.ax1x.com/2020/04/17/JZVnCq.png" alt="JZVnCq.png"></p>
 <p><a href="https://flatuicolors.com/" target="_blank" rel="noopener">https://flatuicolors.com/</a></p>
+<h3 id="中国传统色谱"><a href="#中国传统色谱" class="headerlink" title="中国传统色谱"></a>中国传统色谱</h3><blockquote>
+<p>提供多种中国传统配色，十分亮眼；</p>
+</blockquote>
+<p><img data-src="https://s1.ax1x.com/2020/04/20/JlUT1J.png" alt="JlUT1J.png"></p>
+<p><a href="http://zhongguose.com/" target="_blank" rel="noopener">http://zhongguose.com/</a></p>
 <h2 id="渐变"><a href="#渐变" class="headerlink" title="渐变"></a>渐变</h2><h3 id="Coolhue"><a href="#Coolhue" class="headerlink" title="Coolhue"></a>Coolhue</h3><blockquote>
 <p>CoolHue 首页大概有 60 种渐变色背景，当然，这个数目会持续增加。选择你中意的配色方案，点击下载即可获得一张适当分辨率的方形 PNG 图片。点击代码图标，可以复制该渐变色的 CSS3 语法。在一些网页设计中，直接应用，相比上传渐变色图片，更省流量。下方可以直接复制 16 进制代码，用于 PPT 或者 PS ，甚至电脑画图程序当中。</p>
 </blockquote>
@@ -296,6 +230,46 @@
       <tags>
         <tag>css</tag>
         <tag>frontend</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>electron使用flash插件</title>
+    <url>/2016/10/16/electron-use-flash-extension/</url>
+    <content><![CDATA[<h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><blockquote>
+<p>最近有个需求是使用Electron开发一个Windows直播的客户端，使用Flash进行播放相关功能，但是Electron的Flash功能需要插件支持，折腾好久才搞定，做个记录。  </p>
+</blockquote>
+<a id="more"></a>
+
+<h3 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h3><h4 id="安装electron"><a href="#安装electron" class="headerlink" title="安装electron"></a>安装electron</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install electron -g</span><br></pre></td></tr></table></figure>
+<h4 id="创建项目-1"><a href="#创建项目-1" class="headerlink" title="创建项目"></a>创建项目</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ mkdir <span class="built_in">test</span></span><br><span class="line">$ <span class="built_in">cd</span> <span class="built_in">test</span>/</span><br><span class="line">$ touch package.json</span><br><span class="line">$ touch main.js</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>package.json  </p>
+</blockquote>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"name"</span>: <span class="string">"test"</span>,</span><br><span class="line">  <span class="attr">"version"</span>: <span class="string">"1.0.0"</span>,</span><br><span class="line">  <span class="attr">"main"</span>: <span class="string">"main.js"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>main.js  </p>
+</blockquote>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> &#123;app, BrowserWindow&#125; = <span class="built_in">require</span>(<span class="string">'electron'</span>)</span><br><span class="line"><span class="keyword">const</span> &#123;resolve&#125; = <span class="built_in">require</span>(<span class="string">'path'</span>)</span><br><span class="line"><span class="keyword">const</span> url = <span class="built_in">require</span>(<span class="string">'url'</span>)</span><br><span class="line"><span class="comment">// 注册Flash插件</span></span><br><span class="line"><span class="keyword">const</span> flashplayer = resolve(__dirname, <span class="string">'pepflashplayer.dll'</span>)</span><br><span class="line">app.commandLine.appendSwitch(<span class="string">'ppapi-flash-path'</span>, flashplayer);</span><br><span class="line">app.commandLine.appendSwitch(<span class="string">'ppapi-flash-version'</span>, <span class="string">'23.0.0.194'</span>);</span><br><span class="line"><span class="comment">// 保持一个对于 window 对象的全局引用，如果你不这样做，</span></span><br><span class="line"><span class="comment">// 当 JavaScript 对象被垃圾回收， window 会被自动地关闭</span></span><br><span class="line"><span class="keyword">let</span> win</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">createWindow</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="comment">// 创建浏览器窗口。</span></span><br><span class="line">  win = <span class="keyword">new</span> BrowserWindow(&#123;</span><br><span class="line">    width: <span class="number">800</span>,</span><br><span class="line">    height: <span class="number">600</span>,</span><br><span class="line">    webPreferences: &#123; <span class="comment">// 注意一定要 添加这个 不然flash插件不会生效</span></span><br><span class="line">      plugins: <span class="literal">true</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;)</span><br><span class="line">  <span class="comment">// 随便加载一个flash视频页面</span></span><br><span class="line">  win.loadURL(<span class="string">'http://www.iqiyi.com/v_19rrarwio8.html?list=19rrkp73da'</span>)</span><br><span class="line">  <span class="comment">// 打开开发者工具。</span></span><br><span class="line">  win.webContents.openDevTools()</span><br><span class="line">  <span class="comment">// 当 window 被关闭，这个事件会被触发。</span></span><br><span class="line">  win.on(<span class="string">'closed'</span>, () =&gt; &#123;</span><br><span class="line">    <span class="comment">// 取消引用 window 对象，如果你的应用支持多窗口的话，</span></span><br><span class="line">    <span class="comment">// 通常会把多个 window 对象存放在一个数组里面，</span></span><br><span class="line">    <span class="comment">// 与此同时，你应该删除相应的元素。</span></span><br><span class="line">    win = <span class="literal">null</span></span><br><span class="line">  &#125;)</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// Electron 会在初始化后并准备</span></span><br><span class="line"><span class="comment">// 创建浏览器窗口时，调用这个函数。</span></span><br><span class="line"><span class="comment">// 部分 API 在 ready 事件触发后才能使用。</span></span><br><span class="line">app.on(<span class="string">'ready'</span>, createWindow)</span><br><span class="line"><span class="comment">// 当全部窗口关闭时退出。</span></span><br><span class="line">app.on(<span class="string">'window-all-closed'</span>, () =&gt; &#123;</span><br><span class="line">  <span class="comment">// 在 macOS 上，除非用户用 Cmd + Q 确定地退出，</span></span><br><span class="line">  <span class="comment">// 否则绝大部分应用及其菜单栏会保持激活。</span></span><br><span class="line">  <span class="keyword">if</span> (process.platform !== <span class="string">'darwin'</span>) &#123;</span><br><span class="line">    app.quit()</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br><span class="line">app.on(<span class="string">'activate'</span>, () =&gt; &#123;</span><br><span class="line">  <span class="comment">// 在这文件，你可以续写应用剩下主进程代码。</span></span><br><span class="line">  <span class="comment">// 也可以拆分成几个文件，然后用 require 导入。</span></span><br><span class="line">  <span class="keyword">if</span> (win === <span class="literal">null</span>) &#123;</span><br><span class="line">    createWindow()</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+<h4 id="放置dll文件"><a href="#放置dll文件" class="headerlink" title="放置dll文件"></a>放置dll文件</h4><ul>
+<li>如果你有安装Chrome浏览器，可以在地址栏输入<code>chrome://plugins/</code>，点击右侧的详细信息，找到<code>Adobe Flash Player</code>条目，在位置项复制<code>pepflashplayer.dll</code> (<strong>Windows</strong>)文件到项目目录。</li>
+<li>单独安装请打开官方下载页面 <code>http://get2.adobe.com/cn/flashplayer/otherversions/</code>，选择你的操作系统，版本选择<code>for Opera and Chromium-PPAPI</code>结尾的版本。安装完毕后:<ul>
+<li>在<code>C:\Windows\SysWOW64\Macromed\Flash</code>下找到32位版本如：<code>pepflashplayer32_24_0_0_194.dll</code>(名称和版本号可能有出入)。 </li>
+<li><code>在C:\Windows\System32\Macromed\Flash</code>下找到64位版本，如：<code>pepflashplayer64_24_0_0_194.dll</code>(名称和版本号可能有出入)。</li>
+<li>然后复制到项目目录，重命名为<code>pepflashplayer.dll</code>即可。</li>
+</ul>
+</li>
+</ul>
+<h4 id="启动测试"><a href="#启动测试" class="headerlink" title="启动测试"></a>启动测试</h4><blockquote>
+<p>接着运行 <code>$ electron .</code> 打开一个爱奇艺视频链接，发现可以加载咯。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>frontend</category>
+        <category>summaries</category>
+      </categories>
+      <tags>
+        <tag>electron</tag>
+        <tag>node</tag>
       </tags>
   </entry>
   <entry>
@@ -357,6 +331,37 @@
       </categories>
       <tags>
         <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>nginx proxy 地址的问题</title>
+    <url>/2020/04/16/nginx-proxy-syntax/</url>
+    <content><![CDATA[<h3 id="第一种："><a href="#第一种：" class="headerlink" title="第一种："></a>第一种：</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F;proxy&#x2F; &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;127.0.0.1&#x2F;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>代理到URL：<a href="http://127.0.0.1/test.html" target="_blank" rel="noopener">http://127.0.0.1/test.html</a></p>
+</blockquote>
+<a id="more"></a>
+
+
+<h3 id="第二种："><a href="#第二种：" class="headerlink" title="第二种："></a>第二种：</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F;proxy&#x2F; &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;127.0.0.1;  #少&#x2F;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>代理到URL：<a href="http://127.0.0.1/proxy/test.html" target="_blank" rel="noopener">http://127.0.0.1/proxy/test.html</a></p>
+</blockquote>
+<h3 id="第三种："><a href="#第三种：" class="headerlink" title="第三种："></a>第三种：</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F;proxy&#x2F; &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;127.0.0.1&#x2F;aaa&#x2F;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>代理到URL：<a href="http://127.0.0.1/aaa/test.html" target="_blank" rel="noopener">http://127.0.0.1/aaa/test.html</a></p>
+</blockquote>
+<h3 id="第四种（相对于第三种，最后少一个-）"><a href="#第四种（相对于第三种，最后少一个-）" class="headerlink" title="第四种（相对于第三种，最后少一个 / ）"></a>第四种（相对于第三种，最后少一个 / ）</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F;proxy&#x2F; &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;127.0.0.1&#x2F;aaa;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>代理到URL：<a href="http://127.0.0.1/aaatest.html" target="_blank" rel="noopener">http://127.0.0.1/aaatest.html</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>backend</category>
+        <category>summaries</category>
+      </categories>
+      <tags>
+        <tag>nginx</tag>
       </tags>
   </entry>
   <entry>
