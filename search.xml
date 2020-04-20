@@ -92,49 +92,7 @@
       </tags>
   </entry>
   <entry>
-    <title>个人收藏的MacOS好用的软件</title>
-    <url>/2020/04/16/collection-of-mac-apps/</url>
-    <content><![CDATA[<ol>
-<li><p><a href="https://www.microsoft.com/zh-cn/edge" target="_blank" rel="noopener">Microsoft Edge</a>:  重构后的<code>Microsoft Edge</code> 浏览器带来了出色的兼容性及性能，尤其是其云账户同步功能，速度非常快（我已经抛弃<code>chrome</code>了…）。</p>
-</li>
-<li><p><a href="https://www.alfredapp.com/" target="_blank" rel="noopener">Alfred</a>: 效率神器，不解释。</p>
-</li>
-<li><p><a href="https://www.keka.io/" target="_blank" rel="noopener">Keka</a>: 免费强大的压缩/解压缩软件，支持多种格式如<code>zip</code>,<code>rar</code>,<code>7z</code>等。</p>
-</li>
-<li><p><a href="https://github.com/Mortennn/Dozer" target="_blank" rel="noopener">Dozer</a>: 帮助我们隐藏<em>macOS</em> 菜单栏的图标, 免费开源。</p>
-</li>
-</ol>
-<a id="more"></a>
-
-<ol start="2">
-<li><a href="https://sipapp.io/" target="_blank" rel="noopener">Sip</a>: 提取颜色，管理颜色的最佳工具，支持保存各种语言的颜色代码。</li>
-<li><a href="https://pasteapp.io/" target="_blank" rel="noopener">Paste</a>: 剪切板管理，主要是可以保存各种类型的剪贴记录，支持搜索。</li>
-<li><a href="https://zh.snipaste.com/" target="_blank" rel="noopener">Snipaste</a>: Snipaste 是一个简单但强大的截图工具，也可以让你将截图贴回到屏幕上！(支持贴图功能)。</li>
-<li><a href="https://github.com/ripperhe/Bob" target="_blank" rel="noopener">Bob</a>: Bob 是一款 Mac 端翻译软件，翻译方式支持划词翻译和截图翻译，翻译引擎支持有道翻译、百度翻译和谷歌翻译。</li>
-<li><a href="https://github.com/gee1k/uPic" target="_blank" rel="noopener">uPic</a>: 可将图片、各种文件上传到配置好的指定提供商的对象存储中，然后快速获取可供互联网访问的文件 URL。</li>
-<li><a href="https://github.com/yanue/V2rayU" target="_blank" rel="noopener">v2rayU</a>: V2rayU,基于v2ray核心的mac版客户端,用于科学上网,使用<code>swift</code>编写,支持<code>vmess,shadowsocks,socks5</code>等服务协议,支持订阅, 支持二维码,剪贴板导入,手动配置,二维码分享等。</li>
-<li><a href="https://www.iterm2.com/" target="_blank" rel="noopener">iTerm</a>: iTerm2是一款完全免费的，专为 Mac OS 用户打造的命令行应用，当然，也是程序员们的最爱。iTerm2本身支持很多自定义化的设置，比如自定义配色，自定义快捷键，方便的水平和垂直分屏功能，等等…… 毫不避讳的讲，说它是如今Mac下最好的终端工具也不为过。当然，日常工作与开发中，用它替代Mac自带的Terminal也是不二的选择。</li>
-<li><a href="https://codinn.com/" target="_blank" rel="noopener">SSH Copy</a>: SSH Copy for Mac是一个直观的SFTP（安全文件传输协议）客户端，允许您像Finder一样管理远程文件。</li>
-<li><a href="https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466?mt=12" target="_blank" rel="noopener">Microsoft Remote Desktop</a>: 支持远程访问Windows桌面</li>
-<li><a href="https://github.com/NaoTu/DesktopNaotu" target="_blank" rel="noopener">Desktop Naotu</a>: 桌面版脑图 (百度脑图离线版，思维导图) 跨平台支持 Windows/Linux/Mac OS. (A cross-platform multilingual Mind Map Tool)</li>
-<li><a href="https://typora.io/" target="_blank" rel="noopener">Typoa</a>: Typora 是一款<strong>支持实时预览的 Markdown 文本编辑器</strong>。它有 OS X、Windows、Linux 三个平台的版本，并且由于仍在测试中，是<strong>完全免费</strong>的。</li>
-<li><a href="https://www.postman.com/" target="_blank" rel="noopener">Postman</a>: Api 测试 GUI工具。</li>
-<li><a href="https://www.teamviewer.cn/" target="_blank" rel="noopener">TeamViewer</a>: 远程控制工具。</li>
-<li><a href="https://www.docker.com/products/docker-desktop" target="_blank" rel="noopener">Docker Desktop</a>: Docker Desktop For Mac。</li>
-<li><a href="https://listen1.github.io/listen1/" target="_blank" rel="noopener">Listen1</a>: Listen 1可以搜索和播放来自网易云音乐，虾米，QQ音乐，酷狗音乐，酷我音乐网站的歌曲，让你的曲库更全面。</li>
-<li><a href="https://1password.com/zh-cn/" target="_blank" rel="noopener">1Password</a>: 1Password 为你记住一切。保存您的密码并可一键登录网站。就是这么简单。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>MacOS</category>
-      </categories>
-      <tags>
-        <tag>software</tag>
-        <tag>app</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>推荐一些好用的CSS工具网站</title>
+    <title>收集一些好用的CSS工具网站【不定时更新】</title>
     <url>/2020/04/17/css-util-resources/</url>
     <content><![CDATA[<h2 id="免费版权图片-视频"><a href="#免费版权图片-视频" class="headerlink" title="免费版权图片/视频"></a>免费版权图片/视频</h2><h3 id="Logosc"><a href="#Logosc" class="headerlink" title="Logosc"></a>Logosc</h3><blockquote>
 <p>提供很多免费免版权的图片搜索和使用。</p>
@@ -233,6 +191,189 @@
       </tags>
   </entry>
   <entry>
+    <title>收集一些实用的前端js工具库【不定时更新】</title>
+    <url>/2020/04/20/js-util-libary/</url>
+    <content><![CDATA[<h2 id="十进制运算"><a href="#十进制运算" class="headerlink" title="十进制运算"></a>十进制运算</h2><h3 id="big-js"><a href="#big-js" class="headerlink" title="big.js"></a><a href="https://github.com/MikeMcl/big.js" target="_blank" rel="noopener">big.js</a></h3><blockquote>
+<p>一个小型，快速的JavaScript库，用于任意精度的十进制算术运算。</p>
+</blockquote>
+<h3 id="bignumber-js"><a href="#bignumber-js" class="headerlink" title="bignumber.js"></a><a href="https://github.com/MikeMcl/bignumber.js" target="_blank" rel="noopener">bignumber.js</a></h3><blockquote>
+<p>一个用于任意精度十进制和非十进制算术的JavaScript库。</p>
+</blockquote>
+<h3 id="decimal-js"><a href="#decimal-js" class="headerlink" title="decimal.js"></a><a href="https://github.com/MikeMcl/decimal.js" target="_blank" rel="noopener">decimal.js</a></h3><blockquote>
+<p>JavaScript的任意精度的十进制类型。</p>
+</blockquote>
+<a id="more"></a>
+
+<h2 id="时间处理"><a href="#时间处理" class="headerlink" title="时间处理"></a>时间处理</h2><h3 id="dayjs"><a href="#dayjs" class="headerlink" title="dayjs"></a><a href="https://github.com/iamkun/dayjs" target="_blank" rel="noopener">dayjs</a></h3><blockquote>
+<p>只有2KB的时间处理库，使用方式如同 <code>Moment API</code>，可以通过添加插件实现更多功能。</p>
+</blockquote>
+<h2 id="垫片"><a href="#垫片" class="headerlink" title="垫片"></a>垫片</h2><h3 id="promise-allsettled"><a href="#promise-allsettled" class="headerlink" title="promise.allsettled"></a><a href="https://github.com/es-shims/promise.allsettled" target="_blank" rel="noopener">promise.allsettled</a></h3><blockquote>
+<p>当前版本的 <code>Promise</code> 提供了 <code>.all()</code> 静态方法，用于合并一系列 <code>Promise</code> 的结果。</p>
+<p>然而，由于单一 <code>Promise</code> 进入 <code>rejected</code> 状态便会立即让 <code>Promise.all()</code> 的结果进入 <code>rejected</code> 状态，以至于通过 <code>Promise.all()</code> 进入 <code>rejected</code> 状态时，其中的源 <code>Promise</code> 仍然可能处于 <code>pending</code> 状态，以至于无法获得所有 <code>Promise</code> 完成的时机。</p>
+<p><code>Promise.allSettled()</code> 静态方法会等待所有源 <code>Promise</code> 进入 <code>fulfilled</code> 或者 <code>rejected</code> 状态，从而确保不会造成时序上的冲突。</p>
+</blockquote>
+<h3 id="Promise-prototype-finally"><a href="#Promise-prototype-finally" class="headerlink" title="Promise.prototype.finally"></a><a href="https://github.com/es-shims/Promise.prototype.finally" target="_blank" rel="noopener">Promise.prototype.finally</a></h3><blockquote>
+<p>给<code>Promise</code>实例添加 <code>.finally</code>方法，以保证代码无论在<code>Promise</code>的<code>resolve</code>或者<code>reject</code>时被执行。</p>
+</blockquote>
+<h2 id="异步处理"><a href="#异步处理" class="headerlink" title="异步处理"></a>异步处理</h2><h3 id="await-to-js"><a href="#await-to-js" class="headerlink" title="await-to-js"></a><a href="https://github.com/scopsy/await-to-js" target="_blank" rel="noopener">await-to-js</a></h3><blockquote>
+<p>用于异步等待包装器，可轻松处理错误，而无需尝试捕获；可将任意<code>Promise</code> 转换为<code>[err, data]</code>的数组返回值，方便平铺逻辑代码，不使用<code>.catch</code>和<code>try/catch</code>来捕捉错误，从而减少代码嵌套。</p>
+</blockquote>
+<h2 id="数据处理-实用工具"><a href="#数据处理-实用工具" class="headerlink" title="数据处理/实用工具"></a>数据处理/实用工具</h2><h3 id="lodash"><a href="#lodash" class="headerlink" title="lodash"></a><a href="https://github.com/lodash/lodash" target="_blank" rel="noopener">lodash</a></h3><blockquote>
+<p>现代化的JavaScript实用程序库，提供模块化，高性能和附加功能。</p>
+</blockquote>
+<h3 id="ramda"><a href="#ramda" class="headerlink" title="ramda"></a><a href="https://github.com/ramda/ramda" target="_blank" rel="noopener">ramda</a></h3><blockquote>
+<p>一个专门为函数式编程风格设计的库，每个方法会返回新的函数或者值，不会改变原始值。</p>
+</blockquote>
+<h3 id="licia"><a href="#licia" class="headerlink" title="licia"></a><a href="https://github.com/liriliri/licia" target="_blank" rel="noopener">licia</a></h3><blockquote>
+<p>Licia 是一套在开发中实践积累起来的实用 JavaScript 工具库。该库目前拥有超过 400 个模块，包括 Dom 操作，cookie 设置，类创建，模板函数，日期格式化等实用模块，同时配套有打包工具 Eustia 进行定制化，使JS脚本加载量缩减在 10KB 以下，极大优化移动端页面的加载速度。</p>
+</blockquote>
+<h3 id="collect-js"><a href="#collect-js" class="headerlink" title="collect.js"></a><a href="https://github.com/ecrmnn/collect.js" target="_blank" rel="noopener">collect.js</a></h3><blockquote>
+<p>方便且无依赖的工具库，用于处理数组和对象。</p>
+</blockquote>
+<h2 id="模拟数据"><a href="#模拟数据" class="headerlink" title="模拟数据"></a>模拟数据</h2><h3 id="Mock"><a href="#Mock" class="headerlink" title="Mock"></a><a href="https://github.com/nuysoft/Mock" target="_blank" rel="noopener">Mock</a></h3><blockquote>
+<p>Mock.js是一个模拟数据生成器，可帮助前端开发和原型与后端进度分开，并减少某些单调性，尤其是在编写自动化测试时。</p>
+</blockquote>
+<h3 id="chancejs"><a href="#chancejs" class="headerlink" title="chancejs"></a><a href="https://github.com/chancejs/chancejs" target="_blank" rel="noopener">chancejs</a></h3><blockquote>
+<p>Chancejs 是生成随机字符串，数字等的极简主义生成器，以帮助减少某些单调性，尤其是在编写自动测试或任何您需要任何随机值的地方。</p>
+</blockquote>
+<h2 id="字符串处理"><a href="#字符串处理" class="headerlink" title="字符串处理"></a>字符串处理</h2><h3 id="qs"><a href="#qs" class="headerlink" title="qs"></a><a href="https://github.com/ljharb/qs" target="_blank" rel="noopener">qs</a></h3><blockquote>
+<p>具有嵌套支持的<code>querystring</code>解析器。</p>
+</blockquote>
+<h3 id="voca"><a href="#voca" class="headerlink" title="voca"></a><a href="https://github.com/panzerdp/voca" target="_blank" rel="noopener">voca</a></h3><blockquote>
+<p>Voca是一个用于处理字符串的JavaScript库。</p>
+</blockquote>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">v.camelCase(<span class="string">'bird flight'</span>);              <span class="comment">// =&gt; 'birdFlight'</span></span><br><span class="line">v.sprintf(<span class="string">'%s costs $%.2f'</span>, <span class="string">'Tea'</span>, <span class="number">1.5</span>); <span class="comment">// =&gt; 'Tea costs $1.50'</span></span><br><span class="line">v.slugify(<span class="string">'What a wonderful world'</span>);     <span class="comment">// =&gt; 'what-a-wonderful-world'</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="加解密"><a href="#加解密" class="headerlink" title="加解密"></a>加解密</h2><h3 id="crypto-js"><a href="#crypto-js" class="headerlink" title="crypto-js"></a><a href="https://github.com/brix/crypto-js" target="_blank" rel="noopener">crypto-js</a></h3><blockquote>
+<p>加密标准的JavaScript库。</p>
+</blockquote>
+<h3 id="字节格式化"><a href="#字节格式化" class="headerlink" title="字节格式化"></a>字节格式化</h3><h3 id="pretty-bytes"><a href="#pretty-bytes" class="headerlink" title="pretty-bytes"></a><a href="https://github.com/sindresorhus/pretty-bytes" target="_blank" rel="noopener">pretty-bytes</a></h3><blockquote>
+<p>将字节转换为人类可读的字符串：1337→1.34 kB</p>
+</blockquote>
+<h2 id="图片懒加载"><a href="#图片懒加载" class="headerlink" title="图片懒加载"></a>图片懒加载</h2><h3 id="lazyload"><a href="#lazyload" class="headerlink" title="lazyload"></a><a href="https://github.com/tuupola/lazyload" target="_blank" rel="noopener">lazyload</a></h3><blockquote>
+<p>使长网页中图像延迟加载，<br>用户滚动到窗口可视范围内的图像之前，不会加载它们。<br>这与图像预加载相反。</p>
+</blockquote>
+<h3 id="lazysizes"><a href="#lazysizes" class="headerlink" title="lazysizes"></a><a href="https://github.com/aFarkas/lazysizes" target="_blank" rel="noopener">lazysizes</a></h3><blockquote>
+<p>高性能和SEO友好的惰性加载器，用于图像，iframe等，可检测用户交互，CSS或JavaScript触发的可见性更改，而无需进行配置。</p>
+</blockquote>
+<h2 id="图片预览"><a href="#图片预览" class="headerlink" title="图片预览"></a>图片预览</h2><h3 id="viewerjs"><a href="#viewerjs" class="headerlink" title="viewerjs"></a><a href="https://github.com/fengyuanchen/viewerjs" target="_blank" rel="noopener">viewerjs</a></h3><blockquote>
+<p>JavaScript image viewer. </p>
+</blockquote>
+<h3 id="lightbox2"><a href="#lightbox2" class="headerlink" title="lightbox2"></a><a href="https://github.com/lokesh/lightbox2" target="_blank" rel="noopener">lightbox2</a></h3><blockquote>
+<p>一个灯箱效果的图片展示插件。</p>
+</blockquote>
+<h3 id="medium-zoom"><a href="#medium-zoom" class="headerlink" title="medium-zoom"></a><a href="https://github.com/francoischalifour/medium-zoom" target="_blank" rel="noopener">medium-zoom</a></h3><blockquote>
+<p>一个模仿 <code>medium</code>的图片查看JavaScript库</p>
+</blockquote>
+<h2 id="http请求"><a href="#http请求" class="headerlink" title="http请求"></a>http请求</h2><h3 id="axios"><a href="#axios" class="headerlink" title="axios"></a><a href="https://github.com/axios/axios" target="_blank" rel="noopener">axios</a></h3><blockquote>
+<p>基于<code>Promise</code>的<code>HTTP</code>客户端，用于浏览器和<code>node.js</code></p>
+</blockquote>
+<h3 id="fly"><a href="#fly" class="headerlink" title="fly"></a><a href="https://github.com/wendux/fly" target="_blank" rel="noopener">fly</a></h3><blockquote>
+<p>支持所有<code>JavaScript</code>运行时的请求转发和基于<code>Promise</code>的<code>HTTP</code>客户端。</p>
+</blockquote>
+<h2 id="数据可视化-图表"><a href="#数据可视化-图表" class="headerlink" title="数据可视化/图表"></a>数据可视化/图表</h2><h3 id="echarts"><a href="#echarts" class="headerlink" title="echarts"></a><a href="https://echarts.apache.org/" target="_blank" rel="noopener">echarts</a></h3><blockquote>
+<p>一个使用 <code>JavaScript</code> 实现的开源可视化库，可以流畅的运行在 <code>PC</code> 和移动设备上，兼容当前绝大部分浏览器<code>（IE8/9/10/11，Chrome，Firefox，Safari等）</code>，底层依赖矢量图形库 <a href="https://github.com/ecomfe/zrender" target="_blank" rel="noopener">ZRender</a>，提供直观，交互丰富，可高度个性化定制的数据可视化图表。</p>
+</blockquote>
+<h3 id="antv"><a href="#antv" class="headerlink" title="antv"></a><a href="https://antv.vision/" target="_blank" rel="noopener">antv</a></h3><blockquote>
+<p><code>AntV</code> 是蚂蚁金服全新一代数据可视化解决方案，致力于提供一套简单方便、专业可靠、无限可能的数据可视化最佳实践。</p>
+</blockquote>
+<h3 id="d3"><a href="#d3" class="headerlink" title="d3"></a><a href="https://github.com/d3/d3" target="_blank" rel="noopener">d3</a></h3><blockquote>
+<p>通过<code>SVG</code>，<code>Canvas</code>和<code>HTML</code>使数据栩栩如生。</p>
+</blockquote>
+<h2 id="手势"><a href="#手势" class="headerlink" title="手势"></a>手势</h2><h3 id="any-touch"><a href="#any-touch" class="headerlink" title="any-touch"></a><a href="https://github.com/any86/any-touch" target="_blank" rel="noopener">any-touch</a></h3><blockquote>
+<p>手势库, 按需2kb~5kb, 支持PC / 手机 / 微信端。</p>
+</blockquote>
+<h3 id="hammer-js"><a href="#hammer-js" class="headerlink" title="hammer.js"></a><a href="https://github.com/hammerjs/hammer.js" target="_blank" rel="noopener">hammer.js</a></h3><blockquote>
+<p>一个用于多点触控手势的JavaScript库。</p>
+</blockquote>
+<h2 id="拖拽"><a href="#拖拽" class="headerlink" title="拖拽"></a>拖拽</h2><h3 id="draggabilly"><a href="#draggabilly" class="headerlink" title="draggabilly"></a><a href="https://github.com/desandro/draggabilly" target="_blank" rel="noopener">draggabilly</a></h3><blockquote>
+<p>一个专注于拖拽功能的 JS 库。</p>
+</blockquote>
+<h3 id="dragula"><a href="#dragula" class="headerlink" title="dragula"></a><a href="https://github.com/bevacqua/dragula" target="_blank" rel="noopener">dragula</a></h3><blockquote>
+<p>拖放是如此简单。</p>
+</blockquote>
+<h3 id="Sortable"><a href="#Sortable" class="headerlink" title="Sortable"></a><a href="https://github.com/SortableJS/Sortable" target="_blank" rel="noopener">Sortable</a></h3><blockquote>
+<p>Sortable.js是一款轻量级的拖放排序列表的js插件（虽然体积小，但是功能很强大）。</p>
+</blockquote>
+<h2 id="加载进度条"><a href="#加载进度条" class="headerlink" title="加载进度条"></a>加载进度条</h2><h3 id="nprogress"><a href="#nprogress" class="headerlink" title="nprogress"></a><a href="https://github.com/rstacruz/nprogress" target="_blank" rel="noopener">nprogress</a></h3><blockquote>
+<p>适用于<code>Ajax</code>应用程序的超薄进度条。<br>受到<code>Google</code>，<code>YouTube</code>和<code>Medium</code>的启发。</p>
+</blockquote>
+<h3 id="qier-progress"><a href="#qier-progress" class="headerlink" title="qier-progress"></a><a href="https://github.com/vortesnail/qier-progress" target="_blank" rel="noopener">qier-progress</a></h3><blockquote>
+<p><code>qier-progress</code> 用于缓解用户焦虑的进度条，它优美且简单，在你的网页发送请求或跳转网站的时候使用它吧！当然，还可以用于一些文件上传或加载场景。如果你知道 <a href="https://github.com/rstacruz/nprogress" target="_blank" rel="noopener">nprogress</a>，那你对这个插件就更不会陌生了。</p>
+</blockquote>
+<h2 id="文件保存"><a href="#文件保存" class="headerlink" title="文件保存"></a>文件保存</h2><h3 id="FileSaver-js"><a href="#FileSaver-js" class="headerlink" title="FileSaver.js"></a><a href="https://github.com/eligrey/FileSaver.js" target="_blank" rel="noopener">FileSaver.js</a></h3><blockquote>
+<p>一个<code>HTML5 saveAs（）</code> 的实现</p>
+</blockquote>
+<h2 id="调试"><a href="#调试" class="headerlink" title="调试"></a>调试</h2><h3 id="vConsole"><a href="#vConsole" class="headerlink" title="vConsole"></a><a href="https://github.com/Tencent/vConsole" target="_blank" rel="noopener">vConsole</a></h3><blockquote>
+<p>腾讯团队出品，用于移动网页的轻量级，可扩展的前端开发人员工具。</p>
+</blockquote>
+<h3 id="eruda"><a href="#eruda" class="headerlink" title="eruda"></a><a href="https://github.com/liriliri/eruda" target="_blank" rel="noopener">eruda</a></h3><blockquote>
+<p>Eruda 是一个专为手机网页前端设计的调试面板，类似 DevTools 的迷你版，其主要功能包括：捕获 console 日志、检查元素状态、捕获XHR请求、显示本地存储和 Cookie 信息等等。</p>
+</blockquote>
+<h3 id="spy-debugger"><a href="#spy-debugger" class="headerlink" title="spy-debugger"></a><a href="https://github.com/wuchangming/spy-debugger" target="_blank" rel="noopener">spy-debugger</a></h3><blockquote>
+<p>微信调试，各种WebView样式调试、手机浏览器的页面真机调试。便捷的远程调试手机页面、抓包工具，支持：HTTP/HTTPS，无需USB连接设备。</p>
+</blockquote>
+<h2 id="富文本编辑器"><a href="#富文本编辑器" class="headerlink" title="富文本编辑器"></a>富文本编辑器</h2><h3 id="jodit"><a href="#jodit" class="headerlink" title="jodit"></a><a href="https://github.com/xdan/jodit" target="_blank" rel="noopener">jodit</a></h3><blockquote>
+<p>Jodit-最佳“所见即所得”编辑器</p>
+</blockquote>
+<h3 id="Trumbowyg"><a href="#Trumbowyg" class="headerlink" title="Trumbowyg"></a><a href="https://github.com/Alex-D/Trumbowyg" target="_blank" rel="noopener">Trumbowyg</a></h3><blockquote>
+<p>轻巧而惊人的 JavaScript富文本编辑器-仅20kB（gzip之后仅8kB）</p>
+</blockquote>
+<h3 id="summernote"><a href="#summernote" class="headerlink" title="summernote"></a><a href="https://github.com/summernote/summernote" target="_blank" rel="noopener">summernote</a></h3><blockquote>
+<p>超级简单的所见即所得编辑器</p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>frontend</tag>
+        <tag>js</tag>
+        <tag>node</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>个人收藏的MacOS好用的软件</title>
+    <url>/2020/04/16/collection-of-mac-apps/</url>
+    <content><![CDATA[<ol>
+<li><p><a href="https://www.microsoft.com/zh-cn/edge" target="_blank" rel="noopener">Microsoft Edge</a>:  重构后的<code>Microsoft Edge</code> 浏览器带来了出色的兼容性及性能，尤其是其云账户同步功能，速度非常快（我已经抛弃<code>chrome</code>了…）。</p>
+</li>
+<li><p><a href="https://www.alfredapp.com/" target="_blank" rel="noopener">Alfred</a>: 效率神器，不解释。</p>
+</li>
+<li><p><a href="https://www.keka.io/" target="_blank" rel="noopener">Keka</a>: 免费强大的压缩/解压缩软件，支持多种格式如<code>zip</code>,<code>rar</code>,<code>7z</code>等。</p>
+</li>
+<li><p><a href="https://github.com/Mortennn/Dozer" target="_blank" rel="noopener">Dozer</a>: 帮助我们隐藏<em>macOS</em> 菜单栏的图标, 免费开源。</p>
+</li>
+</ol>
+<a id="more"></a>
+
+<ol start="2">
+<li><a href="https://sipapp.io/" target="_blank" rel="noopener">Sip</a>: 提取颜色，管理颜色的最佳工具，支持保存各种语言的颜色代码。</li>
+<li><a href="https://pasteapp.io/" target="_blank" rel="noopener">Paste</a>: 剪切板管理，主要是可以保存各种类型的剪贴记录，支持搜索。</li>
+<li><a href="https://zh.snipaste.com/" target="_blank" rel="noopener">Snipaste</a>: Snipaste 是一个简单但强大的截图工具，也可以让你将截图贴回到屏幕上！(支持贴图功能)。</li>
+<li><a href="https://github.com/ripperhe/Bob" target="_blank" rel="noopener">Bob</a>: Bob 是一款 Mac 端翻译软件，翻译方式支持划词翻译和截图翻译，翻译引擎支持有道翻译、百度翻译和谷歌翻译。</li>
+<li><a href="https://github.com/gee1k/uPic" target="_blank" rel="noopener">uPic</a>: 可将图片、各种文件上传到配置好的指定提供商的对象存储中，然后快速获取可供互联网访问的文件 URL。</li>
+<li><a href="https://github.com/yanue/V2rayU" target="_blank" rel="noopener">v2rayU</a>: V2rayU,基于v2ray核心的mac版客户端,用于科学上网,使用<code>swift</code>编写,支持<code>vmess,shadowsocks,socks5</code>等服务协议,支持订阅, 支持二维码,剪贴板导入,手动配置,二维码分享等。</li>
+<li><a href="https://www.iterm2.com/" target="_blank" rel="noopener">iTerm</a>: iTerm2是一款完全免费的，专为 Mac OS 用户打造的命令行应用，当然，也是程序员们的最爱。iTerm2本身支持很多自定义化的设置，比如自定义配色，自定义快捷键，方便的水平和垂直分屏功能，等等…… 毫不避讳的讲，说它是如今Mac下最好的终端工具也不为过。当然，日常工作与开发中，用它替代Mac自带的Terminal也是不二的选择。</li>
+<li><a href="https://codinn.com/" target="_blank" rel="noopener">SSH Copy</a>: SSH Copy for Mac是一个直观的SFTP（安全文件传输协议）客户端，允许您像Finder一样管理远程文件。</li>
+<li><a href="https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466?mt=12" target="_blank" rel="noopener">Microsoft Remote Desktop</a>: 支持远程访问Windows桌面</li>
+<li><a href="https://github.com/NaoTu/DesktopNaotu" target="_blank" rel="noopener">Desktop Naotu</a>: 桌面版脑图 (百度脑图离线版，思维导图) 跨平台支持 Windows/Linux/Mac OS. (A cross-platform multilingual Mind Map Tool)</li>
+<li><a href="https://typora.io/" target="_blank" rel="noopener">Typoa</a>: Typora 是一款<strong>支持实时预览的 Markdown 文本编辑器</strong>。它有 OS X、Windows、Linux 三个平台的版本，并且由于仍在测试中，是<strong>完全免费</strong>的。</li>
+<li><a href="https://www.postman.com/" target="_blank" rel="noopener">Postman</a>: Api 测试 GUI工具。</li>
+<li><a href="https://www.teamviewer.cn/" target="_blank" rel="noopener">TeamViewer</a>: 远程控制工具。</li>
+<li><a href="https://www.docker.com/products/docker-desktop" target="_blank" rel="noopener">Docker Desktop</a>: Docker Desktop For Mac。</li>
+<li><a href="https://listen1.github.io/listen1/" target="_blank" rel="noopener">Listen1</a>: Listen 1可以搜索和播放来自网易云音乐，虾米，QQ音乐，酷狗音乐，酷我音乐网站的歌曲，让你的曲库更全面。</li>
+<li><a href="https://1password.com/zh-cn/" target="_blank" rel="noopener">1Password</a>: 1Password 为你记住一切。保存您的密码并可一键登录网站。就是这么简单。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>MacOS</category>
+      </categories>
+      <tags>
+        <tag>software</tag>
+        <tag>app</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>electron使用flash插件</title>
     <url>/2016/10/16/electron-use-flash-extension/</url>
     <content><![CDATA[<h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><blockquote>
@@ -268,8 +409,39 @@
         <category>summaries</category>
       </categories>
       <tags>
-        <tag>electron</tag>
         <tag>node</tag>
+        <tag>electron</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>nginx proxy 地址的问题</title>
+    <url>/2020/04/16/nginx-proxy-syntax/</url>
+    <content><![CDATA[<h3 id="第一种："><a href="#第一种：" class="headerlink" title="第一种："></a>第一种：</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F;proxy&#x2F; &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;127.0.0.1&#x2F;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>代理到URL：<a href="http://127.0.0.1/test.html" target="_blank" rel="noopener">http://127.0.0.1/test.html</a></p>
+</blockquote>
+<a id="more"></a>
+
+
+<h3 id="第二种："><a href="#第二种：" class="headerlink" title="第二种："></a>第二种：</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F;proxy&#x2F; &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;127.0.0.1;  #少&#x2F;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>代理到URL：<a href="http://127.0.0.1/proxy/test.html" target="_blank" rel="noopener">http://127.0.0.1/proxy/test.html</a></p>
+</blockquote>
+<h3 id="第三种："><a href="#第三种：" class="headerlink" title="第三种："></a>第三种：</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F;proxy&#x2F; &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;127.0.0.1&#x2F;aaa&#x2F;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>代理到URL：<a href="http://127.0.0.1/aaa/test.html" target="_blank" rel="noopener">http://127.0.0.1/aaa/test.html</a></p>
+</blockquote>
+<h3 id="第四种（相对于第三种，最后少一个-）"><a href="#第四种（相对于第三种，最后少一个-）" class="headerlink" title="第四种（相对于第三种，最后少一个 / ）"></a>第四种（相对于第三种，最后少一个 / ）</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F;proxy&#x2F; &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;127.0.0.1&#x2F;aaa;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>代理到URL：<a href="http://127.0.0.1/aaatest.html" target="_blank" rel="noopener">http://127.0.0.1/aaatest.html</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>backend</category>
+        <category>summaries</category>
+      </categories>
+      <tags>
+        <tag>nginx</tag>
       </tags>
   </entry>
   <entry>
@@ -331,37 +503,6 @@
       </categories>
       <tags>
         <tag>git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>nginx proxy 地址的问题</title>
-    <url>/2020/04/16/nginx-proxy-syntax/</url>
-    <content><![CDATA[<h3 id="第一种："><a href="#第一种：" class="headerlink" title="第一种："></a>第一种：</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F;proxy&#x2F; &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;127.0.0.1&#x2F;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>代理到URL：<a href="http://127.0.0.1/test.html" target="_blank" rel="noopener">http://127.0.0.1/test.html</a></p>
-</blockquote>
-<a id="more"></a>
-
-
-<h3 id="第二种："><a href="#第二种：" class="headerlink" title="第二种："></a>第二种：</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F;proxy&#x2F; &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;127.0.0.1;  #少&#x2F;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>代理到URL：<a href="http://127.0.0.1/proxy/test.html" target="_blank" rel="noopener">http://127.0.0.1/proxy/test.html</a></p>
-</blockquote>
-<h3 id="第三种："><a href="#第三种：" class="headerlink" title="第三种："></a>第三种：</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F;proxy&#x2F; &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;127.0.0.1&#x2F;aaa&#x2F;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>代理到URL：<a href="http://127.0.0.1/aaa/test.html" target="_blank" rel="noopener">http://127.0.0.1/aaa/test.html</a></p>
-</blockquote>
-<h3 id="第四种（相对于第三种，最后少一个-）"><a href="#第四种（相对于第三种，最后少一个-）" class="headerlink" title="第四种（相对于第三种，最后少一个 / ）"></a>第四种（相对于第三种，最后少一个 / ）</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F;proxy&#x2F; &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;127.0.0.1&#x2F;aaa;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>代理到URL：<a href="http://127.0.0.1/aaatest.html" target="_blank" rel="noopener">http://127.0.0.1/aaatest.html</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>backend</category>
-        <category>summaries</category>
-      </categories>
-      <tags>
-        <tag>nginx</tag>
       </tags>
   </entry>
   <entry>
