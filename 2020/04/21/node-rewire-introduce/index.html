@@ -23,15 +23,21 @@
     var CONFIG = {"hostname":"shmy.github.io","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":true,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="BLOG ©️ SHMY">
-<meta property="og:url" content="https://shmy.github.io/tags/frontend/index.html">
+  <meta name="description" content="什么是rewire rewire，它的基本功能与require相同，都是用于导入模块，只是，它会为导入的模块添加两个特殊的函数：__get__与__set__。顾名思义，这两个函数可以分别用于获取和修改模块中的变量&#x2F;函数。测试的时候，当我们需要获取或者重写私有变量&#x2F;函数，rewire非常有用。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="js使用rewire对私有变量&#x2F;函数进行测试">
+<meta property="og:url" content="https://shmy.github.io/2020/04/21/node-rewire-introduce/index.html">
 <meta property="og:site_name" content="BLOG ©️ SHMY">
+<meta property="og:description" content="什么是rewire rewire，它的基本功能与require相同，都是用于导入模块，只是，它会为导入的模块添加两个特殊的函数：__get__与__set__。顾名思义，这两个函数可以分别用于获取和修改模块中的变量&#x2F;函数。测试的时候，当我们需要获取或者重写私有变量&#x2F;函数，rewire非常有用。">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-04-21T05:26:32.000Z">
+<meta property="article:modified_time" content="2020-04-21T05:50:15.573Z">
 <meta property="article:author" content="SHMY">
+<meta property="article:tag" content="node">
+<meta property="article:tag" content="backend">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://shmy.github.io/tags/frontend/">
+<link rel="canonical" href="https://shmy.github.io/2020/04/21/node-rewire-introduce/">
 
 
 <script id="page-configurations">
@@ -39,12 +45,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>标签: frontend | BLOG ©️ SHMY</title>
+  <title>js使用rewire对私有变量/函数进行测试 | BLOG ©️ SHMY</title>
   
 
 
@@ -183,77 +189,151 @@
         <div class="content-wrap">
           
 
-          <div class="content tag">
+          <div class="content post posts-expand">
             
 
+    
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <h2 class="collection-header">frontend
-          <small>标签</small>
-        </h2>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://shmy.github.io/2020/04/21/node-rewire-introduce/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="SHMY">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="BLOG ©️ SHMY">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          js使用rewire对私有变量/函数进行测试
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-04-21 13:26:32" itemprop="dateCreated datePublished" datetime="2020-04-21T13:26:32+08:00">2020-04-21</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2020</span>
-    </div>
+        <h2 id="什么是rewire"><a href="#什么是rewire" class="headerlink" title="什么是rewire"></a>什么是rewire</h2><blockquote>
+<p><a href="https://github.com/jhnns/rewire" target="_blank" rel="noopener"><code>rewire</code></a>，它的基本功能与<code>require</code>相同，都是用于导入模块，只是，它会为导入的模块添加两个特殊的函数：<strong><code>__get__</code></strong>与<strong><code>__set__</code></strong>。顾名思义，这两个函数可以分别用于获取和修改模块中的变量/函数。测试的时候，当我们需要获取或者重写私有变量/函数，<code>rewir</code>e非常有用。</p>
+</blockquote>
+<a id="more"></a>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-04-20T16:59:35+08:00"
-              content="2020-04-20">
-          04-20
-        </time>
-      </div>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2020/04/20/js-util-libary/" itemprop="url">
-            <span itemprop="name">收集一些实用的前端js工具库【不定时更新】</span>
-          </a>
-      </div>
+<h2 id="简单实用"><a href="#简单实用" class="headerlink" title="简单实用"></a>简单实用</h2><blockquote>
+<p>example.service.js</p>
+</blockquote>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> getUserInfo = <span class="function">(<span class="params">userId</span>) =&gt;</span> &#123;</span><br><span class="line">  </span><br><span class="line">  <span class="keyword">const</span> user = UserProfile.findOne(&#123;<span class="attr">id</span>: userId&#125;);</span><br><span class="line">  <span class="keyword">const</span> email = getUserOrder(user.company);</span><br><span class="line">  <span class="keyword">return</span> &#123;...user, email&#125;;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> getUserEmail = <span class="function">(<span class="params">userCompany</span>) =&gt;</span> &#123;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">if</span> (!userCompany) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">""</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> <span class="string">"some@some.com"</span>;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">exports.getUserInfo = getUserInfo;</span><br></pre></td></tr></table></figure>
 
-    </header>
-  </article>
+<blockquote>
+<p>以上代码我们在测试时，无法直接获取到<code>getUserEmail</code> 方法进行测试，也不会在统计到覆盖率中，因为这个函数没有被其他函数直接或间接调用；</p>
+<p>在我们工作中，常常有许多这种私有函数或者变量，只在当前模块内定义和使用并没有导出；如果我们有直接或间接调用这个函数，并且这个私有函数有很多分支条件的话，跑完测试后，不一定能到覆盖到全部的分支；</p>
+<p>所以，<code>rewire</code>模块可以提供一些<code>api</code>帮我们直接拿到或者设置这个私有函数/变量，这样的话，我们就能够很方便的对其中各种分支条件等等测试。</p>
+</blockquote>
+<blockquote>
+<p>example.service.test.js</p>
+</blockquote>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> rewire = <span class="built_in">require</span>(<span class="string">"rewire"</span>);</span><br><span class="line"><span class="keyword">const</span> exampleService = rewire(<span class="string">"./example.service"</span>);</span><br><span class="line"><span class="keyword">const</span> getUserEmail = exampleService.__get__(<span class="string">"getUserEmail"</span>);</span><br><span class="line"></span><br><span class="line">expect(getUserEmail()).toEqual(<span class="string">""</span>);	<span class="comment">// 👌</span></span><br><span class="line">expect(getUserEmail(<span class="number">1</span>)).toEqual(<span class="string">"some@some.com"</span>); <span class="comment">// 👌</span></span><br></pre></td></tr></table></figure>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-04-17T18:38:28+08:00"
-              content="2020-04-17">
-          04-17
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2020/04/17/css-util-resources/" itemprop="url">
-            <span itemprop="name">收集一些好用的CSS工具网站【不定时更新】</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
+<blockquote>
+<p>在实践中，为了简化测试和节省时间，我们通常需要去重写函数调用的外部函数，这时可以选择使用<code>rewire</code>模块实现。</p>
+</blockquote>
+<h2 id="babel插件"><a href="#babel插件" class="headerlink" title="babel插件"></a>babel插件</h2><blockquote>
+<p>此外：<a href="https://github.com/speedskater/babel-plugin-rewire" target="_blank" rel="noopener">babel-plugin-rewire</a> 提供了<code>babel</code>的插件，方便和<code>jest</code>等测试框架集成。</p>
+</blockquote>
 
     </div>
+
+    
+    
+    
+        <div class="reward-container">
+  <div></div>
+  <button onclick="var qr = document.getElementById('qr'); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+      
+      <div style="display: inline-block;">
+        <img src="/images/wechat.jpg" alt="SHMY 微信支付">
+        <p>微信支付</p>
+      </div>
+      
+      <div style="display: inline-block;">
+        <img src="/images/alipay.jpg" alt="SHMY 支付宝">
+        <p>支付宝</p>
+      </div>
+
   </div>
-  
-  
-  
+</div>
 
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>SHMY
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://shmy.github.io/2020/04/21/node-rewire-introduce/" title="js使用rewire对私有变量&#x2F;函数进行测试">https://shmy.github.io/2020/04/21/node-rewire-introduce/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/node/" rel="tag"># node</a>
+              <a href="/tags/backend/" rel="tag"># backend</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/04/20/js-util-libary/" rel="prev" title="收集一些实用的前端js工具库【不定时更新】">
+      <i class="fa fa-chevron-left"></i> 收集一些实用的前端js工具库【不定时更新】
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
 
 
           </div>
           
+    <div class="comments" id="gitalk-container"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -300,6 +380,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#什么是rewire"><span class="nav-number">1.</span> <span class="nav-text">什么是rewire</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#简单实用"><span class="nav-number">2.</span> <span class="nav-text">简单实用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#babel插件"><span class="nav-number">3.</span> <span class="nav-text">babel插件</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -484,6 +565,25 @@ window.addEventListener('pjax:success', () => {
 
   
 
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : 'c6c0d3a3fec2c780c8d8',
+      clientSecret: 'a5d60cc68dd2b419e91ecbac3927e4e591fd2209',
+      repo        : 'blog',
+      owner       : 'shmy',
+      admin       : ['shmy'],
+      id          : '4bae2a39e70738053fb16e2c151f6a87',
+        language: 'zh-CN',
+      distractionFreeMode: true
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+});
+</script>
 
     </div>
 </body>
