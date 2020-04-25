@@ -31,8 +31,10 @@
 <meta property="og:description" content="前言 在前后端分离的项目上，目前主流的前端部署方案是，前端单独打包一个docker镜像，用nginx来做http访问和后端服务代理，这样既可以解决前后端分离的跨域问题，也可以隐藏真实的后端地址；   一个典型的nginx.conf如下  1234567891011121314server &amp;#123;  listen 80;  location &#x2F; &amp;#123;    root   &amp;#">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-04-25T02:07:32.000Z">
-<meta property="article:modified_time" content="2020-04-25T02:55:33.401Z">
+<meta property="article:modified_time" content="2020-04-25T02:57:39.063Z">
 <meta property="article:author" content="SHMY">
+<meta property="article:tag" content="nginx">
+<meta property="article:tag" content="docker">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="https://shmy.github.io/2020/04/25/nginx-use-os-env-in-docker/">
@@ -219,6 +221,19 @@
 
               <time title="创建时间：2020-04-25 10:07:32" itemprop="dateCreated datePublished" datetime="2020-04-25T10:07:32+08:00">2020-04-25</time>
             </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/backend/" itemprop="url" rel="index"><span itemprop="name">backend</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/backend/summaries/" itemprop="url" rel="index"><span itemprop="name">summaries</span></a>
+                </span>
+            </span>
 
           
 
@@ -390,6 +405,10 @@
 
 
       <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/nginx/" rel="tag"># nginx</a>
+              <a href="/tags/docker/" rel="tag"># docker</a>
+          </div>
 
         
 
@@ -487,7 +506,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">12</span>
+        <span class="site-state-item-count">13</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>

@@ -1,6 +1,278 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>个人收藏的MacOS好用的软件</title>
+    <url>/2020/04/16/collection-of-mac-apps/</url>
+    <content><![CDATA[<ol>
+<li><p><a href="https://www.microsoft.com/zh-cn/edge" target="_blank" rel="noopener">Microsoft Edge</a>:  重构后的<code>Microsoft Edge</code> 浏览器带来了出色的兼容性及性能，尤其是其云账户同步功能，速度非常快（我已经抛弃<code>chrome</code>了…）。</p>
+</li>
+<li><p><a href="https://www.alfredapp.com/" target="_blank" rel="noopener">Alfred</a>: 效率神器，不解释。</p>
+</li>
+<li><p><a href="https://www.keka.io/" target="_blank" rel="noopener">Keka</a>: 免费强大的压缩/解压缩软件，支持多种格式如<code>zip</code>,<code>rar</code>,<code>7z</code>等。</p>
+</li>
+<li><p><a href="https://github.com/Mortennn/Dozer" target="_blank" rel="noopener">Dozer</a>: 帮助我们隐藏<em>macOS</em> 菜单栏的图标, 免费开源。</p>
+</li>
+</ol>
+<a id="more"></a>
+
+<ol start="2">
+<li><a href="https://sipapp.io/" target="_blank" rel="noopener">Sip</a>: 提取颜色，管理颜色的最佳工具，支持保存各种语言的颜色代码。</li>
+<li><a href="https://pasteapp.io/" target="_blank" rel="noopener">Paste</a>: 剪切板管理，主要是可以保存各种类型的剪贴记录，支持搜索。</li>
+<li><a href="https://zh.snipaste.com/" target="_blank" rel="noopener">Snipaste</a>: Snipaste 是一个简单但强大的截图工具，也可以让你将截图贴回到屏幕上！(支持贴图功能)。</li>
+<li><a href="https://github.com/ripperhe/Bob" target="_blank" rel="noopener">Bob</a>: Bob 是一款 Mac 端翻译软件，翻译方式支持划词翻译和截图翻译，翻译引擎支持有道翻译、百度翻译和谷歌翻译。</li>
+<li><a href="https://github.com/gee1k/uPic" target="_blank" rel="noopener">uPic</a>: 可将图片、各种文件上传到配置好的指定提供商的对象存储中，然后快速获取可供互联网访问的文件 URL。</li>
+<li><a href="https://github.com/yanue/V2rayU" target="_blank" rel="noopener">v2rayU</a>: V2rayU,基于v2ray核心的mac版客户端,用于科学上网,使用<code>swift</code>编写,支持<code>vmess,shadowsocks,socks5</code>等服务协议,支持订阅, 支持二维码,剪贴板导入,手动配置,二维码分享等。</li>
+<li><a href="https://www.iterm2.com/" target="_blank" rel="noopener">iTerm</a>: iTerm2是一款完全免费的，专为 Mac OS 用户打造的命令行应用，当然，也是程序员们的最爱。iTerm2本身支持很多自定义化的设置，比如自定义配色，自定义快捷键，方便的水平和垂直分屏功能，等等…… 毫不避讳的讲，说它是如今Mac下最好的终端工具也不为过。当然，日常工作与开发中，用它替代Mac自带的Terminal也是不二的选择。</li>
+<li><a href="https://codinn.com/" target="_blank" rel="noopener">SSH Copy</a>: SSH Copy for Mac是一个直观的SFTP（安全文件传输协议）客户端，允许您像Finder一样管理远程文件。</li>
+<li><a href="https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466?mt=12" target="_blank" rel="noopener">Microsoft Remote Desktop</a>: 支持远程访问Windows桌面</li>
+<li><a href="https://github.com/NaoTu/DesktopNaotu" target="_blank" rel="noopener">Desktop Naotu</a>: 桌面版脑图 (百度脑图离线版，思维导图) 跨平台支持 Windows/Linux/Mac OS. (A cross-platform multilingual Mind Map Tool)</li>
+<li><a href="https://typora.io/" target="_blank" rel="noopener">Typoa</a>: Typora 是一款<strong>支持实时预览的 Markdown 文本编辑器</strong>。它有 OS X、Windows、Linux 三个平台的版本，并且由于仍在测试中，是<strong>完全免费</strong>的。</li>
+<li><a href="https://www.postman.com/" target="_blank" rel="noopener">Postman</a>: Api 测试 GUI工具。</li>
+<li><a href="https://www.teamviewer.cn/" target="_blank" rel="noopener">TeamViewer</a>: 远程控制工具。</li>
+<li><a href="https://www.docker.com/products/docker-desktop" target="_blank" rel="noopener">Docker Desktop</a>: Docker Desktop For Mac。</li>
+<li><a href="https://listen1.github.io/listen1/" target="_blank" rel="noopener">Listen1</a>: Listen 1可以搜索和播放来自网易云音乐，虾米，QQ音乐，酷狗音乐，酷我音乐网站的歌曲，让你的曲库更全面。</li>
+<li><a href="https://1password.com/zh-cn/" target="_blank" rel="noopener">1Password</a>: 1Password 为你记住一切。保存您的密码并可一键登录网站。就是这么简单。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>MacOS</category>
+      </categories>
+      <tags>
+        <tag>software</tag>
+        <tag>app</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>electron使用flash插件</title>
+    <url>/2016/10/16/electron-use-flash-extension/</url>
+    <content><![CDATA[<h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><blockquote>
+<p>最近有个需求是使用Electron开发一个Windows直播的客户端，使用Flash进行播放相关功能，但是Electron的Flash功能需要插件支持，折腾好久才搞定，做个记录。  </p>
+</blockquote>
+<a id="more"></a>
+
+<h3 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h3><h4 id="安装electron"><a href="#安装electron" class="headerlink" title="安装electron"></a>安装electron</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install electron -g</span><br></pre></td></tr></table></figure>
+<h4 id="创建项目-1"><a href="#创建项目-1" class="headerlink" title="创建项目"></a>创建项目</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ mkdir <span class="built_in">test</span></span><br><span class="line">$ <span class="built_in">cd</span> <span class="built_in">test</span>/</span><br><span class="line">$ touch package.json</span><br><span class="line">$ touch main.js</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>package.json  </p>
+</blockquote>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"name"</span>: <span class="string">"test"</span>,</span><br><span class="line">  <span class="attr">"version"</span>: <span class="string">"1.0.0"</span>,</span><br><span class="line">  <span class="attr">"main"</span>: <span class="string">"main.js"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>main.js  </p>
+</blockquote>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> &#123;app, BrowserWindow&#125; = <span class="built_in">require</span>(<span class="string">'electron'</span>)</span><br><span class="line"><span class="keyword">const</span> &#123;resolve&#125; = <span class="built_in">require</span>(<span class="string">'path'</span>)</span><br><span class="line"><span class="keyword">const</span> url = <span class="built_in">require</span>(<span class="string">'url'</span>)</span><br><span class="line"><span class="comment">// 注册Flash插件</span></span><br><span class="line"><span class="keyword">const</span> flashplayer = resolve(__dirname, <span class="string">'pepflashplayer.dll'</span>)</span><br><span class="line">app.commandLine.appendSwitch(<span class="string">'ppapi-flash-path'</span>, flashplayer);</span><br><span class="line">app.commandLine.appendSwitch(<span class="string">'ppapi-flash-version'</span>, <span class="string">'23.0.0.194'</span>);</span><br><span class="line"><span class="comment">// 保持一个对于 window 对象的全局引用，如果你不这样做，</span></span><br><span class="line"><span class="comment">// 当 JavaScript 对象被垃圾回收， window 会被自动地关闭</span></span><br><span class="line"><span class="keyword">let</span> win</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">createWindow</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="comment">// 创建浏览器窗口。</span></span><br><span class="line">  win = <span class="keyword">new</span> BrowserWindow(&#123;</span><br><span class="line">    width: <span class="number">800</span>,</span><br><span class="line">    height: <span class="number">600</span>,</span><br><span class="line">    webPreferences: &#123; <span class="comment">// 注意一定要 添加这个 不然flash插件不会生效</span></span><br><span class="line">      plugins: <span class="literal">true</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;)</span><br><span class="line">  <span class="comment">// 随便加载一个flash视频页面</span></span><br><span class="line">  win.loadURL(<span class="string">'http://www.iqiyi.com/v_19rrarwio8.html?list=19rrkp73da'</span>)</span><br><span class="line">  <span class="comment">// 打开开发者工具。</span></span><br><span class="line">  win.webContents.openDevTools()</span><br><span class="line">  <span class="comment">// 当 window 被关闭，这个事件会被触发。</span></span><br><span class="line">  win.on(<span class="string">'closed'</span>, () =&gt; &#123;</span><br><span class="line">    <span class="comment">// 取消引用 window 对象，如果你的应用支持多窗口的话，</span></span><br><span class="line">    <span class="comment">// 通常会把多个 window 对象存放在一个数组里面，</span></span><br><span class="line">    <span class="comment">// 与此同时，你应该删除相应的元素。</span></span><br><span class="line">    win = <span class="literal">null</span></span><br><span class="line">  &#125;)</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// Electron 会在初始化后并准备</span></span><br><span class="line"><span class="comment">// 创建浏览器窗口时，调用这个函数。</span></span><br><span class="line"><span class="comment">// 部分 API 在 ready 事件触发后才能使用。</span></span><br><span class="line">app.on(<span class="string">'ready'</span>, createWindow)</span><br><span class="line"><span class="comment">// 当全部窗口关闭时退出。</span></span><br><span class="line">app.on(<span class="string">'window-all-closed'</span>, () =&gt; &#123;</span><br><span class="line">  <span class="comment">// 在 macOS 上，除非用户用 Cmd + Q 确定地退出，</span></span><br><span class="line">  <span class="comment">// 否则绝大部分应用及其菜单栏会保持激活。</span></span><br><span class="line">  <span class="keyword">if</span> (process.platform !== <span class="string">'darwin'</span>) &#123;</span><br><span class="line">    app.quit()</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br><span class="line">app.on(<span class="string">'activate'</span>, () =&gt; &#123;</span><br><span class="line">  <span class="comment">// 在这文件，你可以续写应用剩下主进程代码。</span></span><br><span class="line">  <span class="comment">// 也可以拆分成几个文件，然后用 require 导入。</span></span><br><span class="line">  <span class="keyword">if</span> (win === <span class="literal">null</span>) &#123;</span><br><span class="line">    createWindow()</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+<h4 id="放置dll文件"><a href="#放置dll文件" class="headerlink" title="放置dll文件"></a>放置dll文件</h4><ul>
+<li>如果你有安装Chrome浏览器，可以在地址栏输入<code>chrome://plugins/</code>，点击右侧的详细信息，找到<code>Adobe Flash Player</code>条目，在位置项复制<code>pepflashplayer.dll</code> (<strong>Windows</strong>)文件到项目目录。</li>
+<li>单独安装请打开官方下载页面 <code>http://get2.adobe.com/cn/flashplayer/otherversions/</code>，选择你的操作系统，版本选择<code>for Opera and Chromium-PPAPI</code>结尾的版本。安装完毕后:<ul>
+<li>在<code>C:\Windows\SysWOW64\Macromed\Flash</code>下找到32位版本如：<code>pepflashplayer32_24_0_0_194.dll</code>(名称和版本号可能有出入)。 </li>
+<li><code>在C:\Windows\System32\Macromed\Flash</code>下找到64位版本，如：<code>pepflashplayer64_24_0_0_194.dll</code>(名称和版本号可能有出入)。</li>
+<li>然后复制到项目目录，重命名为<code>pepflashplayer.dll</code>即可。</li>
+</ul>
+</li>
+</ul>
+<h4 id="启动测试"><a href="#启动测试" class="headerlink" title="启动测试"></a>启动测试</h4><blockquote>
+<p>接着运行 <code>$ electron .</code> 打开一个爱奇艺视频链接，发现可以加载咯。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>frontend</category>
+        <category>summaries</category>
+      </categories>
+      <tags>
+        <tag>electron</tag>
+        <tag>node</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>纯CSS实现六边形布局和排列</title>
+    <url>/2020/04/17/css-hexagon-layout-item/</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote>
+<p>最近新上一个项目，有个页面需要实现六边形布局排列，如下图（敏感数据打了马赛克）：</p>
+</blockquote>
+<p><img data-src="https://i.loli.net/2020/04/16/8QUxuaHmG2E1keM.png" alt="8QUxuaHmG2E1keM"></p>
+<a id="more"></a>
+
+<blockquote>
+<p>需要实现以上布局，并且能够根据屏幕宽度自动调整每行的个数；</p>
+</blockquote>
+<h2 id="先画一个六边形"><a href="#先画一个六边形" class="headerlink" title="先画一个六边形"></a>先画一个六边形</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"container"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight scss"><table><tr><td class="code"><pre><span class="line"><span class="variable">$hexWidth</span>: <span class="number">120px</span>;</span><br><span class="line"><span class="variable">$hexHeight</span>: <span class="number">130px</span>;</span><br><span class="line"><span class="selector-class">.container</span>&#123;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">768px</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.hex</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: inline-block;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">width</span>: <span class="variable">$hexWidth</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="variable">$hexHeight</span>;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#64c7cc</span>;</span><br><span class="line">  -webkit-<span class="attribute">clip-path</span>: polygon(<span class="number">0</span> <span class="number">25%</span>,<span class="number">50%</span> <span class="number">0</span>,<span class="number">100%</span> <span class="number">25%</span>,<span class="number">100%</span> <span class="number">75%</span>,<span class="number">50%</span> <span class="number">100%</span>,<span class="number">0</span> <span class="number">75%</span>);</span><br><span class="line">  <span class="attribute">clip-path</span>: polygon(<span class="number">0</span> <span class="number">25%</span>,<span class="number">50%</span> <span class="number">0</span>,<span class="number">100%</span> <span class="number">25%</span>,<span class="number">100%</span> <span class="number">75%</span>,<span class="number">50%</span> <span class="number">100%</span>,<span class="number">0</span> <span class="number">75%</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p><img data-src="https://i.loli.net/2020/04/16/GZEx2e6f9srKzLX.png" alt="GZEx2e6f9srKzLX"></p>
+<blockquote>
+<p>关于 <code>clip-path</code>的兼容性请参考：<a href="https://caniuse.com/#feat=css-clip-path" target="_blank" rel="noopener">CSS clip-path property (for HTML)</a></p>
+<p>关于<code>clip-path</code>的在线调试请参考: <a href="https://bennettfeely.com/clippy/" target="_blank" rel="noopener">CSS clip-path maker</a></p>
+</blockquote>
+<h2 id="排列多个六边形"><a href="#排列多个六边形" class="headerlink" title="排列多个六边形"></a>排列多个六边形</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"container"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p><img data-src="https://i.loli.net/2020/04/16/2Ec9aYIAsV4Q5ep.png" alt="2Ec9aYIAsV4Q5ep"></p>
+<h3 id="增加间隙"><a href="#增加间隙" class="headerlink" title="增加间隙"></a>增加间隙</h3><figure class="highlight scss"><table><tr><td class="code"><pre><span class="line"><span class="variable">$hexWidth</span>: <span class="number">120px</span>;</span><br><span class="line"><span class="variable">$hexHeight</span>: <span class="number">130px</span>;</span><br><span class="line"><span class="variable">$gapWidth</span>: <span class="number">10px</span>;</span><br><span class="line"><span class="selector-class">.container</span>&#123;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">768px</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.hex</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: inline-block;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">width</span>: <span class="variable">$hexWidth</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="variable">$hexHeight</span>;</span><br><span class="line">  <span class="attribute">margin-left</span>: <span class="variable">$gapWidth</span>;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#64c7cc</span>;</span><br><span class="line">  -webkit-<span class="attribute">clip-path</span>: polygon(<span class="number">0</span> <span class="number">25%</span>,<span class="number">50%</span> <span class="number">0</span>,<span class="number">100%</span> <span class="number">25%</span>,<span class="number">100%</span> <span class="number">75%</span>,<span class="number">50%</span> <span class="number">100%</span>,<span class="number">0</span> <span class="number">75%</span>);</span><br><span class="line">  <span class="attribute">clip-path</span>: polygon(<span class="number">0</span> <span class="number">25%</span>,<span class="number">50%</span> <span class="number">0</span>,<span class="number">100%</span> <span class="number">25%</span>,<span class="number">100%</span> <span class="number">75%</span>,<span class="number">50%</span> <span class="number">100%</span>,<span class="number">0</span> <span class="number">75%</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p><img data-src="https://i.loli.net/2020/04/16/L8vNo9AWs2pgYG7.png" alt="L8vNo9AWs2pgYG7"></p>
+<h3 id="让偶数行偏移"><a href="#让偶数行偏移" class="headerlink" title="让偶数行偏移"></a>让偶数行偏移</h3><figure class="highlight scss"><table><tr><td class="code"><pre><span class="line"><span class="variable">$hexWidth</span>: <span class="number">120px</span>;</span><br><span class="line"><span class="variable">$hexHeight</span>: <span class="number">130px</span>;</span><br><span class="line"><span class="variable">$gapWidth</span>: <span class="number">10px</span>;</span><br><span class="line"><span class="selector-class">.container</span>&#123;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">768px</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 此处为1行最多显示5个 定义为x</span></span><br><span class="line"><span class="comment">// 那么nth-child 公式为 .hex:nth-child((x * 2)n + (x + 1))</span></span><br><span class="line"><span class="selector-class">.hex</span><span class="selector-pseudo">:nth-child</span>(10n + 6)&#123;</span><br><span class="line">  <span class="attribute">margin-left</span>: (<span class="variable">$hexWidth</span> / <span class="number">2</span>) + ( <span class="variable">$gapWidth</span> / <span class="number">2</span>) + <span class="variable">$gapWidth</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.hex</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: inline-block;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">width</span>: <span class="variable">$hexWidth</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="variable">$hexHeight</span>;</span><br><span class="line">  <span class="attribute">margin-left</span>: <span class="variable">$gapWidth</span>;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#64c7cc</span>;</span><br><span class="line">  -webkit-<span class="attribute">clip-path</span>: polygon(<span class="number">0</span> <span class="number">25%</span>,<span class="number">50%</span> <span class="number">0</span>,<span class="number">100%</span> <span class="number">25%</span>,<span class="number">100%</span> <span class="number">75%</span>,<span class="number">50%</span> <span class="number">100%</span>,<span class="number">0</span> <span class="number">75%</span>);</span><br><span class="line">  <span class="attribute">clip-path</span>: polygon(<span class="number">0</span> <span class="number">25%</span>,<span class="number">50%</span> <span class="number">0</span>,<span class="number">100%</span> <span class="number">25%</span>,<span class="number">100%</span> <span class="number">75%</span>,<span class="number">50%</span> <span class="number">100%</span>,<span class="number">0</span> <span class="number">75%</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img data-src="https://i.loli.net/2020/04/16/jICfglGZ7pvJnUt.png" alt="jICfglGZ7pvJnUt"></p>
+<h3 id="调整行间距"><a href="#调整行间距" class="headerlink" title="调整行间距"></a>调整行间距</h3><figure class="highlight scss"><table><tr><td class="code"><pre><span class="line"><span class="variable">$hexWidth</span>: <span class="number">120px</span>;</span><br><span class="line"><span class="variable">$hexHeight</span>: <span class="number">130px</span>;</span><br><span class="line"><span class="variable">$gapWidth</span>: <span class="number">10px</span>;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.container</span>&#123;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">768px</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.hex</span><span class="selector-pseudo">:nth-child</span>(10n + 6)&#123;</span><br><span class="line">  <span class="attribute">margin-left</span>: (<span class="variable">$hexWidth</span> / <span class="number">2</span>) + ( <span class="variable">$gapWidth</span> / <span class="number">2</span>) + <span class="variable">$gapWidth</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.hex</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: inline-block;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">width</span>: <span class="variable">$hexWidth</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="variable">$hexHeight</span>;</span><br><span class="line">  <span class="attribute">margin-left</span>: <span class="variable">$gapWidth</span>;</span><br><span class="line">  <span class="attribute">margin-bottom</span>: -<span class="variable">$hexHeight</span> / <span class="number">4</span> + <span class="variable">$gapWidth</span>;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#64c7cc</span>;</span><br><span class="line">  -webkit-<span class="attribute">clip-path</span>: polygon(<span class="number">0</span> <span class="number">25%</span>,<span class="number">50%</span> <span class="number">0</span>,<span class="number">100%</span> <span class="number">25%</span>,<span class="number">100%</span> <span class="number">75%</span>,<span class="number">50%</span> <span class="number">100%</span>,<span class="number">0</span> <span class="number">75%</span>);</span><br><span class="line">  <span class="attribute">clip-path</span>: polygon(<span class="number">0</span> <span class="number">25%</span>,<span class="number">50%</span> <span class="number">0</span>,<span class="number">100%</span> <span class="number">25%</span>,<span class="number">100%</span> <span class="number">75%</span>,<span class="number">50%</span> <span class="number">100%</span>,<span class="number">0</span> <span class="number">75%</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img data-src="https://i.loli.net/2020/04/16/U3nq9XNcCADzGIu.png" alt="U3nq9XNcCADzGIu"></p>
+<h3 id="实现边框"><a href="#实现边框" class="headerlink" title="实现边框"></a>实现边框</h3><figure class="highlight scss"><table><tr><td class="code"><pre><span class="line"><span class="variable">$hexWidth</span>: <span class="number">120px</span>;</span><br><span class="line"><span class="variable">$hexHeight</span>: <span class="number">130px</span>;</span><br><span class="line"><span class="variable">$gapWidth</span>: <span class="number">10px</span>;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.container</span>&#123;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">768px</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.hex</span><span class="selector-pseudo">:nth-child</span>(10n + 6)&#123;</span><br><span class="line">  <span class="attribute">margin-left</span>: (<span class="variable">$hexWidth</span> / <span class="number">2</span>) + ( <span class="variable">$gapWidth</span> / <span class="number">2</span>) + <span class="variable">$gapWidth</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.hex</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: inline-block;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">width</span>: <span class="variable">$hexWidth</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="variable">$hexHeight</span>;</span><br><span class="line">  <span class="attribute">margin-left</span>: <span class="variable">$gapWidth</span>;</span><br><span class="line">  <span class="attribute">margin-bottom</span>: -<span class="variable">$hexHeight</span> / <span class="number">4</span> + <span class="variable">$gapWidth</span>;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#64c7cc</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.hex</span><span class="selector-pseudo">::before</span> &#123;</span><br><span class="line">  <span class="attribute">content</span>: <span class="string">""</span>;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#fff</span>;</span><br><span class="line">  <span class="attribute">left</span>: <span class="number">2px</span>;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">2px</span>;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">2px</span>;</span><br><span class="line">  <span class="attribute">bottom</span>: <span class="number">2px</span>;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">z-index</span>: -<span class="number">1</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.hex</span>, <span class="selector-class">.hex</span><span class="selector-pseudo">::before</span> &#123;</span><br><span class="line">  -webkit-<span class="attribute">clip-path</span>: polygon(<span class="number">0</span> <span class="number">25%</span>,<span class="number">50%</span> <span class="number">0</span>,<span class="number">100%</span> <span class="number">25%</span>,<span class="number">100%</span> <span class="number">75%</span>,<span class="number">50%</span> <span class="number">100%</span>,<span class="number">0</span> <span class="number">75%</span>);</span><br><span class="line">  <span class="attribute">clip-path</span>: polygon(<span class="number">0</span> <span class="number">25%</span>,<span class="number">50%</span> <span class="number">0</span>,<span class="number">100%</span> <span class="number">25%</span>,<span class="number">100%</span> <span class="number">75%</span>,<span class="number">50%</span> <span class="number">100%</span>,<span class="number">0</span> <span class="number">75%</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img data-src="https://i.loli.net/2020/04/16/FkSf5EKXPqzRD4H.png" alt="FkSf5EKXPqzRD4H"></p>
+<h3 id="填字"><a href="#填字" class="headerlink" title="填字"></a>填字</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"container"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST1</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST2</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST3</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST4</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST5</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST6</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST7</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST8</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST9</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST10</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST11</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST12</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST13</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST14</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST15</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST16</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST17</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST18</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight scss"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.hex-body</span> &#123;</span><br><span class="line">  <span class="attribute">height</span>: <span class="variable">$hexHeight</span> / <span class="number">2</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">transform</span>: translateY(-<span class="number">50%</span>);</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">16px</span>;</span><br><span class="line">  <span class="attribute">text-align</span>: center;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JEwiRK.png" alt="JEwiRK.png"></p>
+<h2 id="响应式调整"><a href="#响应式调整" class="headerlink" title="响应式调整"></a>响应式调整</h2><blockquote>
+<p>这边使用 <code>CSS3</code> 的 <a href="https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Media_queries" target="_blank" rel="noopener">Media queries</a> 来进行适配，定义几个断点，我们参考<a href="https://getbootstrap.com/docs/4.4/layout/overview/#containers" target="_blank" rel="noopener">Bootstrap</a>的定义：</p>
+</blockquote>
+<ul>
+<li><strong>Extra small</strong>：<strong>&lt; 576px</strong></li>
+<li><strong>Small</strong>: <strong>≥576px</strong></li>
+<li><strong>Medium</strong>: <strong>≥768px</strong></li>
+<li><strong>Large</strong>: <strong>≥992px</strong></li>
+<li><strong>Extra large</strong>: <strong>≥1200px</strong></li>
+</ul>
+<figure class="highlight scss"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.container</span>&#123;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">Extra large</span></span><br><span class="line"><span class="comment">≥1200px</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">@media</span> <span class="keyword">only</span> screen <span class="keyword">and</span> (min-width : <span class="number">1200px</span>) &#123;</span><br><span class="line">  <span class="selector-class">.container</span>&#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">1140px</span>;</span><br><span class="line">  </span><br><span class="line">  &#125;</span><br><span class="line">  <span class="selector-class">.hex</span><span class="selector-pseudo">:nth-child</span>(16n + 9)&#123;</span><br><span class="line">    <span class="attribute">margin-left</span>: (<span class="variable">$hexWidth</span> / <span class="number">2</span>) + ( <span class="variable">$gapWidth</span> / <span class="number">2</span>) + <span class="variable">$gapWidth</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">Large</span></span><br><span class="line"><span class="comment">≥992px</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">@media</span> <span class="keyword">only</span> screen <span class="keyword">and</span> (min-width : <span class="number">992px</span>) <span class="keyword">and</span> (max-width: <span class="number">1200px</span>) &#123;</span><br><span class="line">  <span class="selector-class">.container</span>&#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">900px</span>;</span><br><span class="line">  </span><br><span class="line">  &#125;</span><br><span class="line">  <span class="selector-class">.hex</span><span class="selector-pseudo">:nth-child</span>(12n + 7)&#123;</span><br><span class="line">    <span class="attribute">margin-left</span>: (<span class="variable">$hexWidth</span> / <span class="number">2</span>) + ( <span class="variable">$gapWidth</span> / <span class="number">2</span>) + <span class="variable">$gapWidth</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">Medium</span></span><br><span class="line"><span class="comment">≥768px</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">@media</span> <span class="keyword">only</span> screen <span class="keyword">and</span> (min-width : <span class="number">768px</span>) <span class="keyword">and</span> (max-width: <span class="number">992px</span>) &#123;</span><br><span class="line">  <span class="selector-class">.container</span>&#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">720px</span>;</span><br><span class="line">  </span><br><span class="line">  &#125;</span><br><span class="line">  <span class="selector-class">.hex</span><span class="selector-pseudo">:nth-child</span>(10n + 6)&#123;</span><br><span class="line">    <span class="attribute">margin-left</span>: (<span class="variable">$hexWidth</span> / <span class="number">2</span>) + ( <span class="variable">$gapWidth</span> / <span class="number">2</span>) + <span class="variable">$gapWidth</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">Small</span></span><br><span class="line"><span class="comment">≥576px</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">@media</span> <span class="keyword">only</span> screen <span class="keyword">and</span> (min-width : <span class="number">576px</span>) <span class="keyword">and</span> (max-width: <span class="number">768px</span>) &#123;</span><br><span class="line">  <span class="selector-class">.container</span>&#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">520px</span>;</span><br><span class="line">  </span><br><span class="line">  &#125;</span><br><span class="line">  <span class="selector-class">.hex</span><span class="selector-pseudo">:nth-child</span>(6n + 4)&#123;</span><br><span class="line">    <span class="attribute">margin-left</span>: (<span class="variable">$hexWidth</span> / <span class="number">2</span>) + ( <span class="variable">$gapWidth</span> / <span class="number">2</span>) + <span class="variable">$gapWidth</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">Extra small</span></span><br><span class="line"><span class="comment">&lt;576px</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">@media</span> <span class="keyword">only</span> screen <span class="keyword">and</span> (max-width: <span class="number">575px</span>) &#123;</span><br><span class="line">  <span class="selector-class">.container</span>&#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">360px</span>;</span><br><span class="line">  </span><br><span class="line">  &#125;</span><br><span class="line">  <span class="selector-class">.hex</span><span class="selector-pseudo">:nth-child</span>(4n + 3)&#123;</span><br><span class="line">    <span class="attribute">margin-left</span>: (<span class="variable">$hexWidth</span> / <span class="number">2</span>) + ( <span class="variable">$gapWidth</span> / <span class="number">2</span>) + <span class="variable">$gapWidth</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>&lt; 576px</strong></li>
+</ul>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JEwKit.png" alt="JEwKit.png"></p>
+<ul>
+<li><strong>≥576px</strong></li>
+</ul>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JEwlz8.png" alt="JEwlz8.png"></p>
+<ul>
+<li><strong>≥768px</strong></li>
+</ul>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JEwYZj.png" alt="JEwYZj.png"></p>
+<ul>
+<li><strong>≥992px</strong></li>
+</ul>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JEwdJ0.png" alt="JEwdJ0.png"></p>
+<ul>
+<li><strong>≥1200px</strong></li>
+</ul>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JEwcw9.png" alt="JEwcw9.png"></p>
+<h2 id="CodePen-链接"><a href="#CodePen-链接" class="headerlink" title="CodePen 链接"></a>CodePen 链接</h2><p class="codepen" data-height="576" data-theme-id="dark" data-default-tab="result" data-user="shmy" data-slug-hash="xxwZeNE" style="height: 576px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="css-hexagon-layout-item">
+  <span>See the Pen <a href="https://codepen.io/shmy/pen/xxwZeNE" target="_blank" rel="noopener">
+  css-hexagon-layout-item</a> by shmy (<a href="https://codepen.io/shmy" target="_blank" rel="noopener">@shmy</a>)
+  on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>]]></content>
+      <categories>
+        <category>frontend</category>
+        <category>summaries</category>
+      </categories>
+      <tags>
+        <tag>css</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>收集一些好用的CSS工具网站【不定时更新】</title>
+    <url>/2020/04/17/css-util-resources/</url>
+    <content><![CDATA[<h2 id="免费版权图片-视频"><a href="#免费版权图片-视频" class="headerlink" title="免费版权图片/视频"></a>免费版权图片/视频</h2><h3 id="Logosc"><a href="#Logosc" class="headerlink" title="Logosc"></a>Logosc</h3><blockquote>
+<p>提供很多免费免版权的图片搜索和使用。</p>
+</blockquote>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JZk5qJ.png" alt="JZk5qJ.png"></p>
+<p><a href="https://www.logosc.cn/so/" target="_blank" rel="noopener">https://www.logosc.cn/so/</a></p>
+<a id="more"></a>
+
+<h3 id="Coverr"><a href="#Coverr" class="headerlink" title="Coverr"></a>Coverr</h3><blockquote>
+<p> 提供漂亮的的网页背景/封面/banner视频素材</p>
+</blockquote>
+<p><a href="https://coverr.co/" target="_blank" rel="noopener">https://coverr.co/</a></p>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JZAQJ0.png" alt="JZAQJ0.png"></p>
+<h2 id="动画"><a href="#动画" class="headerlink" title="动画"></a>动画</h2><h3 id="Animista"><a href="#Animista" class="headerlink" title="Animista"></a>Animista</h3><blockquote>
+<p>Animista集合了很多种CSS动画，可以免费对其调整，预览和下载。</p>
+</blockquote>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JZAUoR.png" alt="JZAUoR.png"></p>
+<p><a href="https://animista.net/" target="_blank" rel="noopener">https://animista.net/</a></p>
+<h3 id="JetBrains-Animation-Generator"><a href="#JetBrains-Animation-Generator" class="headerlink" title="JetBrains Animation Generator"></a>JetBrains Animation Generator</h3><blockquote>
+<p>一个在线生成JetBrains 系统动态背景的网站，支持多种IDE风格，可以免费下载html5代码或者png图片。</p>
+</blockquote>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JZADSK.png" alt="JZADSK.png"></p>
+<p><a href="https://code2art.jetbrains.com/" target="_blank" rel="noopener">https://code2art.jetbrains.com/</a></p>
+<h2 id="图标"><a href="#图标" class="headerlink" title="图标"></a>图标</h2><h3 id="Iconfont"><a href="#Iconfont" class="headerlink" title="Iconfont"></a>Iconfont</h3><blockquote>
+<p>阿里巴巴旗下，国内功能很强大且图标内容很丰富的矢量图标库，提供矢量图标下载、在线存储、格式转换等功能。阿里巴巴体验团队倾力打造，设计和前端开发的便捷工具。</p>
+</blockquote>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JZEpXF.png" alt="JZEpXF.png"></p>
+<p><a href="https://www.iconfont.cn/" target="_blank" rel="noopener">https://www.iconfont.cn/</a></p>
+<h3 id="IKonate"><a href="#IKonate" class="headerlink" title="IKonate"></a>IKonate</h3><blockquote>
+<p>提供一组完全可定制和可访问的矢量图标。</p>
+</blockquote>
+<p><a href="https://imgchr.com/i/JZEnXD" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/04/17/JZEnXD.png" alt="JZEnXD.png"></a></p>
+<p><a href="https://ikonate.com/" target="_blank" rel="noopener">https://ikonate.com/</a></p>
+<h3 id="PathLove"><a href="#PathLove" class="headerlink" title="PathLove"></a>PathLove</h3><blockquote>
+<p>Pathlove是一个小型个人项目，我们主要免费设计和共享图标，插图和壁纸。<br>我们也写，我们的主要工具是Affinity Designer！</p>
+</blockquote>
+<p><a href="https://imgchr.com/i/JZE63V" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/04/17/JZE63V.png" alt="JZE63V.png"></a></p>
+<p><a href="https://pathlove.com/" target="_blank" rel="noopener">https://pathlove.com/</a></p>
+<h3 id="RemixIcon"><a href="#RemixIcon" class="headerlink" title="RemixIcon"></a>RemixIcon</h3><blockquote>
+<p>简直令人愉快的图标系统</p>
+<p>Remix Icon是为设计师和开发人员精心制作的一组开源中性风格系统符号。</p>
+<p>所有图标都是免费的，可用于个人和商业用途。</p>
+</blockquote>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JZET9x.png" alt="JZET9x.png"></p>
+<p><a href="https://remixicon.com/" target="_blank" rel="noopener">https://remixicon.com/</a></p>
+<h2 id="颜色"><a href="#颜色" class="headerlink" title="颜色"></a>颜色</h2><h3 id="Colorsupplyyy"><a href="#Colorsupplyyy" class="headerlink" title="Colorsupplyyy"></a>Colorsupplyyy</h3><blockquote>
+<p>通过选择颜色，给出合适亮眼的搭配。</p>
+</blockquote>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JZEXHH.png" alt="JZEXHH.png"></p>
+<p><a href="https://colorsupplyyy.com/app" target="_blank" rel="noopener">https://colorsupplyyy.com/app</a></p>
+<h3 id="FlatUIColors"><a href="#FlatUIColors" class="headerlink" title="FlatUIColors"></a>FlatUIColors</h3><blockquote>
+<p>提供针对国家/地区适合的配色；</p>
+<p>目前有13个国家/地区，13位设计师，13个调色板。</p>
+</blockquote>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JZVnCq.png" alt="JZVnCq.png"></p>
+<p><a href="https://flatuicolors.com/" target="_blank" rel="noopener">https://flatuicolors.com/</a></p>
+<h3 id="中国传统色谱"><a href="#中国传统色谱" class="headerlink" title="中国传统色谱"></a>中国传统色谱</h3><blockquote>
+<p>提供多种中国传统配色，十分亮眼；</p>
+</blockquote>
+<p><img data-src="https://s1.ax1x.com/2020/04/20/JlUT1J.png" alt="JlUT1J.png"></p>
+<p><a href="http://zhongguose.com/" target="_blank" rel="noopener">http://zhongguose.com/</a></p>
+<h2 id="渐变"><a href="#渐变" class="headerlink" title="渐变"></a>渐变</h2><h3 id="Coolhue"><a href="#Coolhue" class="headerlink" title="Coolhue"></a>Coolhue</h3><blockquote>
+<p>CoolHue 首页大概有 60 种渐变色背景，当然，这个数目会持续增加。选择你中意的配色方案，点击下载即可获得一张适当分辨率的方形 PNG 图片。点击代码图标，可以复制该渐变色的 CSS3 语法。在一些网页设计中，直接应用，相比上传渐变色图片，更省流量。下方可以直接复制 16 进制代码，用于 PPT 或者 PS ，甚至电脑画图程序当中。</p>
+</blockquote>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JZVsVH.png" alt="JZVsVH.png"></p>
+<p><a href="https://webkul.github.io/coolhue/" target="_blank" rel="noopener">https://webkul.github.io/coolhue/</a></p>
+<h3 id="Uigradients"><a href="#Uigradients" class="headerlink" title="Uigradients"></a>Uigradients</h3><blockquote>
+<p>Uigradients 也是一款简单的配色网站。点击左上角的菜单，即可显示所有内容。通过不同颜色选择不同配色。点击右上角的方向箭头，可以旋转配色角度；点击代码按钮，可以复制它的 Css 代码，用于其他设计。点击下载按钮，即可获得一张足够分辨率的 JPG 图片。当然，你还可以直接点击顶部的色值，复制 16 进制色值。</p>
+</blockquote>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JZZSZ4.png" alt="JZZSZ4.png"></p>
+<p><a href="https://uigradients.com/" target="_blank" rel="noopener">https://uigradients.com/</a></p>
+<h3 id="WebGradients"><a href="#WebGradients" class="headerlink" title="WebGradients"></a>WebGradients</h3><blockquote>
+<p>Webgradients 大概拥有 180 种渐变配色，在首页点击色块即可全屏显示当前配色方案；同样，在底部可以复制 16 进制色值以及 CSS 代码，点击色块右上角，即可下载 PNG 格式图片。</p>
+</blockquote>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JZZWk9.png" alt="JZZWk9.png"></p>
+<p><a href="https://webgradients.com/" target="_blank" rel="noopener">https://webgradients.com/</a></p>
+<h3 id="Gradients-of-Shapefactory"><a href="#Gradients-of-Shapefactory" class="headerlink" title="Gradients of Shapefactory"></a>Gradients of Shapefactory</h3><blockquote>
+<p>Gradients of Shapefactory 其实是整个网站的功能之一，其他功能你可以自行去发掘。整个界面显示当前色系的不同渐变颜色；点击色盘，更改色系。拖动左边的球形按钮，可以改变色度和亮度；鼠标放在某一色块上，点击圆圈并旋转拖动可以改变渐变色的角度。同样可以复制 16 进制色值，以及 CSS 代码；点击图片，可以看到全局。</p>
+</blockquote>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JZZXtA.png" alt="JZZXtA.png"></p>
+<p><a href="https://gradient.shapefactory.co/" target="_blank" rel="noopener">https://gradient.shapefactory.co/</a></p>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="CSS-clip-path-maker"><a href="#CSS-clip-path-maker" class="headerlink" title="CSS clip-path maker"></a>CSS clip-path maker</h3><blockquote>
+<p>在线调试 <code>clip-path</code>    属性，预置了多种图形。</p>
+</blockquote>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JZkAb9.png" alt="JZkAb9.png"></p>
+<p><a href="https://bennettfeely.com/clippy/" target="_blank" rel="noopener">https://bennettfeely.com/clippy/</a></p>
+<h3 id="CSS-灵感"><a href="#CSS-灵感" class="headerlink" title="CSS 灵感"></a>CSS 灵感</h3><blockquote>
+<p>这里可以让你寻找到使用或者是学习 CSS 的灵感，以分类的形式，展示不同 CSS 属性或者不同的课题使用 CSS 来解决的各种方法。</p>
+</blockquote>
+<p><img data-src="https://s1.ax1x.com/2020/04/17/JZkY5t.png" alt="JZkY5t.png"></p>
+<p><a href="https://chokcoco.github.io/CSS-Inspiration/" target="_blank" rel="noopener">https://chokcoco.github.io/CSS-Inspiration/</a></p>
+]]></content>
+      <tags>
+        <tag>css</tag>
+        <tag>frontend</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>收集一些实用的前端js工具库【不定时更新】</title>
     <url>/2020/04/20/js-util-libary/</url>
     <content><![CDATA[<h2 id="十进制运算"><a href="#十进制运算" class="headerlink" title="十进制运算"></a>十进制运算</h2><h3 id="big-js"><a href="#big-js" class="headerlink" title="big.js"></a><a href="https://github.com/MikeMcl/big.js" target="_blank" rel="noopener">big.js</a></h3><blockquote>
@@ -136,190 +408,40 @@
 </blockquote>
 ]]></content>
       <tags>
+        <tag>node</tag>
         <tag>frontend</tag>
         <tag>js</tag>
-        <tag>node</tag>
       </tags>
   </entry>
   <entry>
-    <title>个人收藏的MacOS好用的软件</title>
-    <url>/2020/04/16/collection-of-mac-apps/</url>
-    <content><![CDATA[<ol>
-<li><p><a href="https://www.microsoft.com/zh-cn/edge" target="_blank" rel="noopener">Microsoft Edge</a>:  重构后的<code>Microsoft Edge</code> 浏览器带来了出色的兼容性及性能，尤其是其云账户同步功能，速度非常快（我已经抛弃<code>chrome</code>了…）。</p>
-</li>
-<li><p><a href="https://www.alfredapp.com/" target="_blank" rel="noopener">Alfred</a>: 效率神器，不解释。</p>
-</li>
-<li><p><a href="https://www.keka.io/" target="_blank" rel="noopener">Keka</a>: 免费强大的压缩/解压缩软件，支持多种格式如<code>zip</code>,<code>rar</code>,<code>7z</code>等。</p>
-</li>
-<li><p><a href="https://github.com/Mortennn/Dozer" target="_blank" rel="noopener">Dozer</a>: 帮助我们隐藏<em>macOS</em> 菜单栏的图标, 免费开源。</p>
-</li>
-</ol>
-<a id="more"></a>
-
-<ol start="2">
-<li><a href="https://sipapp.io/" target="_blank" rel="noopener">Sip</a>: 提取颜色，管理颜色的最佳工具，支持保存各种语言的颜色代码。</li>
-<li><a href="https://pasteapp.io/" target="_blank" rel="noopener">Paste</a>: 剪切板管理，主要是可以保存各种类型的剪贴记录，支持搜索。</li>
-<li><a href="https://zh.snipaste.com/" target="_blank" rel="noopener">Snipaste</a>: Snipaste 是一个简单但强大的截图工具，也可以让你将截图贴回到屏幕上！(支持贴图功能)。</li>
-<li><a href="https://github.com/ripperhe/Bob" target="_blank" rel="noopener">Bob</a>: Bob 是一款 Mac 端翻译软件，翻译方式支持划词翻译和截图翻译，翻译引擎支持有道翻译、百度翻译和谷歌翻译。</li>
-<li><a href="https://github.com/gee1k/uPic" target="_blank" rel="noopener">uPic</a>: 可将图片、各种文件上传到配置好的指定提供商的对象存储中，然后快速获取可供互联网访问的文件 URL。</li>
-<li><a href="https://github.com/yanue/V2rayU" target="_blank" rel="noopener">v2rayU</a>: V2rayU,基于v2ray核心的mac版客户端,用于科学上网,使用<code>swift</code>编写,支持<code>vmess,shadowsocks,socks5</code>等服务协议,支持订阅, 支持二维码,剪贴板导入,手动配置,二维码分享等。</li>
-<li><a href="https://www.iterm2.com/" target="_blank" rel="noopener">iTerm</a>: iTerm2是一款完全免费的，专为 Mac OS 用户打造的命令行应用，当然，也是程序员们的最爱。iTerm2本身支持很多自定义化的设置，比如自定义配色，自定义快捷键，方便的水平和垂直分屏功能，等等…… 毫不避讳的讲，说它是如今Mac下最好的终端工具也不为过。当然，日常工作与开发中，用它替代Mac自带的Terminal也是不二的选择。</li>
-<li><a href="https://codinn.com/" target="_blank" rel="noopener">SSH Copy</a>: SSH Copy for Mac是一个直观的SFTP（安全文件传输协议）客户端，允许您像Finder一样管理远程文件。</li>
-<li><a href="https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466?mt=12" target="_blank" rel="noopener">Microsoft Remote Desktop</a>: 支持远程访问Windows桌面</li>
-<li><a href="https://github.com/NaoTu/DesktopNaotu" target="_blank" rel="noopener">Desktop Naotu</a>: 桌面版脑图 (百度脑图离线版，思维导图) 跨平台支持 Windows/Linux/Mac OS. (A cross-platform multilingual Mind Map Tool)</li>
-<li><a href="https://typora.io/" target="_blank" rel="noopener">Typoa</a>: Typora 是一款<strong>支持实时预览的 Markdown 文本编辑器</strong>。它有 OS X、Windows、Linux 三个平台的版本，并且由于仍在测试中，是<strong>完全免费</strong>的。</li>
-<li><a href="https://www.postman.com/" target="_blank" rel="noopener">Postman</a>: Api 测试 GUI工具。</li>
-<li><a href="https://www.teamviewer.cn/" target="_blank" rel="noopener">TeamViewer</a>: 远程控制工具。</li>
-<li><a href="https://www.docker.com/products/docker-desktop" target="_blank" rel="noopener">Docker Desktop</a>: Docker Desktop For Mac。</li>
-<li><a href="https://listen1.github.io/listen1/" target="_blank" rel="noopener">Listen1</a>: Listen 1可以搜索和播放来自网易云音乐，虾米，QQ音乐，酷狗音乐，酷我音乐网站的歌曲，让你的曲库更全面。</li>
-<li><a href="https://1password.com/zh-cn/" target="_blank" rel="noopener">1Password</a>: 1Password 为你记住一切。保存您的密码并可一键登录网站。就是这么简单。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>MacOS</category>
-      </categories>
-      <tags>
-        <tag>software</tag>
-        <tag>app</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>electron使用flash插件</title>
-    <url>/2016/10/16/electron-use-flash-extension/</url>
-    <content><![CDATA[<h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><blockquote>
-<p>最近有个需求是使用Electron开发一个Windows直播的客户端，使用Flash进行播放相关功能，但是Electron的Flash功能需要插件支持，折腾好久才搞定，做个记录。  </p>
+    <title>nginx proxy 地址的问题</title>
+    <url>/2020/04/16/nginx-proxy-syntax/</url>
+    <content><![CDATA[<h3 id="第一种："><a href="#第一种：" class="headerlink" title="第一种："></a>第一种：</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F;proxy&#x2F; &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;127.0.0.1&#x2F;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>代理到URL：<a href="http://127.0.0.1/test.html" target="_blank" rel="noopener">http://127.0.0.1/test.html</a></p>
 </blockquote>
 <a id="more"></a>
 
-<h3 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h3><h4 id="安装electron"><a href="#安装electron" class="headerlink" title="安装electron"></a>安装electron</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install electron -g</span><br></pre></td></tr></table></figure>
-<h4 id="创建项目-1"><a href="#创建项目-1" class="headerlink" title="创建项目"></a>创建项目</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ mkdir <span class="built_in">test</span></span><br><span class="line">$ <span class="built_in">cd</span> <span class="built_in">test</span>/</span><br><span class="line">$ touch package.json</span><br><span class="line">$ touch main.js</span><br></pre></td></tr></table></figure>
+
+<h3 id="第二种："><a href="#第二种：" class="headerlink" title="第二种："></a>第二种：</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F;proxy&#x2F; &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;127.0.0.1;  #少&#x2F;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <blockquote>
-<p>package.json  </p>
+<p>代理到URL：<a href="http://127.0.0.1/proxy/test.html" target="_blank" rel="noopener">http://127.0.0.1/proxy/test.html</a></p>
 </blockquote>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"name"</span>: <span class="string">"test"</span>,</span><br><span class="line">  <span class="attr">"version"</span>: <span class="string">"1.0.0"</span>,</span><br><span class="line">  <span class="attr">"main"</span>: <span class="string">"main.js"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="第三种："><a href="#第三种：" class="headerlink" title="第三种："></a>第三种：</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F;proxy&#x2F; &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;127.0.0.1&#x2F;aaa&#x2F;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <blockquote>
-<p>main.js  </p>
+<p>代理到URL：<a href="http://127.0.0.1/aaa/test.html" target="_blank" rel="noopener">http://127.0.0.1/aaa/test.html</a></p>
 </blockquote>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> &#123;app, BrowserWindow&#125; = <span class="built_in">require</span>(<span class="string">'electron'</span>)</span><br><span class="line"><span class="keyword">const</span> &#123;resolve&#125; = <span class="built_in">require</span>(<span class="string">'path'</span>)</span><br><span class="line"><span class="keyword">const</span> url = <span class="built_in">require</span>(<span class="string">'url'</span>)</span><br><span class="line"><span class="comment">// 注册Flash插件</span></span><br><span class="line"><span class="keyword">const</span> flashplayer = resolve(__dirname, <span class="string">'pepflashplayer.dll'</span>)</span><br><span class="line">app.commandLine.appendSwitch(<span class="string">'ppapi-flash-path'</span>, flashplayer);</span><br><span class="line">app.commandLine.appendSwitch(<span class="string">'ppapi-flash-version'</span>, <span class="string">'23.0.0.194'</span>);</span><br><span class="line"><span class="comment">// 保持一个对于 window 对象的全局引用，如果你不这样做，</span></span><br><span class="line"><span class="comment">// 当 JavaScript 对象被垃圾回收， window 会被自动地关闭</span></span><br><span class="line"><span class="keyword">let</span> win</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">createWindow</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="comment">// 创建浏览器窗口。</span></span><br><span class="line">  win = <span class="keyword">new</span> BrowserWindow(&#123;</span><br><span class="line">    width: <span class="number">800</span>,</span><br><span class="line">    height: <span class="number">600</span>,</span><br><span class="line">    webPreferences: &#123; <span class="comment">// 注意一定要 添加这个 不然flash插件不会生效</span></span><br><span class="line">      plugins: <span class="literal">true</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;)</span><br><span class="line">  <span class="comment">// 随便加载一个flash视频页面</span></span><br><span class="line">  win.loadURL(<span class="string">'http://www.iqiyi.com/v_19rrarwio8.html?list=19rrkp73da'</span>)</span><br><span class="line">  <span class="comment">// 打开开发者工具。</span></span><br><span class="line">  win.webContents.openDevTools()</span><br><span class="line">  <span class="comment">// 当 window 被关闭，这个事件会被触发。</span></span><br><span class="line">  win.on(<span class="string">'closed'</span>, () =&gt; &#123;</span><br><span class="line">    <span class="comment">// 取消引用 window 对象，如果你的应用支持多窗口的话，</span></span><br><span class="line">    <span class="comment">// 通常会把多个 window 对象存放在一个数组里面，</span></span><br><span class="line">    <span class="comment">// 与此同时，你应该删除相应的元素。</span></span><br><span class="line">    win = <span class="literal">null</span></span><br><span class="line">  &#125;)</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// Electron 会在初始化后并准备</span></span><br><span class="line"><span class="comment">// 创建浏览器窗口时，调用这个函数。</span></span><br><span class="line"><span class="comment">// 部分 API 在 ready 事件触发后才能使用。</span></span><br><span class="line">app.on(<span class="string">'ready'</span>, createWindow)</span><br><span class="line"><span class="comment">// 当全部窗口关闭时退出。</span></span><br><span class="line">app.on(<span class="string">'window-all-closed'</span>, () =&gt; &#123;</span><br><span class="line">  <span class="comment">// 在 macOS 上，除非用户用 Cmd + Q 确定地退出，</span></span><br><span class="line">  <span class="comment">// 否则绝大部分应用及其菜单栏会保持激活。</span></span><br><span class="line">  <span class="keyword">if</span> (process.platform !== <span class="string">'darwin'</span>) &#123;</span><br><span class="line">    app.quit()</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br><span class="line">app.on(<span class="string">'activate'</span>, () =&gt; &#123;</span><br><span class="line">  <span class="comment">// 在这文件，你可以续写应用剩下主进程代码。</span></span><br><span class="line">  <span class="comment">// 也可以拆分成几个文件，然后用 require 导入。</span></span><br><span class="line">  <span class="keyword">if</span> (win === <span class="literal">null</span>) &#123;</span><br><span class="line">    createWindow()</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
-<h4 id="放置dll文件"><a href="#放置dll文件" class="headerlink" title="放置dll文件"></a>放置dll文件</h4><ul>
-<li>如果你有安装Chrome浏览器，可以在地址栏输入<code>chrome://plugins/</code>，点击右侧的详细信息，找到<code>Adobe Flash Player</code>条目，在位置项复制<code>pepflashplayer.dll</code> (<strong>Windows</strong>)文件到项目目录。</li>
-<li>单独安装请打开官方下载页面 <code>http://get2.adobe.com/cn/flashplayer/otherversions/</code>，选择你的操作系统，版本选择<code>for Opera and Chromium-PPAPI</code>结尾的版本。安装完毕后:<ul>
-<li>在<code>C:\Windows\SysWOW64\Macromed\Flash</code>下找到32位版本如：<code>pepflashplayer32_24_0_0_194.dll</code>(名称和版本号可能有出入)。 </li>
-<li><code>在C:\Windows\System32\Macromed\Flash</code>下找到64位版本，如：<code>pepflashplayer64_24_0_0_194.dll</code>(名称和版本号可能有出入)。</li>
-<li>然后复制到项目目录，重命名为<code>pepflashplayer.dll</code>即可。</li>
-</ul>
-</li>
-</ul>
-<h4 id="启动测试"><a href="#启动测试" class="headerlink" title="启动测试"></a>启动测试</h4><blockquote>
-<p>接着运行 <code>$ electron .</code> 打开一个爱奇艺视频链接，发现可以加载咯。</p>
+<h3 id="第四种（相对于第三种，最后少一个-）"><a href="#第四种（相对于第三种，最后少一个-）" class="headerlink" title="第四种（相对于第三种，最后少一个 / ）"></a>第四种（相对于第三种，最后少一个 / ）</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F;proxy&#x2F; &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;127.0.0.1&#x2F;aaa;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>代理到URL：<a href="http://127.0.0.1/aaatest.html" target="_blank" rel="noopener">http://127.0.0.1/aaatest.html</a></p>
 </blockquote>
 ]]></content>
       <categories>
-        <category>frontend</category>
+        <category>backend</category>
         <category>summaries</category>
       </categories>
       <tags>
-        <tag>node</tag>
-        <tag>electron</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>收集一些好用的CSS工具网站【不定时更新】</title>
-    <url>/2020/04/17/css-util-resources/</url>
-    <content><![CDATA[<h2 id="免费版权图片-视频"><a href="#免费版权图片-视频" class="headerlink" title="免费版权图片/视频"></a>免费版权图片/视频</h2><h3 id="Logosc"><a href="#Logosc" class="headerlink" title="Logosc"></a>Logosc</h3><blockquote>
-<p>提供很多免费免版权的图片搜索和使用。</p>
-</blockquote>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JZk5qJ.png" alt="JZk5qJ.png"></p>
-<p><a href="https://www.logosc.cn/so/" target="_blank" rel="noopener">https://www.logosc.cn/so/</a></p>
-<a id="more"></a>
-
-<h3 id="Coverr"><a href="#Coverr" class="headerlink" title="Coverr"></a>Coverr</h3><blockquote>
-<p> 提供漂亮的的网页背景/封面/banner视频素材</p>
-</blockquote>
-<p><a href="https://coverr.co/" target="_blank" rel="noopener">https://coverr.co/</a></p>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JZAQJ0.png" alt="JZAQJ0.png"></p>
-<h2 id="动画"><a href="#动画" class="headerlink" title="动画"></a>动画</h2><h3 id="Animista"><a href="#Animista" class="headerlink" title="Animista"></a>Animista</h3><blockquote>
-<p>Animista集合了很多种CSS动画，可以免费对其调整，预览和下载。</p>
-</blockquote>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JZAUoR.png" alt="JZAUoR.png"></p>
-<p><a href="https://animista.net/" target="_blank" rel="noopener">https://animista.net/</a></p>
-<h3 id="JetBrains-Animation-Generator"><a href="#JetBrains-Animation-Generator" class="headerlink" title="JetBrains Animation Generator"></a>JetBrains Animation Generator</h3><blockquote>
-<p>一个在线生成JetBrains 系统动态背景的网站，支持多种IDE风格，可以免费下载html5代码或者png图片。</p>
-</blockquote>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JZADSK.png" alt="JZADSK.png"></p>
-<p><a href="https://code2art.jetbrains.com/" target="_blank" rel="noopener">https://code2art.jetbrains.com/</a></p>
-<h2 id="图标"><a href="#图标" class="headerlink" title="图标"></a>图标</h2><h3 id="Iconfont"><a href="#Iconfont" class="headerlink" title="Iconfont"></a>Iconfont</h3><blockquote>
-<p>阿里巴巴旗下，国内功能很强大且图标内容很丰富的矢量图标库，提供矢量图标下载、在线存储、格式转换等功能。阿里巴巴体验团队倾力打造，设计和前端开发的便捷工具。</p>
-</blockquote>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JZEpXF.png" alt="JZEpXF.png"></p>
-<p><a href="https://www.iconfont.cn/" target="_blank" rel="noopener">https://www.iconfont.cn/</a></p>
-<h3 id="IKonate"><a href="#IKonate" class="headerlink" title="IKonate"></a>IKonate</h3><blockquote>
-<p>提供一组完全可定制和可访问的矢量图标。</p>
-</blockquote>
-<p><a href="https://imgchr.com/i/JZEnXD" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/04/17/JZEnXD.png" alt="JZEnXD.png"></a></p>
-<p><a href="https://ikonate.com/" target="_blank" rel="noopener">https://ikonate.com/</a></p>
-<h3 id="PathLove"><a href="#PathLove" class="headerlink" title="PathLove"></a>PathLove</h3><blockquote>
-<p>Pathlove是一个小型个人项目，我们主要免费设计和共享图标，插图和壁纸。<br>我们也写，我们的主要工具是Affinity Designer！</p>
-</blockquote>
-<p><a href="https://imgchr.com/i/JZE63V" target="_blank" rel="noopener"><img data-src="https://s1.ax1x.com/2020/04/17/JZE63V.png" alt="JZE63V.png"></a></p>
-<p><a href="https://pathlove.com/" target="_blank" rel="noopener">https://pathlove.com/</a></p>
-<h3 id="RemixIcon"><a href="#RemixIcon" class="headerlink" title="RemixIcon"></a>RemixIcon</h3><blockquote>
-<p>简直令人愉快的图标系统</p>
-<p>Remix Icon是为设计师和开发人员精心制作的一组开源中性风格系统符号。</p>
-<p>所有图标都是免费的，可用于个人和商业用途。</p>
-</blockquote>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JZET9x.png" alt="JZET9x.png"></p>
-<p><a href="https://remixicon.com/" target="_blank" rel="noopener">https://remixicon.com/</a></p>
-<h2 id="颜色"><a href="#颜色" class="headerlink" title="颜色"></a>颜色</h2><h3 id="Colorsupplyyy"><a href="#Colorsupplyyy" class="headerlink" title="Colorsupplyyy"></a>Colorsupplyyy</h3><blockquote>
-<p>通过选择颜色，给出合适亮眼的搭配。</p>
-</blockquote>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JZEXHH.png" alt="JZEXHH.png"></p>
-<p><a href="https://colorsupplyyy.com/app" target="_blank" rel="noopener">https://colorsupplyyy.com/app</a></p>
-<h3 id="FlatUIColors"><a href="#FlatUIColors" class="headerlink" title="FlatUIColors"></a>FlatUIColors</h3><blockquote>
-<p>提供针对国家/地区适合的配色；</p>
-<p>目前有13个国家/地区，13位设计师，13个调色板。</p>
-</blockquote>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JZVnCq.png" alt="JZVnCq.png"></p>
-<p><a href="https://flatuicolors.com/" target="_blank" rel="noopener">https://flatuicolors.com/</a></p>
-<h3 id="中国传统色谱"><a href="#中国传统色谱" class="headerlink" title="中国传统色谱"></a>中国传统色谱</h3><blockquote>
-<p>提供多种中国传统配色，十分亮眼；</p>
-</blockquote>
-<p><img data-src="https://s1.ax1x.com/2020/04/20/JlUT1J.png" alt="JlUT1J.png"></p>
-<p><a href="http://zhongguose.com/" target="_blank" rel="noopener">http://zhongguose.com/</a></p>
-<h2 id="渐变"><a href="#渐变" class="headerlink" title="渐变"></a>渐变</h2><h3 id="Coolhue"><a href="#Coolhue" class="headerlink" title="Coolhue"></a>Coolhue</h3><blockquote>
-<p>CoolHue 首页大概有 60 种渐变色背景，当然，这个数目会持续增加。选择你中意的配色方案，点击下载即可获得一张适当分辨率的方形 PNG 图片。点击代码图标，可以复制该渐变色的 CSS3 语法。在一些网页设计中，直接应用，相比上传渐变色图片，更省流量。下方可以直接复制 16 进制代码，用于 PPT 或者 PS ，甚至电脑画图程序当中。</p>
-</blockquote>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JZVsVH.png" alt="JZVsVH.png"></p>
-<p><a href="https://webkul.github.io/coolhue/" target="_blank" rel="noopener">https://webkul.github.io/coolhue/</a></p>
-<h3 id="Uigradients"><a href="#Uigradients" class="headerlink" title="Uigradients"></a>Uigradients</h3><blockquote>
-<p>Uigradients 也是一款简单的配色网站。点击左上角的菜单，即可显示所有内容。通过不同颜色选择不同配色。点击右上角的方向箭头，可以旋转配色角度；点击代码按钮，可以复制它的 Css 代码，用于其他设计。点击下载按钮，即可获得一张足够分辨率的 JPG 图片。当然，你还可以直接点击顶部的色值，复制 16 进制色值。</p>
-</blockquote>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JZZSZ4.png" alt="JZZSZ4.png"></p>
-<p><a href="https://uigradients.com/" target="_blank" rel="noopener">https://uigradients.com/</a></p>
-<h3 id="WebGradients"><a href="#WebGradients" class="headerlink" title="WebGradients"></a>WebGradients</h3><blockquote>
-<p>Webgradients 大概拥有 180 种渐变配色，在首页点击色块即可全屏显示当前配色方案；同样，在底部可以复制 16 进制色值以及 CSS 代码，点击色块右上角，即可下载 PNG 格式图片。</p>
-</blockquote>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JZZWk9.png" alt="JZZWk9.png"></p>
-<p><a href="https://webgradients.com/" target="_blank" rel="noopener">https://webgradients.com/</a></p>
-<h3 id="Gradients-of-Shapefactory"><a href="#Gradients-of-Shapefactory" class="headerlink" title="Gradients of Shapefactory"></a>Gradients of Shapefactory</h3><blockquote>
-<p>Gradients of Shapefactory 其实是整个网站的功能之一，其他功能你可以自行去发掘。整个界面显示当前色系的不同渐变颜色；点击色盘，更改色系。拖动左边的球形按钮，可以改变色度和亮度；鼠标放在某一色块上，点击圆圈并旋转拖动可以改变渐变色的角度。同样可以复制 16 进制色值，以及 CSS 代码；点击图片，可以看到全局。</p>
-</blockquote>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JZZXtA.png" alt="JZZXtA.png"></p>
-<p><a href="https://gradient.shapefactory.co/" target="_blank" rel="noopener">https://gradient.shapefactory.co/</a></p>
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="CSS-clip-path-maker"><a href="#CSS-clip-path-maker" class="headerlink" title="CSS clip-path maker"></a>CSS clip-path maker</h3><blockquote>
-<p>在线调试 <code>clip-path</code>    属性，预置了多种图形。</p>
-</blockquote>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JZkAb9.png" alt="JZkAb9.png"></p>
-<p><a href="https://bennettfeely.com/clippy/" target="_blank" rel="noopener">https://bennettfeely.com/clippy/</a></p>
-<h3 id="CSS-灵感"><a href="#CSS-灵感" class="headerlink" title="CSS 灵感"></a>CSS 灵感</h3><blockquote>
-<p>这里可以让你寻找到使用或者是学习 CSS 的灵感，以分类的形式，展示不同 CSS 属性或者不同的课题使用 CSS 来解决的各种方法。</p>
-</blockquote>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JZkY5t.png" alt="JZkY5t.png"></p>
-<p><a href="https://chokcoco.github.io/CSS-Inspiration/" target="_blank" rel="noopener">https://chokcoco.github.io/CSS-Inspiration/</a></p>
-]]></content>
-      <tags>
-        <tag>frontend</tag>
-        <tag>css</tag>
+        <tag>nginx</tag>
       </tags>
   </entry>
   <entry>
@@ -440,120 +562,50 @@
 <p>完美， 大功告成！</p>
 </blockquote>
 ]]></content>
-  </entry>
-  <entry>
-    <title>纯CSS实现六边形布局和排列</title>
-    <url>/2020/04/17/css-hexagon-layout-item/</url>
-    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote>
-<p>最近新上一个项目，有个页面需要实现六边形布局排列，如下图（敏感数据打了马赛克）：</p>
-</blockquote>
-<p><img data-src="https://i.loli.net/2020/04/16/8QUxuaHmG2E1keM.png" alt="8QUxuaHmG2E1keM"></p>
-<a id="more"></a>
-
-<blockquote>
-<p>需要实现以上布局，并且能够根据屏幕宽度自动调整每行的个数；</p>
-</blockquote>
-<h2 id="先画一个六边形"><a href="#先画一个六边形" class="headerlink" title="先画一个六边形"></a>先画一个六边形</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"container"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<figure class="highlight scss"><table><tr><td class="code"><pre><span class="line"><span class="variable">$hexWidth</span>: <span class="number">120px</span>;</span><br><span class="line"><span class="variable">$hexHeight</span>: <span class="number">130px</span>;</span><br><span class="line"><span class="selector-class">.container</span>&#123;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">768px</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.hex</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: inline-block;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">width</span>: <span class="variable">$hexWidth</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="variable">$hexHeight</span>;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#64c7cc</span>;</span><br><span class="line">  -webkit-<span class="attribute">clip-path</span>: polygon(<span class="number">0</span> <span class="number">25%</span>,<span class="number">50%</span> <span class="number">0</span>,<span class="number">100%</span> <span class="number">25%</span>,<span class="number">100%</span> <span class="number">75%</span>,<span class="number">50%</span> <span class="number">100%</span>,<span class="number">0</span> <span class="number">75%</span>);</span><br><span class="line">  <span class="attribute">clip-path</span>: polygon(<span class="number">0</span> <span class="number">25%</span>,<span class="number">50%</span> <span class="number">0</span>,<span class="number">100%</span> <span class="number">25%</span>,<span class="number">100%</span> <span class="number">75%</span>,<span class="number">50%</span> <span class="number">100%</span>,<span class="number">0</span> <span class="number">75%</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<p><img data-src="https://i.loli.net/2020/04/16/GZEx2e6f9srKzLX.png" alt="GZEx2e6f9srKzLX"></p>
-<blockquote>
-<p>关于 <code>clip-path</code>的兼容性请参考：<a href="https://caniuse.com/#feat=css-clip-path" target="_blank" rel="noopener">CSS clip-path property (for HTML)</a></p>
-<p>关于<code>clip-path</code>的在线调试请参考: <a href="https://bennettfeely.com/clippy/" target="_blank" rel="noopener">CSS clip-path maker</a></p>
-</blockquote>
-<h2 id="排列多个六边形"><a href="#排列多个六边形" class="headerlink" title="排列多个六边形"></a>排列多个六边形</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"container"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p><img data-src="https://i.loli.net/2020/04/16/2Ec9aYIAsV4Q5ep.png" alt="2Ec9aYIAsV4Q5ep"></p>
-<h3 id="增加间隙"><a href="#增加间隙" class="headerlink" title="增加间隙"></a>增加间隙</h3><figure class="highlight scss"><table><tr><td class="code"><pre><span class="line"><span class="variable">$hexWidth</span>: <span class="number">120px</span>;</span><br><span class="line"><span class="variable">$hexHeight</span>: <span class="number">130px</span>;</span><br><span class="line"><span class="variable">$gapWidth</span>: <span class="number">10px</span>;</span><br><span class="line"><span class="selector-class">.container</span>&#123;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">768px</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.hex</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: inline-block;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">width</span>: <span class="variable">$hexWidth</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="variable">$hexHeight</span>;</span><br><span class="line">  <span class="attribute">margin-left</span>: <span class="variable">$gapWidth</span>;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#64c7cc</span>;</span><br><span class="line">  -webkit-<span class="attribute">clip-path</span>: polygon(<span class="number">0</span> <span class="number">25%</span>,<span class="number">50%</span> <span class="number">0</span>,<span class="number">100%</span> <span class="number">25%</span>,<span class="number">100%</span> <span class="number">75%</span>,<span class="number">50%</span> <span class="number">100%</span>,<span class="number">0</span> <span class="number">75%</span>);</span><br><span class="line">  <span class="attribute">clip-path</span>: polygon(<span class="number">0</span> <span class="number">25%</span>,<span class="number">50%</span> <span class="number">0</span>,<span class="number">100%</span> <span class="number">25%</span>,<span class="number">100%</span> <span class="number">75%</span>,<span class="number">50%</span> <span class="number">100%</span>,<span class="number">0</span> <span class="number">75%</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<p><img data-src="https://i.loli.net/2020/04/16/L8vNo9AWs2pgYG7.png" alt="L8vNo9AWs2pgYG7"></p>
-<h3 id="让偶数行偏移"><a href="#让偶数行偏移" class="headerlink" title="让偶数行偏移"></a>让偶数行偏移</h3><figure class="highlight scss"><table><tr><td class="code"><pre><span class="line"><span class="variable">$hexWidth</span>: <span class="number">120px</span>;</span><br><span class="line"><span class="variable">$hexHeight</span>: <span class="number">130px</span>;</span><br><span class="line"><span class="variable">$gapWidth</span>: <span class="number">10px</span>;</span><br><span class="line"><span class="selector-class">.container</span>&#123;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">768px</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 此处为1行最多显示5个 定义为x</span></span><br><span class="line"><span class="comment">// 那么nth-child 公式为 .hex:nth-child((x * 2)n + (x + 1))</span></span><br><span class="line"><span class="selector-class">.hex</span><span class="selector-pseudo">:nth-child</span>(10n + 6)&#123;</span><br><span class="line">  <span class="attribute">margin-left</span>: (<span class="variable">$hexWidth</span> / <span class="number">2</span>) + ( <span class="variable">$gapWidth</span> / <span class="number">2</span>) + <span class="variable">$gapWidth</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.hex</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: inline-block;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">width</span>: <span class="variable">$hexWidth</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="variable">$hexHeight</span>;</span><br><span class="line">  <span class="attribute">margin-left</span>: <span class="variable">$gapWidth</span>;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#64c7cc</span>;</span><br><span class="line">  -webkit-<span class="attribute">clip-path</span>: polygon(<span class="number">0</span> <span class="number">25%</span>,<span class="number">50%</span> <span class="number">0</span>,<span class="number">100%</span> <span class="number">25%</span>,<span class="number">100%</span> <span class="number">75%</span>,<span class="number">50%</span> <span class="number">100%</span>,<span class="number">0</span> <span class="number">75%</span>);</span><br><span class="line">  <span class="attribute">clip-path</span>: polygon(<span class="number">0</span> <span class="number">25%</span>,<span class="number">50%</span> <span class="number">0</span>,<span class="number">100%</span> <span class="number">25%</span>,<span class="number">100%</span> <span class="number">75%</span>,<span class="number">50%</span> <span class="number">100%</span>,<span class="number">0</span> <span class="number">75%</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><img data-src="https://i.loli.net/2020/04/16/jICfglGZ7pvJnUt.png" alt="jICfglGZ7pvJnUt"></p>
-<h3 id="调整行间距"><a href="#调整行间距" class="headerlink" title="调整行间距"></a>调整行间距</h3><figure class="highlight scss"><table><tr><td class="code"><pre><span class="line"><span class="variable">$hexWidth</span>: <span class="number">120px</span>;</span><br><span class="line"><span class="variable">$hexHeight</span>: <span class="number">130px</span>;</span><br><span class="line"><span class="variable">$gapWidth</span>: <span class="number">10px</span>;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.container</span>&#123;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">768px</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.hex</span><span class="selector-pseudo">:nth-child</span>(10n + 6)&#123;</span><br><span class="line">  <span class="attribute">margin-left</span>: (<span class="variable">$hexWidth</span> / <span class="number">2</span>) + ( <span class="variable">$gapWidth</span> / <span class="number">2</span>) + <span class="variable">$gapWidth</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.hex</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: inline-block;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">width</span>: <span class="variable">$hexWidth</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="variable">$hexHeight</span>;</span><br><span class="line">  <span class="attribute">margin-left</span>: <span class="variable">$gapWidth</span>;</span><br><span class="line">  <span class="attribute">margin-bottom</span>: -<span class="variable">$hexHeight</span> / <span class="number">4</span> + <span class="variable">$gapWidth</span>;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#64c7cc</span>;</span><br><span class="line">  -webkit-<span class="attribute">clip-path</span>: polygon(<span class="number">0</span> <span class="number">25%</span>,<span class="number">50%</span> <span class="number">0</span>,<span class="number">100%</span> <span class="number">25%</span>,<span class="number">100%</span> <span class="number">75%</span>,<span class="number">50%</span> <span class="number">100%</span>,<span class="number">0</span> <span class="number">75%</span>);</span><br><span class="line">  <span class="attribute">clip-path</span>: polygon(<span class="number">0</span> <span class="number">25%</span>,<span class="number">50%</span> <span class="number">0</span>,<span class="number">100%</span> <span class="number">25%</span>,<span class="number">100%</span> <span class="number">75%</span>,<span class="number">50%</span> <span class="number">100%</span>,<span class="number">0</span> <span class="number">75%</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><img data-src="https://i.loli.net/2020/04/16/U3nq9XNcCADzGIu.png" alt="U3nq9XNcCADzGIu"></p>
-<h3 id="实现边框"><a href="#实现边框" class="headerlink" title="实现边框"></a>实现边框</h3><figure class="highlight scss"><table><tr><td class="code"><pre><span class="line"><span class="variable">$hexWidth</span>: <span class="number">120px</span>;</span><br><span class="line"><span class="variable">$hexHeight</span>: <span class="number">130px</span>;</span><br><span class="line"><span class="variable">$gapWidth</span>: <span class="number">10px</span>;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.container</span>&#123;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">768px</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.hex</span><span class="selector-pseudo">:nth-child</span>(10n + 6)&#123;</span><br><span class="line">  <span class="attribute">margin-left</span>: (<span class="variable">$hexWidth</span> / <span class="number">2</span>) + ( <span class="variable">$gapWidth</span> / <span class="number">2</span>) + <span class="variable">$gapWidth</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.hex</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: inline-block;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">width</span>: <span class="variable">$hexWidth</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="variable">$hexHeight</span>;</span><br><span class="line">  <span class="attribute">margin-left</span>: <span class="variable">$gapWidth</span>;</span><br><span class="line">  <span class="attribute">margin-bottom</span>: -<span class="variable">$hexHeight</span> / <span class="number">4</span> + <span class="variable">$gapWidth</span>;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#64c7cc</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.hex</span><span class="selector-pseudo">::before</span> &#123;</span><br><span class="line">  <span class="attribute">content</span>: <span class="string">""</span>;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#fff</span>;</span><br><span class="line">  <span class="attribute">left</span>: <span class="number">2px</span>;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">2px</span>;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">2px</span>;</span><br><span class="line">  <span class="attribute">bottom</span>: <span class="number">2px</span>;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">z-index</span>: -<span class="number">1</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.hex</span>, <span class="selector-class">.hex</span><span class="selector-pseudo">::before</span> &#123;</span><br><span class="line">  -webkit-<span class="attribute">clip-path</span>: polygon(<span class="number">0</span> <span class="number">25%</span>,<span class="number">50%</span> <span class="number">0</span>,<span class="number">100%</span> <span class="number">25%</span>,<span class="number">100%</span> <span class="number">75%</span>,<span class="number">50%</span> <span class="number">100%</span>,<span class="number">0</span> <span class="number">75%</span>);</span><br><span class="line">  <span class="attribute">clip-path</span>: polygon(<span class="number">0</span> <span class="number">25%</span>,<span class="number">50%</span> <span class="number">0</span>,<span class="number">100%</span> <span class="number">25%</span>,<span class="number">100%</span> <span class="number">75%</span>,<span class="number">50%</span> <span class="number">100%</span>,<span class="number">0</span> <span class="number">75%</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><img data-src="https://i.loli.net/2020/04/16/FkSf5EKXPqzRD4H.png" alt="FkSf5EKXPqzRD4H"></p>
-<h3 id="填字"><a href="#填字" class="headerlink" title="填字"></a>填字</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"container"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST1</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST2</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST3</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST4</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST5</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST6</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST7</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST8</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST9</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST10</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST11</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST12</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST13</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST14</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST15</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST16</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST17</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"hex-body"</span>&gt;</span></span><br><span class="line">      TEST18</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<figure class="highlight scss"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.hex-body</span> &#123;</span><br><span class="line">  <span class="attribute">height</span>: <span class="variable">$hexHeight</span> / <span class="number">2</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">transform</span>: translateY(-<span class="number">50%</span>);</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">16px</span>;</span><br><span class="line">  <span class="attribute">text-align</span>: center;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JEwiRK.png" alt="JEwiRK.png"></p>
-<h2 id="响应式调整"><a href="#响应式调整" class="headerlink" title="响应式调整"></a>响应式调整</h2><blockquote>
-<p>这边使用 <code>CSS3</code> 的 <a href="https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Media_queries" target="_blank" rel="noopener">Media queries</a> 来进行适配，定义几个断点，我们参考<a href="https://getbootstrap.com/docs/4.4/layout/overview/#containers" target="_blank" rel="noopener">Bootstrap</a>的定义：</p>
-</blockquote>
-<ul>
-<li><strong>Extra small</strong>：<strong>&lt; 576px</strong></li>
-<li><strong>Small</strong>: <strong>≥576px</strong></li>
-<li><strong>Medium</strong>: <strong>≥768px</strong></li>
-<li><strong>Large</strong>: <strong>≥992px</strong></li>
-<li><strong>Extra large</strong>: <strong>≥1200px</strong></li>
-</ul>
-<figure class="highlight scss"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.container</span>&#123;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">Extra large</span></span><br><span class="line"><span class="comment">≥1200px</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">@media</span> <span class="keyword">only</span> screen <span class="keyword">and</span> (min-width : <span class="number">1200px</span>) &#123;</span><br><span class="line">  <span class="selector-class">.container</span>&#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">1140px</span>;</span><br><span class="line">  </span><br><span class="line">  &#125;</span><br><span class="line">  <span class="selector-class">.hex</span><span class="selector-pseudo">:nth-child</span>(16n + 9)&#123;</span><br><span class="line">    <span class="attribute">margin-left</span>: (<span class="variable">$hexWidth</span> / <span class="number">2</span>) + ( <span class="variable">$gapWidth</span> / <span class="number">2</span>) + <span class="variable">$gapWidth</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">Large</span></span><br><span class="line"><span class="comment">≥992px</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">@media</span> <span class="keyword">only</span> screen <span class="keyword">and</span> (min-width : <span class="number">992px</span>) <span class="keyword">and</span> (max-width: <span class="number">1200px</span>) &#123;</span><br><span class="line">  <span class="selector-class">.container</span>&#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">900px</span>;</span><br><span class="line">  </span><br><span class="line">  &#125;</span><br><span class="line">  <span class="selector-class">.hex</span><span class="selector-pseudo">:nth-child</span>(12n + 7)&#123;</span><br><span class="line">    <span class="attribute">margin-left</span>: (<span class="variable">$hexWidth</span> / <span class="number">2</span>) + ( <span class="variable">$gapWidth</span> / <span class="number">2</span>) + <span class="variable">$gapWidth</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">Medium</span></span><br><span class="line"><span class="comment">≥768px</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">@media</span> <span class="keyword">only</span> screen <span class="keyword">and</span> (min-width : <span class="number">768px</span>) <span class="keyword">and</span> (max-width: <span class="number">992px</span>) &#123;</span><br><span class="line">  <span class="selector-class">.container</span>&#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">720px</span>;</span><br><span class="line">  </span><br><span class="line">  &#125;</span><br><span class="line">  <span class="selector-class">.hex</span><span class="selector-pseudo">:nth-child</span>(10n + 6)&#123;</span><br><span class="line">    <span class="attribute">margin-left</span>: (<span class="variable">$hexWidth</span> / <span class="number">2</span>) + ( <span class="variable">$gapWidth</span> / <span class="number">2</span>) + <span class="variable">$gapWidth</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">Small</span></span><br><span class="line"><span class="comment">≥576px</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">@media</span> <span class="keyword">only</span> screen <span class="keyword">and</span> (min-width : <span class="number">576px</span>) <span class="keyword">and</span> (max-width: <span class="number">768px</span>) &#123;</span><br><span class="line">  <span class="selector-class">.container</span>&#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">520px</span>;</span><br><span class="line">  </span><br><span class="line">  &#125;</span><br><span class="line">  <span class="selector-class">.hex</span><span class="selector-pseudo">:nth-child</span>(6n + 4)&#123;</span><br><span class="line">    <span class="attribute">margin-left</span>: (<span class="variable">$hexWidth</span> / <span class="number">2</span>) + ( <span class="variable">$gapWidth</span> / <span class="number">2</span>) + <span class="variable">$gapWidth</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">Extra small</span></span><br><span class="line"><span class="comment">&lt;576px</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">@media</span> <span class="keyword">only</span> screen <span class="keyword">and</span> (max-width: <span class="number">575px</span>) &#123;</span><br><span class="line">  <span class="selector-class">.container</span>&#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">360px</span>;</span><br><span class="line">  </span><br><span class="line">  &#125;</span><br><span class="line">  <span class="selector-class">.hex</span><span class="selector-pseudo">:nth-child</span>(4n + 3)&#123;</span><br><span class="line">    <span class="attribute">margin-left</span>: (<span class="variable">$hexWidth</span> / <span class="number">2</span>) + ( <span class="variable">$gapWidth</span> / <span class="number">2</span>) + <span class="variable">$gapWidth</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><strong>&lt; 576px</strong></li>
-</ul>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JEwKit.png" alt="JEwKit.png"></p>
-<ul>
-<li><strong>≥576px</strong></li>
-</ul>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JEwlz8.png" alt="JEwlz8.png"></p>
-<ul>
-<li><strong>≥768px</strong></li>
-</ul>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JEwYZj.png" alt="JEwYZj.png"></p>
-<ul>
-<li><strong>≥992px</strong></li>
-</ul>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JEwdJ0.png" alt="JEwdJ0.png"></p>
-<ul>
-<li><strong>≥1200px</strong></li>
-</ul>
-<p><img data-src="https://s1.ax1x.com/2020/04/17/JEwcw9.png" alt="JEwcw9.png"></p>
-<h2 id="CodePen-链接"><a href="#CodePen-链接" class="headerlink" title="CodePen 链接"></a>CodePen 链接</h2><p class="codepen" data-height="576" data-theme-id="dark" data-default-tab="result" data-user="shmy" data-slug-hash="xxwZeNE" style="height: 576px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="css-hexagon-layout-item">
-  <span>See the Pen <a href="https://codepen.io/shmy/pen/xxwZeNE" target="_blank" rel="noopener">
-  css-hexagon-layout-item</a> by shmy (<a href="https://codepen.io/shmy" target="_blank" rel="noopener">@shmy</a>)
-  on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>]]></content>
       <categories>
-        <category>frontend</category>
+        <category>backend</category>
         <category>summaries</category>
       </categories>
       <tags>
-        <tag>css</tag>
+        <tag>nginx</tag>
+        <tag>docker</tag>
       </tags>
   </entry>
   <entry>
-    <title>yarn替换仓库源到淘宝镜像</title>
-    <url>/2016/12/16/yarn-registry-set-get/</url>
-    <content><![CDATA[<h3 id="什么是Yarn？"><a href="#什么是Yarn？" class="headerlink" title="什么是Yarn？"></a>什么是Yarn？</h3><blockquote>
-<p>Yarn 是 Facebook, Google, Exponent 和 Tilde 开发的一款新的 JavaScript 包管理工具。就像我们可以从官方文档了解那样，它的目的是解决这些团队使用 npm 面临的少数问题，即：  </p>
+    <title>js使用rewire对私有变量/函数进行测试</title>
+    <url>/2020/04/21/node-rewire-introduce/</url>
+    <content><![CDATA[<h2 id="什么是rewire"><a href="#什么是rewire" class="headerlink" title="什么是rewire"></a>什么是rewire</h2><blockquote>
+<p><a href="https://github.com/jhnns/rewire" target="_blank" rel="noopener"><code>rewire</code></a>，它的基本功能与<code>require</code>相同，都是用于导入模块，只是，它会为导入的模块添加两个特殊的函数：<strong><code>__get__</code></strong>与<strong><code>__set__</code></strong>。顾名思义，这两个函数可以分别用于获取和修改模块中的变量/函数。测试的时候，当我们需要获取或者重写私有变量/函数，<code>rewir</code>e非常有用。</p>
 </blockquote>
-<ul>
-<li>安装的时候无法保证速度/一致性</li>
-<li>安全问题，因为 npm 安装时允许运行代码</li>
-</ul>
 <a id="more"></a>
 
-<h3 id="修改为淘宝镜像"><a href="#修改为淘宝镜像" class="headerlink" title="修改为淘宝镜像"></a>修改为淘宝镜像</h3><h4 id="获取yarn当前配置源地址"><a href="#获取yarn当前配置源地址" class="headerlink" title="获取yarn当前配置源地址"></a>获取yarn当前配置源地址</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ yarn config get registry</span><br><span class="line"><span class="comment"># -&gt; https://registry.yarnpkg.com</span></span><br></pre></td></tr></table></figure>
-<h3 id="设置为淘宝镜像"><a href="#设置为淘宝镜像" class="headerlink" title="设置为淘宝镜像"></a>设置为淘宝镜像</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ yarn config <span class="built_in">set</span> registry https://registry.npm.taobao.org</span><br><span class="line"><span class="comment"># -&gt; yarn config v0.19.1</span></span><br><span class="line"><span class="comment"># -&gt; success Set "registry" to "https://registry.npm.taobao.org".</span></span><br><span class="line"><span class="comment"># -&gt; Done in 0.08s.</span></span><br></pre></td></tr></table></figure>
+
+
+<h2 id="简单实用"><a href="#简单实用" class="headerlink" title="简单实用"></a>简单实用</h2><blockquote>
+<p>example.service.js</p>
+</blockquote>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> getUserInfo = <span class="function">(<span class="params">userId</span>) =&gt;</span> &#123;</span><br><span class="line">  </span><br><span class="line">  <span class="keyword">const</span> user = UserProfile.findOne(&#123;<span class="attr">id</span>: userId&#125;);</span><br><span class="line">  <span class="keyword">const</span> email = getUserOrder(user.company);</span><br><span class="line">  <span class="keyword">return</span> &#123;...user, email&#125;;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> getUserEmail = <span class="function">(<span class="params">userCompany</span>) =&gt;</span> &#123;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">if</span> (!userCompany) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">""</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> <span class="string">"some@some.com"</span>;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">exports.getUserInfo = getUserInfo;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>以上代码我们在测试时，无法直接获取到<code>getUserEmail</code> 方法进行测试，也不会在统计到覆盖率中，因为这个函数没有被其他函数直接或间接调用；</p>
+<p>在我们工作中，常常有许多这种私有函数或者变量，只在当前模块内定义和使用并没有导出；如果我们有直接或间接调用这个函数，并且这个私有函数有很多分支条件的话，跑完测试后，不一定能到覆盖到全部的分支；</p>
+<p>所以，<code>rewire</code>模块可以提供一些<code>api</code>帮我们直接拿到或者设置这个私有函数/变量，这样的话，我们就能够很方便的对其中各种分支条件等等测试。</p>
+</blockquote>
+<blockquote>
+<p>example.service.test.js</p>
+</blockquote>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> rewire = <span class="built_in">require</span>(<span class="string">"rewire"</span>);</span><br><span class="line"><span class="keyword">const</span> exampleService = rewire(<span class="string">"./example.service"</span>);</span><br><span class="line"><span class="keyword">const</span> getUserEmail = exampleService.__get__(<span class="string">"getUserEmail"</span>);</span><br><span class="line"></span><br><span class="line">expect(getUserEmail()).toEqual(<span class="string">""</span>);	<span class="comment">// 👌</span></span><br><span class="line">expect(getUserEmail(<span class="number">1</span>)).toEqual(<span class="string">"some@some.com"</span>); <span class="comment">// 👌</span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>在实践中，为了简化测试和节省时间，我们通常需要去重写函数调用的外部函数，这时可以选择使用<code>rewire</code>模块实现。</p>
+</blockquote>
+<h2 id="babel插件"><a href="#babel插件" class="headerlink" title="babel插件"></a>babel插件</h2><blockquote>
+<p>此外：<a href="https://github.com/speedskater/babel-plugin-rewire" target="_blank" rel="noopener">babel-plugin-rewire</a> 提供了<code>babel</code>的插件，方便和<code>jest</code>等测试框架集成。</p>
+</blockquote>
 ]]></content>
-      <categories>
-        <category>frontend</category>
-        <category>summaries</category>
-      </categories>
       <tags>
         <tag>node</tag>
-        <tag>yarn</tag>
+        <tag>backend</tag>
       </tags>
   </entry>
   <entry>
@@ -618,71 +670,27 @@
       </tags>
   </entry>
   <entry>
-    <title>nginx proxy 地址的问题</title>
-    <url>/2020/04/16/nginx-proxy-syntax/</url>
-    <content><![CDATA[<h3 id="第一种："><a href="#第一种：" class="headerlink" title="第一种："></a>第一种：</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F;proxy&#x2F; &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;127.0.0.1&#x2F;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>代理到URL：<a href="http://127.0.0.1/test.html" target="_blank" rel="noopener">http://127.0.0.1/test.html</a></p>
+    <title>yarn替换仓库源到淘宝镜像</title>
+    <url>/2016/12/16/yarn-registry-set-get/</url>
+    <content><![CDATA[<h3 id="什么是Yarn？"><a href="#什么是Yarn？" class="headerlink" title="什么是Yarn？"></a>什么是Yarn？</h3><blockquote>
+<p>Yarn 是 Facebook, Google, Exponent 和 Tilde 开发的一款新的 JavaScript 包管理工具。就像我们可以从官方文档了解那样，它的目的是解决这些团队使用 npm 面临的少数问题，即：  </p>
 </blockquote>
+<ul>
+<li>安装的时候无法保证速度/一致性</li>
+<li>安全问题，因为 npm 安装时允许运行代码</li>
+</ul>
 <a id="more"></a>
 
-
-<h3 id="第二种："><a href="#第二种：" class="headerlink" title="第二种："></a>第二种：</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F;proxy&#x2F; &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;127.0.0.1;  #少&#x2F;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>代理到URL：<a href="http://127.0.0.1/proxy/test.html" target="_blank" rel="noopener">http://127.0.0.1/proxy/test.html</a></p>
-</blockquote>
-<h3 id="第三种："><a href="#第三种：" class="headerlink" title="第三种："></a>第三种：</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F;proxy&#x2F; &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;127.0.0.1&#x2F;aaa&#x2F;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>代理到URL：<a href="http://127.0.0.1/aaa/test.html" target="_blank" rel="noopener">http://127.0.0.1/aaa/test.html</a></p>
-</blockquote>
-<h3 id="第四种（相对于第三种，最后少一个-）"><a href="#第四种（相对于第三种，最后少一个-）" class="headerlink" title="第四种（相对于第三种，最后少一个 / ）"></a>第四种（相对于第三种，最后少一个 / ）</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F;proxy&#x2F; &#123;</span><br><span class="line">    proxy_pass http:&#x2F;&#x2F;127.0.0.1&#x2F;aaa;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>代理到URL：<a href="http://127.0.0.1/aaatest.html" target="_blank" rel="noopener">http://127.0.0.1/aaatest.html</a></p>
-</blockquote>
+<h3 id="修改为淘宝镜像"><a href="#修改为淘宝镜像" class="headerlink" title="修改为淘宝镜像"></a>修改为淘宝镜像</h3><h4 id="获取yarn当前配置源地址"><a href="#获取yarn当前配置源地址" class="headerlink" title="获取yarn当前配置源地址"></a>获取yarn当前配置源地址</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ yarn config get registry</span><br><span class="line"><span class="comment"># -&gt; https://registry.yarnpkg.com</span></span><br></pre></td></tr></table></figure>
+<h3 id="设置为淘宝镜像"><a href="#设置为淘宝镜像" class="headerlink" title="设置为淘宝镜像"></a>设置为淘宝镜像</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ yarn config <span class="built_in">set</span> registry https://registry.npm.taobao.org</span><br><span class="line"><span class="comment"># -&gt; yarn config v0.19.1</span></span><br><span class="line"><span class="comment"># -&gt; success Set "registry" to "https://registry.npm.taobao.org".</span></span><br><span class="line"><span class="comment"># -&gt; Done in 0.08s.</span></span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
-        <category>backend</category>
+        <category>frontend</category>
         <category>summaries</category>
       </categories>
       <tags>
-        <tag>nginx</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>js使用rewire对私有变量/函数进行测试</title>
-    <url>/2020/04/21/node-rewire-introduce/</url>
-    <content><![CDATA[<h2 id="什么是rewire"><a href="#什么是rewire" class="headerlink" title="什么是rewire"></a>什么是rewire</h2><blockquote>
-<p><a href="https://github.com/jhnns/rewire" target="_blank" rel="noopener"><code>rewire</code></a>，它的基本功能与<code>require</code>相同，都是用于导入模块，只是，它会为导入的模块添加两个特殊的函数：<strong><code>__get__</code></strong>与<strong><code>__set__</code></strong>。顾名思义，这两个函数可以分别用于获取和修改模块中的变量/函数。测试的时候，当我们需要获取或者重写私有变量/函数，<code>rewir</code>e非常有用。</p>
-</blockquote>
-<a id="more"></a>
-
-
-
-<h2 id="简单实用"><a href="#简单实用" class="headerlink" title="简单实用"></a>简单实用</h2><blockquote>
-<p>example.service.js</p>
-</blockquote>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> getUserInfo = <span class="function">(<span class="params">userId</span>) =&gt;</span> &#123;</span><br><span class="line">  </span><br><span class="line">  <span class="keyword">const</span> user = UserProfile.findOne(&#123;<span class="attr">id</span>: userId&#125;);</span><br><span class="line">  <span class="keyword">const</span> email = getUserOrder(user.company);</span><br><span class="line">  <span class="keyword">return</span> &#123;...user, email&#125;;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> getUserEmail = <span class="function">(<span class="params">userCompany</span>) =&gt;</span> &#123;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">if</span> (!userCompany) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">""</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> <span class="string">"some@some.com"</span>;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">exports.getUserInfo = getUserInfo;</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>以上代码我们在测试时，无法直接获取到<code>getUserEmail</code> 方法进行测试，也不会在统计到覆盖率中，因为这个函数没有被其他函数直接或间接调用；</p>
-<p>在我们工作中，常常有许多这种私有函数或者变量，只在当前模块内定义和使用并没有导出；如果我们有直接或间接调用这个函数，并且这个私有函数有很多分支条件的话，跑完测试后，不一定能到覆盖到全部的分支；</p>
-<p>所以，<code>rewire</code>模块可以提供一些<code>api</code>帮我们直接拿到或者设置这个私有函数/变量，这样的话，我们就能够很方便的对其中各种分支条件等等测试。</p>
-</blockquote>
-<blockquote>
-<p>example.service.test.js</p>
-</blockquote>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> rewire = <span class="built_in">require</span>(<span class="string">"rewire"</span>);</span><br><span class="line"><span class="keyword">const</span> exampleService = rewire(<span class="string">"./example.service"</span>);</span><br><span class="line"><span class="keyword">const</span> getUserEmail = exampleService.__get__(<span class="string">"getUserEmail"</span>);</span><br><span class="line"></span><br><span class="line">expect(getUserEmail()).toEqual(<span class="string">""</span>);	<span class="comment">// 👌</span></span><br><span class="line">expect(getUserEmail(<span class="number">1</span>)).toEqual(<span class="string">"some@some.com"</span>); <span class="comment">// 👌</span></span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>在实践中，为了简化测试和节省时间，我们通常需要去重写函数调用的外部函数，这时可以选择使用<code>rewire</code>模块实现。</p>
-</blockquote>
-<h2 id="babel插件"><a href="#babel插件" class="headerlink" title="babel插件"></a>babel插件</h2><blockquote>
-<p>此外：<a href="https://github.com/speedskater/babel-plugin-rewire" target="_blank" rel="noopener">babel-plugin-rewire</a> 提供了<code>babel</code>的插件，方便和<code>jest</code>等测试框架集成。</p>
-</blockquote>
-]]></content>
-      <tags>
         <tag>node</tag>
-        <tag>backend</tag>
+        <tag>yarn</tag>
       </tags>
   </entry>
   <entry>
