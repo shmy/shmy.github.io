@@ -31,7 +31,7 @@
 <meta property="og:description" content="前言 在前后端分离的项目上，目前主流的前端部署方案是，前端单独打包一个docker镜像，用nginx来做http访问和后端服务代理，这样既可以解决前后端分离的跨域问题，也可以隐藏真实的后端地址；   一个典型的nginx.conf如下  1234567891011121314server &amp;#123;  listen 80;  location &#x2F; &amp;#123;    root   &amp;#">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-04-25T02:07:32.000Z">
-<meta property="article:modified_time" content="2020-04-25T02:57:39.063Z">
+<meta property="article:modified_time" content="2020-04-25T03:02:54.350Z">
 <meta property="article:author" content="SHMY">
 <meta property="article:tag" content="nginx">
 <meta property="article:tag" content="docker">
@@ -317,12 +317,16 @@
 <h2 id="改造"><a href="#改造" class="headerlink" title="改造"></a>改造</h2><blockquote>
 <p>接下来我们来改造我们的<code>nginx.conf</code>，我们希望在容器启动时，读取环境变量，利用<code>envsubst</code>替换<code>nginx.conf</code>中的变量，然后生成新的<code>nginx</code>配置文件后再启动<code>nginx</code>。</p>
 </blockquote>
-<ol>
+<ul>
 <li>把 原来的<code>nginx.conf</code>重名为<code>nginx.template</code>，并将<code>proxy_pass</code>的值设置为环境变量：</li>
-</ol>
+</ul>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">  listen 80;</span><br><span class="line">  location &#x2F; &#123;</span><br><span class="line">    root   &#x2F;usr&#x2F;share&#x2F;nginx&#x2F;html;</span><br><span class="line">    index  index.html index.htm;</span><br><span class="line">    try_files $uri $uri&#x2F; &#x2F;index.html;</span><br><span class="line">  &#125;</span><br><span class="line">  location &#x2F;api&#x2F; &#123;</span><br><span class="line">    proxy_pass $&#123;BACKEND_URL&#125;;</span><br><span class="line">    proxy_set_header Host $host;</span><br><span class="line">    proxy_set_header X-Real-IP $remote_addr;</span><br><span class="line">    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<pre><code>2. 修改`Dockerfile`，将`ngxin.template` 拷贝到 `/etc/nginx/conf.d`， 并设置`WORKDIR`为`/etc/nginx/conf.d`</code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">FROM nginx:stable-alpine</span><br><span class="line">COPY dist &#x2F;usr&#x2F;share&#x2F;nginx&#x2F;html</span><br><span class="line">RUN rm &#x2F;etc&#x2F;nginx&#x2F;conf.d&#x2F;default.conf</span><br><span class="line">COPY nginx.template &#x2F;etc&#x2F;nginx&#x2F;conf.d</span><br><span class="line">ENV BACKEND_URL http:&#x2F;&#x2F;127.0.0.1:8080</span><br><span class="line">EXPOSE 80</span><br><span class="line">WORKDIR &#x2F;etc&#x2F;nginx&#x2F;conf.d</span><br><span class="line">ENTRYPOINT envsubst &lt; nginx.template &gt; nginx.conf &amp;&amp; nginx -g &#39;daemon off;&#39;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>修改<code>Dockerfile</code>，将<code>ngxin.template</code> 拷贝到 <code>/etc/nginx/conf.d</code>， 并设置<code>WORKDIR</code>为<code>/etc/nginx/conf.d</code></li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">FROM nginx:stable-alpine</span><br><span class="line">COPY dist &#x2F;usr&#x2F;share&#x2F;nginx&#x2F;html</span><br><span class="line">RUN rm &#x2F;etc&#x2F;nginx&#x2F;conf.d&#x2F;default.conf</span><br><span class="line">COPY nginx.template &#x2F;etc&#x2F;nginx&#x2F;conf.d</span><br><span class="line">ENV BACKEND_URL http:&#x2F;&#x2F;127.0.0.1:8080</span><br><span class="line">EXPOSE 80</span><br><span class="line">WORKDIR &#x2F;etc&#x2F;nginx&#x2F;conf.d</span><br><span class="line">ENTRYPOINT envsubst &lt; nginx.template &gt; nginx.conf &amp;&amp; nginx -g &#39;daemon off;&#39;</span><br></pre></td></tr></table></figure>
 
 <blockquote>
 <p>我们运行看看：</p>
@@ -332,7 +336,7 @@
 <blockquote>
 <p>结果发现启动报错：</p>
 </blockquote>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">2020/04/25 02:45:44 [emerg] 1<span class="comment">#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/nginx.conf:24</span></span><br><span class="line">nginx: [emerg] invalid number of arguments <span class="keyword">in</span> <span class="string">"proxy_set_header"</span> directive <span class="keyword">in</span> /etc/nginx/conf.d/nginx.conf:24</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">2020/04/25 02:45:44 [emerg] 1<span class="comment">#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/nginx.conf:10</span></span><br><span class="line">nginx: [emerg] invalid number of arguments <span class="keyword">in</span> <span class="string">"proxy_set_header"</span> directive <span class="keyword">in</span> /etc/nginx/conf.d/nginx.conf:10</span><br></pre></td></tr></table></figure>
 
 <blockquote>
 <p>我们来<code>DEBUG</code>一下</p>
