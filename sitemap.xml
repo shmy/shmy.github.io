@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://shmy.github.io/2020/04/25/nginx-use-os-env-in-docker/</loc>
+    
+    <lastmod>2020-04-25T02:55:33.401Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://shmy.github.io/2020/04/21/node-rewire-introduce/</loc>
     
     <lastmod>2020-04-21T05:50:15.573Z</lastmod>
